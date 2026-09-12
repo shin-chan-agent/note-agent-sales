@@ -78,65 +78,41 @@ AI_SERVICES = {
 }
 
 
+# ============================================================
+# テーマごとの最新情報取得対象サービス
+# ============================================================
+
 THEME_SERVICES = {
-    "AI×ショート動画": [
+    "AI副業・収益化": [
         "chatgpt",
         "gemini",
         "canva",
         "capcut",
     ],
 
-    "ショート動画作成に役立つAIツール": [
+    "ショート動画": [
         "chatgpt",
         "gemini",
         "canva",
         "capcut",
     ],
 
-    "初心者向けAI副業": [
+    "SNS運用": [
         "chatgpt",
         "gemini",
         "canva",
         "capcut",
     ],
 
-    "ChatGPT活用術": [
+    "コンテンツ販売": [
         "chatgpt",
-    ],
-
-    "Gemini活用術": [
         "gemini",
     ],
 
-    "Claude活用術": [
+    "生成AI実践活用": [
+        "chatgpt",
+        "gemini",
         "claude",
-    ],
-
-    "Canva活用術": [
-        "canva",
-    ],
-
-    "CapCut活用術": [
-        "capcut",
-    ],
-
-    "AI副業ロードマップ": [
-        "chatgpt",
-        "gemini",
-        "canva",
-        "capcut",
-    ],
-
-    "AIで収益化する方法": [
-        "chatgpt",
-        "gemini",
-        "canva",
-        "capcut",
-    ],
-
-    "AI活用による時間短縮術": [
-        "chatgpt",
-        "gemini",
         "canva",
         "capcut",
     ],
