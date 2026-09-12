@@ -8,35 +8,73 @@ from config import THEME_SERVICES
 COMBINATION_HISTORY_FILE = Path("combination_history.json")
 
 
-# 記事テーマ一覧
+# ============================================================
+# 有料記事テーマ
+# ============================================================
+
 THEMES = [
-    "AI×ショート動画",
-    "ショート動画作成に役立つAIツール",
-    "ChatGPT活用術",
-    "Gemini活用術",
-    "Claude活用術",
-    "CapCut活用術",
-    "Canva活用術",
-    "AI副業ロードマップ",
-    "AIで収益化する方法",
-    "AI活用による時間短縮術"
+    "AI副業・収益化",
+    "ショート動画",
+    "SNS運用",
+    "コンテンツ販売",
+    "生成AI実践活用",
 ]
 
 
-# 記事の切り口
-ANGLES = [
-    "初心者向け",
-    "実践・検証",
-    "失敗しやすいポイント",
-    "おすすめ設定",
-    "メリット・デメリット",
-    "チェックリスト",
-    "成功するコツ",
-    "比較・レビュー"
-]
+# ============================================================
+# テーマごとの使用可能な切り口
+# ============================================================
+
+THEME_ANGLES = {
+    "AI副業・収益化": [
+        "実践手順",
+        "ロードマップ",
+        "テンプレート",
+        "比較・選定",
+        "失敗回避",
+    ],
+
+    "ショート動画": [
+        "実践手順",
+        "ロードマップ",
+        "テンプレート",
+        "プロンプト",
+        "比較・選定",
+        "失敗回避",
+    ],
+
+    "SNS運用": [
+        "実践手順",
+        "ロードマップ",
+        "テンプレート",
+        "プロンプト",
+        "比較・選定",
+        "失敗回避",
+    ],
+
+    "コンテンツ販売": [
+        "実践手順",
+        "ロードマップ",
+        "テンプレート",
+        "比較・選定",
+        "失敗回避",
+    ],
+
+    "生成AI実践活用": [
+        "実践手順",
+        "テンプレート",
+        "プロンプト",
+        "比較・選定",
+        "失敗回避",
+    ],
+}
 
 
 def load_combination_history():
+    """
+    使用済みのテーマ×切り口履歴を読み込む。
+    """
+
     try:
         with open(
             COMBINATION_HISTORY_FILE,
@@ -50,6 +88,10 @@ def load_combination_history():
 
 
 def save_combination_history(history):
+    """
+    テーマ×切り口履歴を保存する。
+    """
+
     with open(
         COMBINATION_HISTORY_FILE,
         "w",
@@ -63,53 +105,74 @@ def save_combination_history(history):
         )
 
 
+def get_all_combinations():
+    """
+    相性の良いテーマ×切り口だけを作成する。
+
+    無関係な組み合わせは最初から生成対象にしない。
+    """
+
+    combinations = []
+
+    for theme, angles in THEME_ANGLES.items():
+
+        for angle in angles:
+
+            combinations.append(
+                {
+                    "theme": theme,
+                    "angle": angle
+                }
+            )
+
+    return combinations
+
+
 def get_theme_and_angle():
     """
     未使用のテーマ×切り口をランダムに返す。
 
-    記事生成前には履歴へ保存しない。
-    記事生成成功後に mark_combination_completed()
-    で履歴へ登録する。
+    生成前には履歴へ登録しない。
+    記事生成後に mark_combination_used()
+    で登録する。
     """
 
     history = load_combination_history()
 
+    all_combinations = get_all_combinations()
+
     print(
-        f"組み合わせ履歴（保存前）：{len(history)}件"
+        f"組み合わせ履歴：{len(history)}件"
     )
 
-    # 全80通りの組み合わせを作成
-    all_combinations = [
-        {
-            "theme": theme,
-            "angle": angle
-        }
-        for theme in THEMES
-        for angle in ANGLES
-    ]
-
-    # 未使用のみ抽出
+    # 未使用の組み合わせだけを抽出
     unused = [
         combination
         for combination in all_combinations
         if combination not in history
     ]
 
-    # 全部使い切ったらリセット
+    # 全組み合わせを使い切った場合
     if not unused:
 
         print(
-            "80通り使用したため履歴をリセットします。"
+            f"{len(all_combinations)}通り使用したため、"
+            "組み合わせ履歴をリセットします。"
         )
 
         history = []
+
+        save_combination_history(history)
+
         unused = all_combinations.copy()
 
-    # ランダム選択
+    # 未使用の中からランダム選択
     selected = random.choice(unused)
 
     print(
-        f"今回：{selected['theme']} × {selected['angle']}"
+        f"今回："
+        f"{selected['theme']} × "
+        f"{selected['angle']}"
     )
 
     return (
@@ -118,16 +181,12 @@ def get_theme_and_angle():
     )
 
 
-def mark_combination_completed(
-    theme,
-    angle,
-):
+def mark_combination_used(theme, angle):
     """
-    記事生成に成功したテーマ×切り口を
-    組み合わせ履歴へ登録する。
+    使用したテーマ×切り口を履歴へ登録する。
 
-    すでに登録されている場合は
-    重複登録しない。
+    記事生成に成功した場合だけでなく、
+    最終的に不採用となった組み合わせも登録する。
     """
 
     history = load_combination_history()
@@ -138,9 +197,11 @@ def mark_combination_completed(
     }
 
     if combination in history:
+
         print(
             "組み合わせは既に履歴へ登録されています。"
         )
+
         return
 
     history.append(combination)
