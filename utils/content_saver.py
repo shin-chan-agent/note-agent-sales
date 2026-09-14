@@ -11,14 +11,18 @@ def save_generated_contents(
     x_post,
     threads_post,
     instagram_post,
-    video_30,
-    video_60,
 ):
     """
     生成したコンテンツをGitHubリポジトリへ保存する。
 
     保存先：
     generated/YYYY/MM/YYYYMMDD_HHMMSS/
+
+    保存内容：
+    ・note記事
+    ・X投稿
+    ・Threads投稿
+    ・Instagram投稿
 
     Returns:
         Path: 保存したフォルダ
@@ -45,8 +49,6 @@ def save_generated_contents(
         "x.txt": x_post,
         "threads.txt": threads_post,
         "instagram.txt": instagram_post,
-        "video_30.txt": video_30,
-        "video_60.txt": video_60,
     }
 
     for filename, content in contents.items():
