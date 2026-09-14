@@ -395,35 +395,7 @@ def generate_and_send_line():
     seo_score = result["seo_score"]
     duplicate_result = result["duplicate_result"]
     latest_result = result["latest_result"]
-
-    # ========================================
-    # 記事生成成功した組み合わせを履歴へ登録
-    # ========================================
-
-    try:
-
-        mark_combination_completed(
-            theme,
-            angle,
-        )
-
-        log_info(
-            "記事生成成功のため、"
-            "テーマ×切り口を履歴へ登録しました。"
-        )
-
-    except Exception as e:
-
-        log_error(
-            f"組み合わせ履歴保存エラー: {e}"
-        )
-
-        send_error_notification(
-            "組み合わせ履歴保存エラー",
-            str(e),
-        )
-
-        raise
+ 
 
     # ========================================
     # X・Threads・Instagram投稿生成
@@ -504,6 +476,51 @@ def generate_and_send_line():
         )
         else "⚠️ 品質基準未達"
     )
+
+
+    # ========================================
+    # 全品質基準クリア時のみ組み合わせを履歴へ登録
+    # ========================================
+
+    if (
+        score >= MIN_SCORE
+        and seo_score >= MIN_SEO_SCORE
+        and duplicate_result == "OK"
+        and latest_result == "OK"
+    ):
+
+        try:
+
+            mark_combination_completed(
+                theme,
+                angle,
+            )
+
+            log_info(
+                "全品質基準をクリアしたため、"
+                "テーマ×切り口を履歴へ登録しました。"
+            )
+
+        except Exception as e:
+
+            log_error(
+                f"組み合わせ履歴保存エラー: {e}"
+            )
+
+            send_error_notification(
+                "組み合わせ履歴保存エラー",
+                str(e),
+            )
+
+            raise
+
+    else:
+
+        log_warning(
+            "品質基準未達のため、"
+            "テーマ×切り口は履歴へ登録しません。"
+        )
+
 
     # ========================================
     # 記事メッセージ
