@@ -8,7 +8,7 @@ from google import genai
 from theme_manager import (
     get_theme_and_angle,
     get_target_services,
-    mark_combination_completed,
+    mark_combination_used,
 )
 
 from article_history import (
@@ -288,7 +288,7 @@ def generate_and_send_line():
         except GeminiDailyQuotaExceeded as e:
 
             log_warning(
-                "Gemini API日次クォータ超過のため、"
+                "Gemini APIの日次クォータ超過のため、"
                 "バックグラウンド更新をスキップします。"
             )
 
@@ -359,12 +359,6 @@ def generate_and_send_line():
             str(e),
         )
 
-        log_warning(
-            "記事が完成していないため、"
-            "SNS生成・動画台本生成・LINE送信・"
-            "記事履歴保存は行いません。"
-        )
-
         return
 
     except Exception as e:
@@ -378,6 +372,34 @@ def generate_and_send_line():
             str(e),
         )
 
+        # ====================================
+        # 記事生成失敗した組み合わせを履歴へ登録
+        # ====================================
+
+        try:
+
+            mark_combination_used(
+                theme,
+                angle,
+            )
+
+            log_info(
+                "記事生成失敗のため、"
+                "テーマ×切り口を使用済みとして登録しました。"
+            )
+
+        except Exception as history_error:
+
+            log_error(
+                f"組み合わせ履歴保存エラー: "
+                f"{history_error}"
+            )
+
+            send_error_notification(
+                "組み合わせ履歴保存エラー",
+                str(history_error),
+            )
+
         return
 
     # ========================================
@@ -390,6 +412,7 @@ def generate_and_send_line():
     seo_score = result["seo_score"]
     duplicate_result = result["duplicate_result"]
     latest_result = result["latest_result"]
+    paid_value_result = result["paid_value_result"]
 
     # ========================================
     # 記事生成成功した組み合わせを履歴へ登録
@@ -397,7 +420,7 @@ def generate_and_send_line():
 
     try:
 
-        mark_combination_completed(
+        mark_combination_used(
             theme,
             angle,
         )
@@ -548,6 +571,7 @@ def generate_and_send_line():
             and seo_score >= MIN_SEO_SCORE
             and duplicate_result == "OK"
             and latest_result == "OK"
+            and paid_value_result == "OK"
         )
         else "⚠️ 品質基準未達"
     )
@@ -667,7 +691,6 @@ def generate_and_send_line():
 
         raise
 
-
     # ========================================
     # 記事履歴保存
     # ========================================
@@ -697,7 +720,6 @@ def generate_and_send_line():
         )
 
         raise
-
 
     # ========================================
     # LINE送信
