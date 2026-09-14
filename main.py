@@ -8,7 +8,7 @@ from google import genai
 from theme_manager import (
     get_theme_and_angle,
     get_target_services,
-    mark_combination_used,
+    mark_combination_completed,
 )
 
 from article_history import (
@@ -21,8 +21,8 @@ from content.article.generator import (
     generate_article,
     extract_title,
 )
+
 from content.sns.generator import generate_sns_posts
-from content.video.generator import generate_video_scripts
 
 from utils.knowledge_manager import (
     get_article_knowledge,
@@ -31,18 +31,23 @@ from utils.knowledge_manager import (
     get_background_update_service,
     is_knowledge_too_old,
 )
+
 from utils.latest_info import fetch_latest_info
+
 from utils.line_sender import (
     send_line_messages,
     create_text_message,
     split_text,
 )
+
 from utils.logger import (
     log_info,
     log_warning,
     log_error,
 )
+
 from utils.gemini_client import GeminiDailyQuotaExceeded
+
 from utils.content_saver import save_generated_contents
 
 from config import (
@@ -184,6 +189,7 @@ def generate_and_send_line():
     )
 
     if background_service:
+
         log_info(
             f"バックグラウンド更新対象: "
             f"{background_service}"
@@ -359,6 +365,11 @@ def generate_and_send_line():
             str(e),
         )
 
+        log_warning(
+            "記事が完成していないため、"
+            "SNS生成・LINE送信・記事履歴保存は行いません。"
+        )
+
         return
 
     except Exception as e:
@@ -372,34 +383,6 @@ def generate_and_send_line():
             str(e),
         )
 
-        # ====================================
-        # 記事生成失敗した組み合わせを履歴へ登録
-        # ====================================
-
-        try:
-
-            mark_combination_used(
-                theme,
-                angle,
-            )
-
-            log_info(
-                "記事生成失敗のため、"
-                "テーマ×切り口を使用済みとして登録しました。"
-            )
-
-        except Exception as history_error:
-
-            log_error(
-                f"組み合わせ履歴保存エラー: "
-                f"{history_error}"
-            )
-
-            send_error_notification(
-                "組み合わせ履歴保存エラー",
-                str(history_error),
-            )
-
         return
 
     # ========================================
@@ -412,7 +395,6 @@ def generate_and_send_line():
     seo_score = result["seo_score"]
     duplicate_result = result["duplicate_result"]
     latest_result = result["latest_result"]
-    paid_value_result = result["paid_value_result"]
 
     # ========================================
     # 記事生成成功した組み合わせを履歴へ登録
@@ -420,7 +402,7 @@ def generate_and_send_line():
 
     try:
 
-        mark_combination_used(
+        mark_combination_completed(
             theme,
             angle,
         )
@@ -509,58 +491,6 @@ def generate_and_send_line():
         )
 
     # ========================================
-    # ショート動画台本生成
-    # ========================================
-
-    try:
-
-        video_30, video_60 = generate_video_scripts(
-            client,
-            article,
-        )
-
-    except GeminiDailyQuotaExceeded as e:
-
-        log_warning(
-            "Gemini APIの日次クォータ超過のため、"
-            "ショート動画台本生成をスキップします。"
-        )
-
-        send_error_notification(
-            "Gemini API日次クォータ超過（動画台本生成）",
-            str(e),
-        )
-
-        video_30 = (
-            "※Gemini APIの日次クォータ超過のため、"
-            "30秒動画台本は生成できませんでした。"
-        )
-
-        video_60 = (
-            "※Gemini APIの日次クォータ超過のため、"
-            "60秒動画台本は生成できませんでした。"
-        )
-
-    except Exception as e:
-
-        log_error(
-            f"ショート動画台本生成エラー: {e}"
-        )
-
-        send_error_notification(
-            "ショート動画台本生成エラー",
-            str(e),
-        )
-
-        video_30 = (
-            "※30秒動画台本の生成に失敗しました。"
-        )
-
-        video_60 = (
-            "※60秒動画台本の生成に失敗しました。"
-        )
-
-    # ========================================
     # 品質ステータス
     # ========================================
 
@@ -571,7 +501,6 @@ def generate_and_send_line():
             and seo_score >= MIN_SEO_SCORE
             and duplicate_result == "OK"
             and latest_result == "OK"
-            and paid_value_result == "OK"
         )
         else "⚠️ 品質基準未達"
     )
@@ -595,11 +524,9 @@ def generate_and_send_line():
     x_post = x_post.strip()
     threads_post = threads_post.strip()
     instagram_post = instagram_post.strip()
-    video_30 = video_30.strip()
-    video_60 = video_60.strip()
 
     # ========================================
-    # 評価・SNS・動画台本メッセージ
+    # 評価・SNS投稿メッセージ
     # ========================================
 
     summary_message = f"""📊【AI評価】
@@ -623,18 +550,6 @@ def generate_and_send_line():
 📸【Instagram投稿】
 
 {instagram_post}
-
---------------------
-
-🎬【30秒ショート動画台本】
-
-{video_30}
-
---------------------
-
-🎬【60秒ショート動画台本】
-
-{video_60}
 """
 
     # ========================================
@@ -652,7 +567,7 @@ def generate_and_send_line():
             create_text_message(part)
         )
 
-    # 評価・SNS投稿・動画台本
+    # 評価・SNS投稿
     messages.append(
         create_text_message(
             summary_message
@@ -670,8 +585,6 @@ def generate_and_send_line():
             x_post=x_post,
             threads_post=threads_post,
             instagram_post=instagram_post,
-            video_30=video_30,
-            video_60=video_60,
         )
 
         log_info(
@@ -751,3 +664,5 @@ def generate_and_send_line():
 
 if __name__ == "__main__":
     generate_and_send_line()
+
+この "main.py" に合わせて、次は "utils/content_saver.py" の動画関連を削除した版に変更します。
