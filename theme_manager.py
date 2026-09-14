@@ -2,84 +2,52 @@ import json
 import random
 from pathlib import Path
 
-from config import THEME_SERVICES
-
 
 COMBINATION_HISTORY_FILE = Path("combination_history.json")
 
 
-# ============================================================
-# 有料記事テーマ
-# ============================================================
-
-THEMES = [
-    "AI副業・収益化",
-    "ショート動画",
-    "SNS運用",
-    "コンテンツ販売",
-    "生成AI実践活用",
-]
-
-
-# ============================================================
-# テーマごとの使用可能な切り口
-# ============================================================
-
+# 販売用記事として成立しやすい
+# テーマ × 切り口の組み合わせだけを登録する。
 THEME_ANGLES = {
-    "AI副業・収益化": [
-        "実践手順",
-        "ロードマップ",
-        "テンプレート",
-        "比較・選定",
-        "失敗回避",
-    ],
-
     "ショート動画": [
-        "実践手順",
-        "ロードマップ",
-        "テンプレート",
-        "プロンプト",
-        "比較・選定",
-        "失敗回避",
+        "作業フロー",
+        "品質改善",
     ],
 
     "SNS運用": [
-        "実践手順",
-        "ロードマップ",
-        "テンプレート",
-        "プロンプト",
-        "比較・選定",
+        "作業フロー",
+        "品質改善",
+    ],
+
+    "AI×仕事効率化": [
+        "作業フロー",
+        "業務改善",
+    ],
+
+    "AI自動化": [
+        "作業フロー",
+        "設計・構築",
         "失敗回避",
     ],
 
-    "コンテンツ販売": [
-        "実践手順",
-        "ロードマップ",
-        "テンプレート",
-        "比較・選定",
-        "失敗回避",
-    ],
-
-    "生成AI実践活用": [
-        "実践手順",
-        "テンプレート",
-        "プロンプト",
-        "比較・選定",
-        "失敗回避",
+    "AIリサーチ・情報収集": [
+        "調査設計",
+        "作業フロー",
+        "検証・判断",
     ],
 }
 
 
 def load_combination_history():
     """
-    使用済みのテーマ×切り口履歴を読み込む。
+    過去に使用したテーマ×切り口の履歴を読み込む。
     """
 
     try:
         with open(
             COMBINATION_HISTORY_FILE,
             "r",
-            encoding="utf-8"
+            encoding="utf-8",
         ) as f:
             return json.load(f)
 
@@ -89,27 +57,28 @@ def load_combination_history():
 
 def save_combination_history(history):
     """
-    テーマ×切り口履歴を保存する。
+    テーマ×切り口の使用履歴を保存する。
     """
 
     with open(
         COMBINATION_HISTORY_FILE,
         "w",
-        encoding="utf-8"
+        encoding="utf-8",
     ) as f:
         json.dump(
             history,
             f,
             ensure_ascii=False,
-            indent=2
+            indent=2,
         )
 
 
 def get_all_combinations():
     """
-    相性の良いテーマ×切り口だけを作成する。
+    登録されている全テーマ×切り口を取得する。
 
-    無関係な組み合わせは最初から生成対象にしない。
+    Returns:
+        list[dict]
     """
 
     combinations = []
@@ -121,7 +90,7 @@ def get_all_combinations():
             combinations.append(
                 {
                     "theme": theme,
-                    "angle": angle
+                    "angle": angle,
                 }
             )
 
@@ -130,34 +99,41 @@ def get_all_combinations():
 
 def get_theme_and_angle():
     """
-    未使用のテーマ×切り口をランダムに返す。
+    未使用のテーマ×切り口から1組をランダムに選択する。
 
-    生成前には履歴へ登録しない。
-    記事生成後に mark_combination_used()
-    で登録する。
+    すべての組み合わせを使用した場合は、
+    履歴をリセットして再利用する。
     """
 
     history = load_combination_history()
 
     all_combinations = get_all_combinations()
 
-    print(
-        f"組み合わせ履歴：{len(history)}件"
-    )
-
-    # 未使用の組み合わせだけを抽出
     unused = [
         combination
         for combination in all_combinations
         if combination not in history
     ]
 
-    # 全組み合わせを使い切った場合
+    print(
+        f"組み合わせ履歴：{len(history)}件"
+    )
+
+    print(
+        f"登録済み組み合わせ："
+        f"{len(all_combinations)}件"
+    )
+
+    print(
+        f"未使用組み合わせ："
+        f"{len(unused)}件"
+    )
+
     if not unused:
 
         print(
-            f"{len(all_combinations)}通り使用したため、"
-            "組み合わせ履歴をリセットします。"
+            "すべての組み合わせを使用したため、"
+            "履歴をリセットします。"
         )
 
         history = []
@@ -166,7 +142,6 @@ def get_theme_and_angle():
 
         unused = all_combinations.copy()
 
-    # 未使用の中からランダム選択
     selected = random.choice(unused)
 
     print(
@@ -177,23 +152,20 @@ def get_theme_and_angle():
 
     return (
         selected["theme"],
-        selected["angle"]
+        selected["angle"],
     )
 
 
-def mark_combination_used(theme, angle):
+def mark_combination_completed(theme, angle):
     """
     使用したテーマ×切り口を履歴へ登録する。
-
-    記事生成に成功した場合だけでなく、
-    最終的に不採用となった組み合わせも登録する。
     """
 
     history = load_combination_history()
 
     combination = {
         "theme": theme,
-        "angle": angle
+        "angle": angle,
     }
 
     if combination in history:
@@ -216,7 +188,42 @@ def mark_combination_used(theme, angle):
 
 def get_target_services(theme):
     """
-    テーマから最新情報取得対象のサービスを取得する。
+    テーマに対応するAIサービスを取得する。
+
+    現在の販売版テーマでは、
+    AI知識DB側で必要なサービスを後から設定する。
     """
 
-    return THEME_SERVICES.get(theme, [])
+    theme_services = {
+        "ショート動画": [
+            "chatgpt",
+            "gemini",
+            "canva",
+            "capcut",
+        ],
+
+        "SNS運用": [
+            "chatgpt",
+            "gemini",
+        ],
+
+        "AI×仕事効率化": [
+            "chatgpt",
+            "gemini",
+            "claude",
+        ],
+
+        "AI自動化": [
+            "chatgpt",
+            "gemini",
+            "claude",
+        ],
+
+        "AIリサーチ・情報収集": [
+            "chatgpt",
+            "gemini",
+            "claude",
+        ],
+    }
+
+    return theme_services.get(theme, [])
