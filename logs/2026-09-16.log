@@ -1,3 +1,29 @@
 [2026-09-16 04:42:36] [ERROR] GitHub Secretsの設定が不足しています: GEMINI_API_KEY, LINE_CHANNEL_ACCESS_TOKEN, LINE_USER_ID
 [2026-09-16 04:42:36] [ERROR] エラー通知のLINE送信にも失敗しました: LINE API Error 401
 {"message":"Authorization header required. Must follow the scheme, 'Authorization: Bearer <ACCESS TOKEN>'"}
+[2026-09-16 07:44:57] [INFO] 対象サービス: ['chatgpt', 'gemini', 'claude']
+[2026-09-16 07:44:57] [INFO] DB更新対象: ['chatgpt', 'gemini', 'claude']
+[2026-09-16 07:44:57] [INFO] バックグラウンド更新対象: canva
+[2026-09-16 07:44:57] [INFO] chatgpt の最新情報を取得します
+[2026-09-16 07:46:32] [INFO] 取得サービス: chatgpt
+[2026-09-16 07:46:32] [INFO] chatgpt のAI知識DBへの反映が完了しました
+[2026-09-16 07:46:32] [INFO] gemini の最新情報を取得します
+[2026-09-16 07:47:22] [INFO] 取得サービス: gemini
+[2026-09-16 07:47:22] [INFO] gemini のAI知識DBへの反映が完了しました
+[2026-09-16 07:47:22] [INFO] claude の最新情報を取得します
+[2026-09-16 07:48:38] [INFO] 取得サービス: claude
+[2026-09-16 07:48:38] [INFO] claude のAI知識DBへの反映が完了しました
+[2026-09-16 07:48:38] [INFO] 対象サービスのAI知識DB更新が完了しました。
+[2026-09-16 07:48:38] [INFO] AI知識DBは安全利用期限内のため、記事生成を続行します。
+[2026-09-16 07:48:38] [INFO] canva の最新情報を取得します
+[2026-09-16 07:52:04] [INFO] 取得サービス: canva
+[2026-09-16 07:52:04] [INFO] canva のAI知識DBへの反映が完了しました
+[2026-09-16 07:52:04] [INFO] バックグラウンドAI知識DB更新が完了しました。
+[2026-09-16 07:53:12] [WARNING] Gemini APIリトライ (1/3) : 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+[2026-09-16 07:53:12] [WARNING] 30秒待機します...
+[2026-09-16 07:54:35] [WARNING] 記事文字数超過（18543文字）。再生成します。
+[2026-09-16 07:55:30] [WARNING] 記事文字数超過（14846文字）。再生成します。
+[2026-09-16 07:56:28] [WARNING] 記事文字数超過（17941文字）。再生成します。
+[2026-09-16 07:56:28] [ERROR] 記事生成エラー: cannot access local variable 'evaluation' where it is not associated with a value
+[2026-09-16 07:56:29] [ERROR] エラー通知のLINE送信にも失敗しました: LINE API Error 400
+{"message":"The property, 'to', in the request body is invalid (line: -, column: -)"}
