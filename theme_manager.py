@@ -6,43 +6,96 @@ from pathlib import Path
 COMBINATION_HISTORY_FILE = Path("combination_history.json")
 
 
-# 販売用記事として成立しやすい
-# テーマ × 切り口の組み合わせだけを登録する。
+# ========================================
+# テーマ × 切り口 × 対象AI
+# ========================================
+
 THEME_ANGLES = {
-    "ショート動画": [
-        "作業フロー",
-        "品質改善",
-    ],
+    "ショート動画": {
+        "作業フロー": [
+            "chatgpt",
+            "gemini",
+            "canva",
+            "capcut",
+        ],
+        "品質改善": [
+            "chatgpt",
+            "gemini",
+            "canva",
+            "capcut",
+        ],
+    },
 
-    "SNS運用": [
-        "作業フロー",
-        "品質改善",
-    ],
+    "SNS運用": {
+        "作業フロー": [
+            "chatgpt",
+            "gemini",
+            "canva",
+        ],
+        "品質改善": [
+            "chatgpt",
+            "claude",
+            "canva",
+        ],
+    },
 
-    "AI×仕事効率化": [
-        "作業フロー",
-        "業務改善",
-    ],
+    "AI×仕事効率化": {
+        "作業フロー": [
+            "chatgpt",
+            "gemini",
+            "copilot",
+        ],
+        "業務改善": [
+            "chatgpt",
+            "copilot",
+            "claude",
+        ],
+    },
 
-    "AI自動化": [
-        "作業フロー",
-        "設計・構築",
-        "失敗回避",
-    ],
+    "AI自動化": {
+        "作業フロー": [
+            "chatgpt",
+            "gemini",
+            "claude",
+        ],
+        "設計・構築": [
+            "chatgpt",
+            "claude",
+            "claude_code",
+            "gemini",
+        ],
+        "失敗回避": [
+            "chatgpt",
+            "claude",
+            "gemini",
+        ],
+    },
 
-    "AIリサーチ・情報収集": [
-        "調査設計",
-        "作業フロー",
-        "検証・判断",
-    ],
+    "AIリサーチ・情報収集": {
+        "調査設計": [
+            "perplexity",
+            "chatgpt",
+            "gemini",
+        ],
+        "作業フロー": [
+            "perplexity",
+            "chatgpt",
+            "gemini_notebook",
+        ],
+        "検証・判断": [
+            "perplexity",
+            "gemini_notebook",
+            "claude",
+        ],
+    },
 }
 
 
-def load_combination_history():
-    """
-    過去に使用したテーマ×切り口の履歴を読み込む。
-    """
+# ========================================
+# 組み合わせ履歴
+# ========================================
 
+def load_combination_history():
     try:
         with open(
             COMBINATION_HISTORY_FILE,
@@ -56,10 +109,6 @@ def load_combination_history():
 
 
 def save_combination_history(history):
-    """
-    テーマ×切り口の使用履歴を保存する。
-    """
-
     with open(
         COMBINATION_HISTORY_FILE,
         "w",
@@ -73,14 +122,11 @@ def save_combination_history(history):
         )
 
 
+# ========================================
+# 全組み合わせ取得
+# ========================================
+
 def get_all_combinations():
-    """
-    登録されている全テーマ×切り口を取得する。
-
-    Returns:
-        list[dict]
-    """
-
     combinations = []
 
     for theme, angles in THEME_ANGLES.items():
@@ -97,16 +143,13 @@ def get_all_combinations():
     return combinations
 
 
-def get_theme_and_angle():
-    """
-    未使用のテーマ×切り口から1組をランダムに選択する。
+# ========================================
+# テーマ × 切り口を決定
+# ========================================
 
-    すべての組み合わせを使用した場合は、
-    履歴をリセットして再利用する。
-    """
+def get_theme_and_angle():
 
     history = load_combination_history()
-
     all_combinations = get_all_combinations()
 
     unused = [
@@ -129,6 +172,10 @@ def get_theme_and_angle():
         f"{len(unused)}件"
     )
 
+    # ====================================
+    # すべて使用済みの場合
+    # ====================================
+
     if not unused:
 
         print(
@@ -138,11 +185,19 @@ def get_theme_and_angle():
 
         history = []
 
-        save_combination_history(history)
+        save_combination_history(
+            history
+        )
 
         unused = all_combinations.copy()
 
-    selected = random.choice(unused)
+    # ====================================
+    # 未使用からランダム選択
+    # ====================================
+
+    selected = random.choice(
+        unused
+    )
 
     print(
         f"今回："
@@ -156,10 +211,14 @@ def get_theme_and_angle():
     )
 
 
-def mark_combination_completed(theme, angle):
-    """
-    使用したテーマ×切り口を履歴へ登録する。
-    """
+# ========================================
+# 組み合わせを履歴へ登録
+# ========================================
+
+def mark_combination_completed(
+    theme,
+    angle,
+):
 
     history = load_combination_history()
 
@@ -176,9 +235,13 @@ def mark_combination_completed(theme, angle):
 
         return
 
-    history.append(combination)
+    history.append(
+        combination
+    )
 
-    save_combination_history(history)
+    save_combination_history(
+        history
+    )
 
     print(
         f"組み合わせ履歴へ登録："
@@ -186,44 +249,23 @@ def mark_combination_completed(theme, angle):
     )
 
 
-def get_target_services(theme):
-    """
-    テーマに対応するAIサービスを取得する。
+# ========================================
+# テーマ × 切り口から対象AIを取得
+# ========================================
 
-    現在の販売版テーマでは、
-    AI知識DB側で必要なサービスを後から設定する。
-    """
+def get_target_services(
+    theme,
+    angle,
+):
 
-    theme_services = {
-        "ショート動画": [
-            "chatgpt",
-            "gemini",
-            "canva",
-            "capcut",
-        ],
+    theme_data = THEME_ANGLES.get(
+        theme,
+        {}
+    )
 
-        "SNS運用": [
-            "chatgpt",
-            "gemini",
-        ],
+    services = theme_data.get(
+        angle,
+        []
+    )
 
-        "AI×仕事効率化": [
-            "chatgpt",
-            "gemini",
-            "claude",
-        ],
-
-        "AI自動化": [
-            "chatgpt",
-            "gemini",
-            "claude",
-        ],
-
-        "AIリサーチ・情報収集": [
-            "chatgpt",
-            "gemini",
-            "claude",
-        ],
-    }
-
-    return theme_services.get(theme, [])
+    return services
