@@ -6,44 +6,44 @@ from zoneinfo import ZoneInfo
 from google import genai
 
 from theme_manager import (
-    get_theme_and_angle,
-    get_target_services,
-    mark_combination_completed,
+get_theme_and_angle,
+get_target_services,
+mark_combination_completed,
 )
 
 from article_history import (
-    get_past_articles_text,
-    save_article,
+get_past_articles_text,
+save_article,
 )
 
 from content.article.prompt import get_article_prompt
 from content.article.generator import (
-    generate_article,
-    extract_title,
+generate_article,
+extract_title,
 )
 
 from content.sns.generator import generate_sns_posts
 
 from utils.knowledge_manager import (
-    get_article_knowledge,
-    needs_update,
-    needs_retry,
-    get_background_update_service,
-    is_knowledge_too_old,
+get_article_knowledge,
+needs_update,
+needs_retry,
+get_background_update_service,
+is_knowledge_too_old,
 )
 
 from utils.latest_info import fetch_latest_info
 
 from utils.line_sender import (
-    send_line_messages,
-    create_text_message,
-    split_text,
+send_line_messages,
+create_text_message,
+split_text,
 )
 
 from utils.logger import (
-    log_info,
-    log_warning,
-    log_error,
+log_info,
+log_warning,
+log_error,
 )
 
 from utils.gemini_client import GeminiDailyQuotaExceeded
@@ -51,23 +51,22 @@ from utils.gemini_client import GeminiDailyQuotaExceeded
 from utils.content_saver import save_generated_contents
 
 from config import (
-    MIN_SCORE,
-    MIN_SEO_SCORE,
+MIN_SCORE,
+MIN_SEO_SCORE,
 )
 
-
 def send_error_notification(
-    error_type,
-    error_message,
+error_type,
+error_message,
 ):
-    """
-    エラー発生時にLINEへ通知する。
+"""
+エラー発生時にLINEへ通知する。
 
-    LINE通知自体の失敗で
-    元のエラー処理を妨げないようにする。
-    """
+LINE通知自体の失敗で
+元のエラー処理を妨げないようにする。
+"""
 
-    message = f"""🚨【Note AI Agent エラー】
+message = f"""🚨【Note AI Agent エラー】
 
 エラー種別：
 {error_type}
@@ -77,290 +76,148 @@ def send_error_notification(
 
 発生日時：
 {datetime.now(
-    ZoneInfo("Asia/Tokyo")
+ZoneInfo("Asia/Tokyo")
 ).strftime("%Y年%m月%d日 %H:%M:%S")}
 """
 
-    try:
+try:
 
-        send_line_messages(
-            [
-                create_text_message(
-                    message
-                )
-            ]
-        )
+    send_line_messages(
+        [
+            create_text_message(
+                message
+            )
+        ]
+    )
 
-        log_info(
-            "エラー通知をLINEへ送信しました。"
-        )
+    log_info(
+        "エラー通知をLINEへ送信しました。"
+    )
 
-    except Exception as e:
+except Exception as e:
 
-        log_error(
-            f"エラー通知のLINE送信にも失敗しました: {e}"
-        )
-
+    log_error(
+        f"エラー通知のLINE送信にも失敗しました: {e}"
+    )
 
 def generate_and_send_line():
 
-    # ========================================
-    # GitHub Secrets設定チェック
-    # ========================================
+# ========================================
+# GitHub Secrets設定チェック
+# ========================================
 
-    required_secrets = {
-        "GEMINI_API_KEY": os.getenv("GEMINI_API_KEY"),
-        "LINE_CHANNEL_ACCESS_TOKEN": os.getenv(
-            "LINE_CHANNEL_ACCESS_TOKEN"
-        ),
-        "LINE_USER_ID": os.getenv("LINE_USER_ID"),
-    }
+required_secrets = {
+    "GEMINI_API_KEY": os.getenv("GEMINI_API_KEY"),
+    "LINE_CHANNEL_ACCESS_TOKEN": os.getenv(
+        "LINE_CHANNEL_ACCESS_TOKEN"
+    ),
+    "LINE_USER_ID": os.getenv("LINE_USER_ID"),
+}
 
-    missing_secrets = [
-        name
-        for name, value in required_secrets.items()
-        if not value
-    ]
+missing_secrets = [
+    name
+    for name, value in required_secrets.items()
+    if not value
+]
 
-    if missing_secrets:
+if missing_secrets:
 
-        message = (
-            "GitHub Secretsの設定が不足しています: "
-            + ", ".join(missing_secrets)
-        )
-
-        log_error(message)
-
-        send_error_notification(
-            "GitHub Secrets設定エラー",
-            message,
-        )
-
-        return
-
-    # ========================================
-    # 現在日付を日本時間で取得
-    # ========================================
-
-    current_date = datetime.now(
-        ZoneInfo("Asia/Tokyo")
-    ).strftime("%Y年%m月%d日")
-
-    # ========================================
-    # Geminiクライアント
-    # ========================================
-
-    client = genai.Client()
-
-    # ========================================
-    # テーマ・切り口を決定
-    # ========================================
-
-    theme, angle = get_theme_and_angle()
-
-    # ========================================
-    # テーマから対象サービスを取得
-    # ========================================
-
-    services = get_target_services(
-        theme,
-        angle,
+    message = (
+        "GitHub Secretsの設定が不足しています: "
+        + ", ".join(missing_secrets)
     )
+
+    log_error(message)
+
+    send_error_notification(
+        "GitHub Secrets設定エラー",
+        message,
+    )
+
+    return
+
+# ========================================
+# 現在日付を日本時間で取得
+# ========================================
+
+current_date = datetime.now(
+    ZoneInfo("Asia/Tokyo")
+).strftime("%Y年%m月%d日")
+
+# ========================================
+# Geminiクライアント
+# ========================================
+
+client = genai.Client()
+
+# ========================================
+# テーマ・切り口を決定
+# ========================================
+
+theme, angle = get_theme_and_angle()
+
+# ========================================
+# テーマから対象サービスを取得
+# ========================================
+
+services = get_target_services(
+    theme,
+    angle,
+)
+
+log_info(
+    f"対象サービス: {services}"
+)
+
+# ========================================
+# AI知識DBの更新対象を決定
+# ========================================
+
+target_update_services = [
+    service_id
+    for service_id in services
+    if needs_update(service_id)
+    or needs_retry(service_id)
+]
+
+# バックグラウンド更新対象を1件決定
+background_service = get_background_update_service(
+    services
+)
+
+log_info(
+    f"DB更新対象: {target_update_services}"
+)
+
+if background_service:
 
     log_info(
-        f"対象サービス: {services}"
+        f"バックグラウンド更新対象: "
+        f"{background_service}"
     )
 
-    # ========================================
-    # AI知識DBの更新対象を決定
-    # ========================================
+# ========================================
+# 対象サービスの最新情報を取得
+# ========================================
 
-    target_update_services = [
-        service_id
-        for service_id in services
-        if needs_update(service_id)
-        or needs_retry(service_id)
-    ]
-
-    # バックグラウンド更新対象を1件決定
-    background_service = get_background_update_service(
-        services
-    )
-
-    log_info(
-        f"DB更新対象: {target_update_services}"
-    )
-
-    if background_service:
-
-        log_info(
-            f"バックグラウンド更新対象: "
-            f"{background_service}"
-        )
-
-    # ========================================
-    # 対象サービスの最新情報を取得
-    # ========================================
-
-    if target_update_services:
-
-        try:
-
-            fetch_latest_info(
-                client,
-                target_update_services,
-            )
-
-            log_info(
-                "対象サービスのAI知識DB更新が完了しました。"
-            )
-
-        except GeminiDailyQuotaExceeded as e:
-
-            log_warning(
-                "Gemini APIの日次クォータ超過により、"
-                "対象サービスのAI知識DB更新に失敗しました。"
-            )
-
-            send_error_notification(
-                "Gemini API日次クォータ超過",
-                str(e),
-            )
-
-        except Exception as e:
-
-            log_error(
-                f"対象サービスのAI知識DB更新エラー: {e}"
-            )
-
-            send_error_notification(
-                "AI知識DB更新エラー",
-                str(e),
-            )
-
-        # ====================================
-        # 更新失敗時の安全チェック
-        # ====================================
-
-        expired_services = [
-            service_id
-            for service_id in target_update_services
-            if is_knowledge_too_old(service_id)
-        ]
-
-        if expired_services:
-
-            message = (
-                "AI知識DBの安全利用期限を超えたため、"
-                "記事生成を中止します。\n"
-                f"対象サービス: {expired_services}"
-            )
-
-            log_error(message)
-
-            send_error_notification(
-                "AI知識DBの情報が古すぎます",
-                message,
-            )
-
-            return
-
-        log_info(
-            "AI知識DBは安全利用期限内のため、"
-            "記事生成を続行します。"
-        )
-
-    else:
-
-        log_info(
-            "対象サービスのAI知識DBは最新のため、"
-            "更新をスキップします。"
-        )
-
-    # ========================================
-    # バックグラウンド更新
-    # ========================================
-
-    if background_service:
-
-        try:
-
-            fetch_latest_info(
-                client,
-                [background_service],
-            )
-
-            log_info(
-                "バックグラウンドAI知識DB更新が完了しました。"
-            )
-
-        except GeminiDailyQuotaExceeded as e:
-
-            log_warning(
-                "Gemini APIの日次クォータ超過のため、"
-                "バックグラウンド更新をスキップします。"
-            )
-
-            send_error_notification(
-                "Gemini API日次クォータ超過（バックグラウンド更新）",
-                str(e),
-            )
-
-        except Exception as e:
-
-            log_warning(
-                f"バックグラウンドAI知識DB更新エラー: {e}"
-            )
-
-            send_error_notification(
-                "AI知識DBバックグラウンド更新エラー",
-                str(e),
-            )
-
-    # ========================================
-    # 記事生成用の知識を取得
-    # ========================================
-
-    knowledge = get_article_knowledge(
-        services
-    )
-
-    # ========================================
-    # 過去記事を取得
-    # ========================================
-
-    past_articles_text = get_past_articles_text()
-
-    # ========================================
-    # 記事生成プロンプト
-    # ========================================
-
-    prompt = get_article_prompt(
-        theme,
-        angle,
-        knowledge,
-        past_articles_text,
-        current_date,
-    )
-
-    # ========================================
-    # 記事生成
-    # ========================================
+if target_update_services:
 
     try:
 
-        result = generate_article(
+        fetch_latest_info(
             client,
-            prompt,
-            knowledge,
-            past_articles_text,
+            target_update_services,
+        )
+
+        log_info(
+            "対象サービスのAI知識DB更新が完了しました。"
         )
 
     except GeminiDailyQuotaExceeded as e:
 
         log_warning(
-            "Gemini APIの日次クォータ超過のため、"
-            "記事生成を中止します。"
+            "Gemini APIの日次クォータ超過により、"
+            "対象サービスのAI知識DB更新に失敗しました。"
         )
 
         send_error_notification(
@@ -368,321 +225,459 @@ def generate_and_send_line():
             str(e),
         )
 
-        log_warning(
-            "記事が完成していないため、"
-            "SNS生成・LINE送信・記事履歴保存は行いません。"
-        )
-
-        return
-
     except Exception as e:
 
         log_error(
-            f"記事生成エラー: {e}"
+            f"対象サービスのAI知識DB更新エラー: {e}"
         )
 
         send_error_notification(
-            "記事生成エラー",
+            "AI知識DB更新エラー",
             str(e),
+        )
+
+    # ====================================
+    # 更新失敗時の安全チェック
+    # ====================================
+
+    expired_services = [
+        service_id
+        for service_id in target_update_services
+        if is_knowledge_too_old(service_id)
+    ]
+
+    if expired_services:
+
+        message = (
+            "AI知識DBの安全利用期限を超えたため、"
+            "記事生成を中止します。\n"
+            f"対象サービス: {expired_services}"
+        )
+
+        log_error(message)
+
+        send_error_notification(
+            "AI知識DBの情報が古すぎます",
+            message,
         )
 
         return
 
-    # ========================================
-    # 記事生成結果
-    # ========================================
+    log_info(
+        "AI知識DBは安全利用期限内のため、"
+        "記事生成を続行します。"
+    )
 
-    article = result["article"]
-    evaluation = result["evaluation"]
-    score = result["score"]
-    seo_score = result["seo_score"]
-    duplicate_result = result["duplicate_result"]
-    latest_result = result["latest_result"]
- 
+else:
 
-    # ========================================
-    # X・Threads・Instagram投稿生成
-    # ========================================
+    log_info(
+        "対象サービスのAI知識DBは最新のため、"
+        "更新をスキップします。"
+    )
+
+# ========================================
+# バックグラウンド更新
+# ========================================
+
+if background_service:
 
     try:
 
-        (
-            x_post,
-            threads_post,
-            instagram_post,
-        ) = generate_sns_posts(
+        fetch_latest_info(
             client,
-            article,
+            [background_service],
+        )
+
+        log_info(
+            "バックグラウンドAI知識DB更新が完了しました。"
         )
 
     except GeminiDailyQuotaExceeded as e:
 
         log_warning(
             "Gemini APIの日次クォータ超過のため、"
-            "SNS投稿生成をスキップします。"
+            "バックグラウンド更新をスキップします。"
         )
 
         send_error_notification(
-            "Gemini API日次クォータ超過（SNS生成）",
+            "Gemini API日次クォータ超過（バックグラウンド更新）",
             str(e),
-        )
-
-        x_post = (
-            "※Gemini APIの日次クォータ超過のため、"
-            "X投稿は生成できませんでした。"
-        )
-
-        threads_post = (
-            "※Gemini APIの日次クォータ超過のため、"
-            "Threads投稿は生成できませんでした。"
-        )
-
-        instagram_post = (
-            "※Gemini APIの日次クォータ超過のため、"
-            "Instagram投稿は生成できませんでした。"
         )
 
     except Exception as e:
 
-        log_error(
-            f"SNS投稿生成エラー: {e}"
+        log_warning(
+            f"バックグラウンドAI知識DB更新エラー: {e}"
         )
 
         send_error_notification(
-            "SNS投稿生成エラー",
+            "AI知識DBバックグラウンド更新エラー",
             str(e),
         )
 
-        x_post = (
-            "※SNS投稿の生成に失敗しました。"
-        )
+# ========================================
+# 記事生成用の知識を取得
+# ========================================
 
-        threads_post = (
-            "※SNS投稿の生成に失敗しました。"
-        )
+knowledge = get_article_knowledge(
+    services
+)
 
-        instagram_post = (
-            "※SNS投稿の生成に失敗しました。"
-        )
+# ========================================
+# 過去記事を取得
+# ========================================
 
-    # ========================================
-    # 品質ステータス
-    # ========================================
+past_articles_text = get_past_articles_text()
 
-    status = (
-        "✅ 全品質基準クリア"
-        if (
-            score >= MIN_SCORE
-            and seo_score >= MIN_SEO_SCORE
-            and duplicate_result == "OK"
-            and latest_result == "OK"
-        )
-        else "⚠️ 品質基準未達"
+# ========================================
+# 記事生成プロンプト
+# ========================================
+
+prompt = get_article_prompt(
+    theme,
+    angle,
+    knowledge,
+    past_articles_text,
+    current_date,
+)
+
+# ========================================
+# 記事生成
+# ========================================
+
+try:
+
+    result = generate_article(
+        client,
+        prompt,
+        knowledge,
+        past_articles_text,
     )
 
+except GeminiDailyQuotaExceeded as e:
 
-    # ========================================
-    # 全品質基準クリア時のみ組み合わせを履歴へ登録
-    # ========================================
+    log_warning(
+        "Gemini APIの日次クォータ超過のため、"
+        "記事生成を中止します。"
+    )
 
+    send_error_notification(
+        "Gemini API日次クォータ超過",
+        str(e),
+    )
+
+    log_warning(
+        "記事が完成していないため、"
+        "SNS生成・LINE送信・記事履歴保存は行いません。"
+    )
+
+    return
+
+except Exception as e:
+
+    log_error(
+        f"記事生成エラー: {e}"
+    )
+
+    send_error_notification(
+        "記事生成エラー",
+        str(e),
+    )
+
+    return
+
+# ========================================
+# 記事生成結果
+# ========================================
+
+article = result["article"]
+evaluation = result["evaluation"]
+score = result["score"]
+seo_score = result["seo_score"]
+duplicate_result = result["duplicate_result"]
+latest_result = result["latest_result"]
+paid_value_result = result["paid_value_result"]
+
+# ========================================
+# X・Threads・Instagram投稿生成
+# ========================================
+
+try:
+
+    (
+        x_post,
+        threads_post,
+        instagram_post,
+    ) = generate_sns_posts(
+        client,
+        article,
+    )
+
+except GeminiDailyQuotaExceeded as e:
+
+    log_warning(
+        "Gemini APIの日次クォータ超過のため、"
+        "SNS投稿生成をスキップします。"
+    )
+
+    send_error_notification(
+        "Gemini API日次クォータ超過（SNS生成）",
+        str(e),
+    )
+
+    x_post = (
+        "※Gemini APIの日次クォータ超過のため、"
+        "X投稿は生成できませんでした。"
+    )
+
+    threads_post = (
+        "※Gemini APIの日次クォータ超過のため、"
+        "Threads投稿は生成できませんでした。"
+    )
+
+    instagram_post = (
+        "※Gemini APIの日次クォータ超過のため、"
+        "Instagram投稿は生成できませんでした。"
+    )
+
+except Exception as e:
+
+    log_error(
+        f"SNS投稿生成エラー: {e}"
+    )
+
+    send_error_notification(
+        "SNS投稿生成エラー",
+        str(e),
+    )
+
+    x_post = (
+        "※SNS投稿の生成に失敗しました。"
+    )
+
+    threads_post = (
+        "※SNS投稿の生成に失敗しました。"
+    )
+
+    instagram_post = (
+        "※SNS投稿の生成に失敗しました。"
+    )
+
+# ========================================
+# 品質ステータス
+# ========================================
+
+status = (
+    "✅ 全品質基準クリア"
     if (
         score >= MIN_SCORE
         and seo_score >= MIN_SEO_SCORE
         and duplicate_result == "OK"
         and latest_result == "OK"
-    ):
+        and paid_value_result == "OK"
+    )
+    else "⚠️ 品質基準未達"
+)
 
-        try:
+# ========================================
+# 全品質基準クリア時のみ組み合わせを履歴へ登録
+# ========================================
 
-            mark_combination_completed(
-                theme,
-                angle,
-            )
+if (
+    score >= MIN_SCORE
+    and seo_score >= MIN_SEO_SCORE
+    and duplicate_result == "OK"
+    and latest_result == "OK"
+    and paid_value_result == "OK"
+):
 
-            log_info(
-                "全品質基準をクリアしたため、"
-                "テーマ×切り口を履歴へ登録しました。"
-            )
+    try:
 
-        except Exception as e:
-
-            log_error(
-                f"組み合わせ履歴保存エラー: {e}"
-            )
-
-            send_error_notification(
-                "組み合わせ履歴保存エラー",
-                str(e),
-            )
-
-            raise
-
-    else:
-
-        log_warning(
-            "品質基準未達のため、"
-            "テーマ×切り口は履歴へ登録しません。"
+        mark_combination_completed(
+            theme,
+            angle,
         )
 
+        log_info(
+            "全品質基準をクリアしたため、"
+            "テーマ×切り口を履歴へ登録しました。"
+        )
 
-    # ========================================
-    # 記事メッセージ
-    # ========================================
+    except Exception as e:
 
-    article_message = f"""🤖【Gemini生成のnote原稿】🤖
+        log_error(
+            f"組み合わせ履歴保存エラー: {e}"
+        )
+
+        send_error_notification(
+            "組み合わせ履歴保存エラー",
+            str(e),
+        )
+
+        raise
+
+else:
+
+    log_warning(
+        "品質基準未達のため、"
+        "テーマ×切り口は履歴へ登録しません。"
+    )
+
+# ========================================
+# 記事メッセージ
+# ========================================
+
+article_message = f"""🤖【Gemini生成のnote原稿】🤖
 
 {status}
 
 最終スコア：{score}点
 
---------------------
+---
 
 {article}
 """
 
-    evaluation = evaluation.strip()
-    x_post = x_post.strip()
-    threads_post = threads_post.strip()
-    instagram_post = instagram_post.strip()
+evaluation = evaluation.strip()
+x_post = x_post.strip()
+threads_post = threads_post.strip()
+instagram_post = instagram_post.strip()
 
-    # ========================================
-    # 評価・SNS投稿メッセージ
-    # ========================================
+# ========================================
+# 評価・SNS投稿メッセージ
+# ========================================
 
-    summary_message = f"""📊【AI評価】
+summary_message = f"""📊【AI評価】
 
 {evaluation}
 
---------------------
+---
 
 🐦【X投稿】
 
 {x_post}
 
---------------------
+---
 
 🧵【Threads投稿】
 
 {threads_post}
 
---------------------
+---
 
 📸【Instagram投稿】
 
 {instagram_post}
 """
 
-    # ========================================
-    # LINEメッセージ作成
-    # ========================================
+# ========================================
+# LINEメッセージ作成
+# ========================================
 
-    messages = []
+messages = []
 
-    # 長い記事は分割して送信
-    for part in split_text(
-        article_message
-    ):
+# 長い記事は分割して送信
+for part in split_text(
+    article_message
+):
 
-        messages.append(
-            create_text_message(part)
-        )
-
-    # 評価・SNS投稿
     messages.append(
-        create_text_message(
-            summary_message
-        )
+        create_text_message(part)
     )
 
-    # ========================================
-    # 生成コンテンツ保存
-    # ========================================
+# 評価・SNS投稿
+messages.append(
+    create_text_message(
+        summary_message
+    )
+)
 
-    try:
+# ========================================
+# 生成コンテンツ保存
+# ========================================
 
-        save_dir = save_generated_contents(
-            article=article,
-            x_post=x_post,
-            threads_post=threads_post,
-            instagram_post=instagram_post,
-        )
+try:
 
-        log_info(
-            f"生成コンテンツを保存しました: {save_dir}"
-        )
+    save_dir = save_generated_contents(
+        article=article,
+        x_post=x_post,
+        threads_post=threads_post,
+        instagram_post=instagram_post,
+    )
 
-    except Exception as e:
+    log_info(
+        f"生成コンテンツを保存しました: {save_dir}"
+    )
 
-        log_error(
-            f"生成コンテンツ保存エラー: {e}"
-        )
+except Exception as e:
 
-        send_error_notification(
-            "生成コンテンツ保存エラー",
-            str(e),
-        )
+    log_error(
+        f"生成コンテンツ保存エラー: {e}"
+    )
 
-        raise
+    send_error_notification(
+        "生成コンテンツ保存エラー",
+        str(e),
+    )
 
-    # ========================================
-    # 記事履歴保存
-    # ========================================
+    raise
 
-    try:
+# ========================================
+# 記事履歴保存
+# ========================================
 
-        save_article(
-            title=extract_title(article),
-            theme=theme,
-            angle=angle,
-            article=article,
-        )
+try:
 
-        log_info(
-            "記事履歴を保存しました。"
-        )
+    save_article(
+        title=extract_title(article),
+        theme=theme,
+        angle=angle,
+        article=article,
+    )
 
-    except Exception as e:
+    log_info(
+        "記事履歴を保存しました。"
+    )
 
-        log_error(
-            f"記事履歴保存エラー: {e}"
-        )
+except Exception as e:
 
-        send_error_notification(
-            "記事履歴保存エラー",
-            str(e),
-        )
+    log_error(
+        f"記事履歴保存エラー: {e}"
+    )
 
-        raise
+    send_error_notification(
+        "記事履歴保存エラー",
+        str(e),
+    )
 
-    # ========================================
-    # LINE送信
-    # ========================================
+    raise
 
-    try:
+# ========================================
+# LINE送信
+# ========================================
 
-        send_line_messages(
-            messages
-        )
+try:
 
-        log_info(
-            "LINEへ正常に送信しました。"
-        )
+    send_line_messages(
+        messages
+    )
 
-    except Exception as e:
+    log_info(
+        "LINEへ正常に送信しました。"
+    )
 
-        log_error(
-            f"LINE送信エラー: {e}"
-        )
+except Exception as e:
 
-        send_error_notification(
-            "LINE送信エラー",
-            str(e),
-        )
+    log_error(
+        f"LINE送信エラー: {e}"
+    )
 
-        raise
+    send_error_notification(
+        "LINE送信エラー",
+        str(e),
+    )
 
+    raise
 
-if __name__ == "__main__":
-    generate_and_send_line()
-
-この "main.py" に合わせて、次は "utils/content_saver.py" の動画関連を削除した版に変更します。
+if name == "main":
+generate_and_send_line()
