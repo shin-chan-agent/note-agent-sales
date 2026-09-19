@@ -542,7 +542,9 @@ def generate_and_send_line():
     threads_post = threads_post.strip()
     instagram_post = instagram_post.strip()
 
-    email_markdown = f"""# note記事
+    email_markdown = f"""# 有料note記事
+
+**タイトル：{title}**
 
 {status}
 
@@ -721,8 +723,6 @@ def generate_and_send_line():
             "メール送信エラー",
             str(e),
         )
-
-    raise
 
 
 if __name__ == "__main__":
