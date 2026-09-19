@@ -1,4 +1,5 @@
 import os
+import markdown
 
 from datetime import datetime
 from zoneinfo import ZoneInfo
@@ -37,8 +38,9 @@ from utils.latest_info import fetch_latest_info
 from utils.line_sender import (
     send_line_messages,
     create_text_message,
-    split_text,
 )
+
+from utils.email_sender import send_email
 
 from utils.logger import (
     log_info,
@@ -110,10 +112,14 @@ def generate_and_send_line():
 
     required_secrets = {
         "GEMINI_API_KEY": os.getenv("GEMINI_API_KEY"),
-        "LINE_CHANNEL_ACCESS_TOKEN": os.getenv(
-            "LINE_CHANNEL_ACCESS_TOKEN"
-        ),
+        "LINE_CHANNEL_ACCESS_TOKEN": os.getenv("LINE_CHANNEL_ACCESS_TOKEN"),
         "LINE_USER_ID": os.getenv("LINE_USER_ID"),
+        "SMTP_SERVER": os.getenv("SMTP_SERVER"),
+        "SMTP_PORT": os.getenv("SMTP_PORT"),
+        "SMTP_USER": os.getenv("SMTP_USER"),
+        "SMTP_PASSWORD": os.getenv("SMTP_PASSWORD"),
+        "SENDER_EMAIL": os.getenv("SENDER_EMAIL"),
+        "RECIPIENT_EMAIL": os.getenv("RECIPIENT_EMAIL"),
     }
 
     missing_secrets = [
@@ -400,6 +406,8 @@ def generate_and_send_line():
     latest_result = result["latest_result"]
     paid_value_result = result["paid_value_result"]
 
+    title = extract_title(article)
+
     # ========================================
     # X・Threads・Instagram投稿生成
     # ========================================
@@ -526,72 +534,57 @@ def generate_and_send_line():
         )
 
     # ========================================
-    # 記事メッセージ
+    # メール本文作成
     # ========================================
-
-    article_message = f"""🤖【Gemini生成のnote原稿】🤖
-
-{status}
-
-最終スコア：{score}点
-
----
-
-{article}
-"""
 
     evaluation = evaluation.strip()
     x_post = x_post.strip()
     threads_post = threads_post.strip()
     instagram_post = instagram_post.strip()
 
-    # ========================================
-    # 評価・SNS投稿メッセージ
-    # ========================================
+    email_markdown = f"""# note記事
 
-    summary_message = f"""📊【AI評価】
+{status}
+
+**最終スコア：{score}点**
+
+{article}
+
+---
+
+# AI評価
 
 {evaluation}
 
 ---
 
-🐦【X投稿】
+# X投稿
 
 {x_post}
 
 ---
 
-🧵【Threads投稿】
+# Threads投稿
 
 {threads_post}
 
 ---
 
-📸【Instagram投稿】
+# Instagram投稿
 
 {instagram_post}
 """
 
-    # ========================================
-    # LINEメッセージ作成
-    # ========================================
+    email_body = markdown.markdown(
+        email_markdown,
+        extensions=[
+            "extra",
+        ],
+    )
 
-    messages = []
-
-    # 長い記事は分割して送信
-    for part in split_text(
-        article_message
-    ):
-
-        messages.append(
-            create_text_message(part)
-        )
-
-    # 評価・SNS投稿
-    messages.append(
-        create_text_message(
-            summary_message
-        )
+    email_body = email_body.replace(
+        "https://note.com/shin_chan_ai/n/n7bec364e6cd2",
+        '<a href="https://note.com/shin_chan_ai/n/n7bec364e6cd2">https://note.com/shin_chan_ai/n/n7bec364e6cd2</a>',
     )
 
     # ========================================
