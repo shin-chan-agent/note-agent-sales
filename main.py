@@ -648,31 +648,81 @@ def generate_and_send_line():
         raise
 
     # ========================================
-    # LINE送信
+    # LINE 完成通知
     # ========================================
 
     try:
 
+        notification_message = f"""✅【Note AI Agent】
+
+有料記事の生成が完了しました。
+
+タイトル：
+{title}
+
+最終スコア：
+{score}点
+
+生成日時：
+{datetime.now(
+    ZoneInfo("Asia/Tokyo")
+).strftime("%Y年%m月%d日 %H:%M:%S")}
+
+記事・評価・SNS投稿文は
+メールで送信しました。
+"""
+
         send_line_messages(
-            messages
+            [
+                create_text_message(
+                    notification_message
+                )
+            ]
         )
 
         log_info(
-            "LINEへ正常に送信しました。"
+            "LINEへ完成通知を送信しました。"
         )
 
     except Exception as e:
 
         log_error(
-            f"LINE送信エラー: {e}"
+            f"LINE完成通知エラー: {e}"
         )
 
         send_error_notification(
-            "LINE送信エラー",
+            "LINE完成通知エラー",
             str(e),
         )
 
-        raise
+
+    # ========================================
+    # メール送信
+    # ========================================
+
+    try:
+
+        send_email(
+            subject=f"Note AI Agent｜有料記事生成完了｜{title}",
+            body=email_body,
+        )
+
+        log_info(
+            "生成コンテンツをメールへ送信しました。"
+        )
+
+    except Exception as e:
+
+        log_error(
+            f"メール送信エラー: {e}"
+        )
+
+        send_error_notification(
+            "メール送信エラー",
+            str(e),
+        )
+
+    raise
 
 
 if __name__ == "__main__":
