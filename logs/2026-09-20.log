@@ -18,3 +18,14 @@
 対象サービス: ['perplexity', 'gemini_notebook']
 [2026-09-20 10:43:43] [ERROR] エラー通知のLINE送信にも失敗しました: LINE API Error 400
 {"message":"The property, 'to', in the request body is invalid (line: -, column: -)"}
+[2026-09-20 22:07:26] [INFO] 対象サービス: ['chatgpt', 'copilot', 'claude']
+[2026-09-20 22:07:26] [INFO] DB更新対象: ['copilot']
+[2026-09-20 22:07:26] [INFO] バックグラウンド更新対象: capcut
+[2026-09-20 22:07:26] [INFO] copilot の最新情報を取得します
+[2026-09-20 22:07:26] [ERROR] 対象サービスのAI知識DB更新エラー: 'copilot'
+[2026-09-20 22:07:27] [ERROR] エラー通知のLINE送信にも失敗しました: LINE API Error 400
+{"message":"The property, 'to', in the request body is invalid (line: -, column: -)"}
+[2026-09-20 22:07:27] [ERROR] AI知識DBの安全利用期限を超えたため、記事生成を中止します。
+対象サービス: ['copilot']
+[2026-09-20 22:07:27] [ERROR] エラー通知のLINE送信にも失敗しました: LINE API Error 400
+{"message":"The property, 'to', in the request body is invalid (line: -, column: -)"}
