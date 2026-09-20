@@ -1,0 +1,3 @@
+[2026-09-20 10:15:36] [ERROR] GitHub Secretsの設定が不足しています: SMTP_SERVER, SMTP_PORT, SMTP_USER, SMTP_PASSWORD, SENDER_EMAIL, RECIPIENT_EMAIL
+[2026-09-20 10:15:37] [ERROR] エラー通知のLINE送信にも失敗しました: LINE API Error 400
+{"message":"The property, 'to', in the request body is invalid (line: -, column: -)"}
