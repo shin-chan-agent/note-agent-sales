@@ -4,7 +4,7 @@ import json
 def get_article_prompt(
     theme,
     angle,
-    target_ai,
+    services,
     knowledge,
     past_articles_text,
     current_date,
@@ -55,7 +55,7 @@ noteで販売する有料記事を1本執筆してください。
 
 【今回の記事で扱う対象AI】
 
-{target_ai}
+{services}
 
 この記事では、上記の対象AIを中心に扱ってください。
 
