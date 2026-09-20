@@ -7,3 +7,14 @@
 [2026-09-20 10:35:08] [ERROR] GitHub Secretsの設定が不足しています: SMTP_USER
 [2026-09-20 10:35:09] [ERROR] エラー通知のLINE送信にも失敗しました: LINE API Error 400
 {"message":"The property, 'to', in the request body is invalid (line: -, column: -)"}
+[2026-09-20 10:43:42] [INFO] 対象サービス: ['perplexity', 'gemini_notebook', 'claude']
+[2026-09-20 10:43:42] [INFO] DB更新対象: ['perplexity', 'gemini_notebook']
+[2026-09-20 10:43:42] [INFO] バックグラウンド更新対象: capcut
+[2026-09-20 10:43:42] [INFO] perplexity の最新情報を取得します
+[2026-09-20 10:43:42] [ERROR] 対象サービスのAI知識DB更新エラー: 'perplexity'
+[2026-09-20 10:43:43] [ERROR] エラー通知のLINE送信にも失敗しました: LINE API Error 400
+{"message":"The property, 'to', in the request body is invalid (line: -, column: -)"}
+[2026-09-20 10:43:43] [ERROR] AI知識DBの安全利用期限を超えたため、記事生成を中止します。
+対象サービス: ['perplexity', 'gemini_notebook']
+[2026-09-20 10:43:43] [ERROR] エラー通知のLINE送信にも失敗しました: LINE API Error 400
+{"message":"The property, 'to', in the request body is invalid (line: -, column: -)"}
