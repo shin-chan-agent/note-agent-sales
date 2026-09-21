@@ -22284,39 +22284,1402 @@
         },
         "claude_code": {
             "name": "Claude Code",
-            "last_verified": null,
-            "updated_at": null,
+            "last_verified": "2026-09-21",
+            "updated_at": "2026-09-21",
             "update_failed": false,
-            "sources": [],
-            "models": [],
-            "plans": [],
-            "features": [],
-            "limitations": [],
-            "notes": []
+            "sources": [
+                {
+                    "name": "Claude 3 Haiku - API Pricing & Benchmarks - OpenRouter",
+                    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGsaoi8NSCeX8hZaq3CyoiSpT8iaPGMsVTv3viGGwWQDCUOYxlYW5UQrRVHZp46PvZNen8PpbYz8oEIJ5Rb78YJbaIunBNk0gqKN7gZzeJ_uJ85kuCeLvWjrjSR1TgU-EWpmREw7edO5iI=",
+                    "verified_at": "2026-09-21"
+                },
+                {
+                    "name": "claude-3.5-sonnet Cost Calculator - Vercel Ai Gateway | Bifrost",
+                    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEK9xhJ3dKAySXJb0kS43fn4o8aF5-HAFP0BiY-akMDe_QKP3lobCWfbfweWMDL1_frsJCMHa-P6n5FL0wXHvs5sun2-dQvBLJeDkS-0_GRYgRqPuhiS3Kph9_eomLIICWVXWRPWrRnkbyipVADWQ2e87cn5PhRe1JWO546uQfN3WEzntsCGtrIQ3ODfX_ahzPbyqcTnu9bo85GD5mVGthqqA==",
+                    "verified_at": "2026-09-21"
+                },
+                {
+                    "name": "Claude Pricing 2026: Plans, Team, and API Costs - Blockchain Council",
+                    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZ2KzmmWrSFxShY8Jk9sm5iLXgp4BO1cFoXq5vavdFeF1RlrNG3drWnRx3PANyZK6u1w-L6dZ67DqDkA51e3Iu3ToEqK0GCTUE81YnWJf2l95x35aKOPvBI30Et5PzoLlXb_pHpPp5hkkEN-6J1wZD1y2xEyYqXQ==",
+                    "verified_at": "2026-09-21"
+                },
+                {
+                    "name": "Claude 3 Haiku Pricing - anthropic | LLM API Costs",
+                    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEieVbaUdyAEaiLJ42xAbTPzVT_2RN3CeIrWvej64ycQIS5kW7uwCSKRycAYGHV63ARCyC2WUhR005lkev86pqDmLjM705le2H7qT1SG_Es-fUMrSFLO5TwrkdD7YAXUr6-y_0QuvfQH99HGGF5dJ2HMV1uSqmfBVvmANVlsNs=",
+                    "verified_at": "2026-09-21"
+                },
+                {
+                    "name": "Claude 3 Sonnet - Intelligence, Performance & Price Analysis",
+                    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGinIS2r5kIGx-DYc1U4xIyDXMmBba71q9WQBFaKqQdZW-lnmjy_qJ8h-NInL-iH9A4JMWCzP2xOEz9IaOdvbl1Wn1nFJBbQdZqE8pEPu8wcCJc_sXiYXRELDIz_BeWS3W2g2F5vU1PrEc23lNI-_c=",
+                    "verified_at": "2026-09-21"
+                }
+            ],
+            "models": [
+                {
+                    "id": "claude-fable-5-1",
+                    "name": "Claude Fable 5.1",
+                    "aliases": [
+                        "Fable 5"
+                    ],
+                    "status": "available",
+                    "effective_date": "2026-06-09",
+                    "last_updated": "2026-09-21",
+                    "description": "Anthropicの最上位モデル。",
+                    "modalities": [
+                        "text",
+                        "image"
+                    ],
+                    "api_available": true,
+                    "missing_count": 0
+                },
+                {
+                    "id": "claude-mythos-5-1",
+                    "name": "Claude Mythos 5.1",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "null",
+                    "last_updated": "2026-09-21",
+                    "description": "Fable 5.1と同等の性能を持つが、利用が限定されており、承認が必要なモデル。",
+                    "modalities": [
+                        "text",
+                        "image"
+                    ],
+                    "api_available": true,
+                    "missing_count": 0
+                },
+                {
+                    "id": "claude-opus-5",
+                    "name": "Claude Opus 5",
+                    "aliases": [
+                        "Opus 4.8",
+                        "Opus 4.7",
+                        "Opus 4.6"
+                    ],
+                    "status": "available",
+                    "effective_date": "null",
+                    "last_updated": "2026-09-21",
+                    "description": "複雑な推論と高度なタスクのためのフラッグシップモデル。最も知的で、高度な分析、研究、タスク自動化に適している。",
+                    "modalities": [
+                        "text",
+                        "image"
+                    ],
+                    "api_available": true,
+                    "missing_count": 0
+                },
+                {
+                    "id": "claude-sonnet-5",
+                    "name": "Claude Sonnet 5",
+                    "aliases": [
+                        "Claude 3.5 Sonnet",
+                        "Sonnet 4.6",
+                        "Sonnet"
+                    ],
+                    "status": "available",
+                    "effective_date": "2026-06-21",
+                    "last_updated": "2026-09-21",
+                    "description": "インテリジェンスとスピードのバランスが取れたミドルティアモデル。企業向けワークロードに適しており、幅広い評価で競合モデルやClaude 3 Opusを上回る性能を発揮する。",
+                    "modalities": [
+                        "text",
+                        "image"
+                    ],
+                    "api_available": true,
+                    "missing_count": 0
+                },
+                {
+                    "id": "claude-haiku-4-5",
+                    "name": "Claude Haiku 4.5",
+                    "aliases": [
+                        "Claude 3 Haiku",
+                        "Haiku"
+                    ],
+                    "status": "available",
+                    "effective_date": "null",
+                    "last_updated": "2026-09-21",
+                    "description": "最速かつ最もコンパクトなモデルで、低レイテンシーのタスクに最適化されている。高ボリュームのタスク向けのコスト効率の良いオプション。",
+                    "modalities": [
+                        "text",
+                        "image"
+                    ],
+                    "api_available": true,
+                    "missing_count": 0
+                },
+                {
+                    "id": "claude-3-opus",
+                    "name": "Claude 3 Opus",
+                    "aliases": [],
+                    "status": "deprecated",
+                    "effective_date": "2024-03-04",
+                    "last_updated": "2026-09-21",
+                    "description": "Anthropicの初期のOpusティアのフラッグシップモデル。新しいプロジェクトにはOpus 4.7またはSonnet 4.6が推奨されている。",
+                    "modalities": [
+                        "text",
+                        "image"
+                    ],
+                    "api_available": true,
+                    "missing_count": 0
+                }
+            ],
+            "plans": [
+                {
+                    "id": "free",
+                    "name": "Free",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "null",
+                    "last_updated": "2026-09-21",
+                    "billing": "無料",
+                    "description": "Claude Sonnet 5へのアクセスが含まれるが、週間の使用制限がある。基本的な利用や評価に適している。",
+                    "pricing": [
+                        {
+                            "name": "プラン料金",
+                            "unit": "month",
+                            "price": "0",
+                            "currency": "USD"
+                        }
+                    ],
+                    "missing_count": 0
+                },
+                {
+                    "id": "pro",
+                    "name": "Pro",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "null",
+                    "last_updated": "2026-09-21",
+                    "billing": "月額または年額",
+                    "description": "無料プランの約5倍の使用量、Claude Opus 5とClaude Codeへのアクセスが含まれる。個人利用のプロフェッショナル向け。",
+                    "pricing": [
+                        {
+                            "name": "月額プラン",
+                            "unit": "month",
+                            "price": "20",
+                            "currency": "USD"
+                        },
+                        {
+                            "name": "年額プラン（月あたり）",
+                            "unit": "month",
+                            "price": "17",
+                            "currency": "USD"
+                        }
+                    ],
+                    "missing_count": 0
+                },
+                {
+                    "id": "max-5x",
+                    "name": "Max 5x",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "null",
+                    "last_updated": "2026-09-21",
+                    "billing": "月額",
+                    "description": "Proプランの5倍の使用量を提供し、Opus 5がデフォルトモデルとなる。ヘビーユーザー向け。",
+                    "pricing": [
+                        {
+                            "name": "プラン料金",
+                            "unit": "month",
+                            "price": "100",
+                            "currency": "USD"
+                        }
+                    ],
+                    "missing_count": 0
+                },
+                {
+                    "id": "max-20x",
+                    "name": "Max 20x",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "null",
+                    "last_updated": "2026-09-21",
+                    "billing": "月額",
+                    "description": "Proプランの20倍の使用量を提供し、Opus 5がデフォルトモデルとなる。Claude Codeを終日利用する開発者など、超ヘビーユーザー向け。",
+                    "pricing": [
+                        {
+                            "name": "プラン料金",
+                            "unit": "month",
+                            "price": "200",
+                            "currency": "USD"
+                        }
+                    ],
+                    "missing_count": 0
+                },
+                {
+                    "id": "team-standard",
+                    "name": "Team Standard",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "null",
+                    "last_updated": "2026-09-21",
+                    "billing": "月額または年額（シートごと）",
+                    "description": "チーム向けの標準プラン。Claude Codeは含まれない。",
+                    "pricing": [
+                        {
+                            "name": "月額（シートごと）",
+                            "unit": "seat/month",
+                            "price": "25",
+                            "currency": "USD"
+                        },
+                        {
+                            "name": "年額（シートごと、月あたり）",
+                            "unit": "seat/month",
+                            "price": "20",
+                            "currency": "USD"
+                        }
+                    ],
+                    "missing_count": 0
+                },
+                {
+                    "id": "team-premium",
+                    "name": "Team Premium",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "null",
+                    "last_updated": "2026-09-21",
+                    "billing": "月額または年額（シートごと）",
+                    "description": "Team Standardの5倍の使用量を提供し、Claude Codeが含まれる。開発チームなど、より多くの使用量が必要なチーム向け（最低5シート）。",
+                    "pricing": [
+                        {
+                            "name": "月額（シートごと）",
+                            "unit": "seat/month",
+                            "price": "125",
+                            "currency": "USD"
+                        },
+                        {
+                            "name": "年額（シートごと、月あたり）",
+                            "unit": "seat/month",
+                            "price": "100",
+                            "currency": "USD"
+                        }
+                    ],
+                    "missing_count": 0
+                },
+                {
+                    "id": "enterprise",
+                    "name": "Enterprise",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "null",
+                    "last_updated": "2026-09-21",
+                    "billing": "シート料金 + API使用量",
+                    "description": "大規模組織向けのカスタムプラン。SSO、HIPAA対応構成、コンプライアンスコントロール、SCIM、監査ログ、カスタムデータ保持、ロールベースアクセス、IPホワイトリスト機能が含まれる。",
+                    "pricing": [
+                        {
+                            "name": "基本シート料金（シートごと）",
+                            "unit": "seat/month",
+                            "price": "20",
+                            "currency": "USD"
+                        }
+                    ],
+                    "missing_count": 0
+                },
+                {
+                    "id": "api-pay-as-you-go",
+                    "name": "API Pay-as-you-go",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "null",
+                    "last_updated": "2026-09-21",
+                    "billing": "従量課金",
+                    "description": "トークン使用量に基づいて課金されるAPIアクセス。急な使用量の変動がある場合や、コストを厳密に管理したいチームに適している。",
+                    "pricing": [
+                        {
+                            "name": "Claude Fable 5.1 (Input)",
+                            "unit": "M input tokens",
+                            "price": "10.00",
+                            "currency": "USD"
+                        },
+                        {
+                            "name": "Claude Fable 5.1 (Output)",
+                            "unit": "M output tokens",
+                            "price": "50.00",
+                            "currency": "USD"
+                        },
+                        {
+                            "name": "Claude Fable 5.1 (5m Cache Writes)",
+                            "unit": "M input tokens",
+                            "price": "12.50",
+                            "currency": "USD"
+                        },
+                        {
+                            "name": "Claude Fable 5.1 (1h Cache Writes)",
+                            "unit": "M input tokens",
+                            "price": "20.00",
+                            "currency": "USD"
+                        },
+                        {
+                            "name": "Claude Fable 5.1 (Cache Hits & Refreshes)",
+                            "unit": "M tokens",
+                            "price": "0.25",
+                            "currency": "USD"
+                        },
+                        {
+                            "name": "Claude Mythos 5.1 (Input)",
+                            "unit": "M input tokens",
+                            "price": "10.00",
+                            "currency": "USD"
+                        },
+                        {
+                            "name": "Claude Mythos 5.1 (Output)",
+                            "unit": "M output tokens",
+                            "price": "50.00",
+                            "currency": "USD"
+                        },
+                        {
+                            "name": "Claude Mythos 5.1 (5m Cache Writes)",
+                            "unit": "M input tokens",
+                            "price": "12.50",
+                            "currency": "USD"
+                        },
+                        {
+                            "name": "Claude Mythos 5.1 (1h Cache Writes)",
+                            "unit": "M input tokens",
+                            "price": "20.00",
+                            "currency": "USD"
+                        },
+                        {
+                            "name": "Claude Mythos 5.1 (Cache Hits & Refreshes)",
+                            "unit": "M tokens",
+                            "price": "0.25",
+                            "currency": "USD"
+                        },
+                        {
+                            "name": "Claude Opus 5 (Input)",
+                            "unit": "M input tokens",
+                            "price": "5.00",
+                            "currency": "USD"
+                        },
+                        {
+                            "name": "Claude Opus 5 (Output)",
+                            "unit": "M output tokens",
+                            "price": "25.00",
+                            "currency": "USD"
+                        },
+                        {
+                            "name": "Claude Opus 5 Fast Mode (Input)",
+                            "unit": "M input tokens",
+                            "price": "10.00",
+                            "currency": "USD"
+                        },
+                        {
+                            "name": "Claude Opus 5 Fast Mode (Output)",
+                            "unit": "M output tokens",
+                            "price": "50.00",
+                            "currency": "USD"
+                        },
+                        {
+                            "name": "Claude Sonnet 5 (Input)",
+                            "unit": "M input tokens",
+                            "price": "2.00",
+                            "currency": "USD"
+                        },
+                        {
+                            "name": "Claude Sonnet 5 (Output)",
+                            "unit": "M output tokens",
+                            "price": "10.00",
+                            "currency": "USD"
+                        },
+                        {
+                            "name": "Claude Haiku 4.5 (Input)",
+                            "unit": "M input tokens",
+                            "price": "1.00",
+                            "currency": "USD"
+                        },
+                        {
+                            "name": "Claude Haiku 4.5 (Output)",
+                            "unit": "M output tokens",
+                            "price": "5.00",
+                            "currency": "USD"
+                        },
+                        {
+                            "name": "Batch API Discount",
+                            "unit": "percent",
+                            "price": "50",
+                            "currency": "null"
+                        }
+                    ],
+                    "missing_count": 0
+                }
+            ],
+            "features": [
+                {
+                    "id": "vision-capabilities",
+                    "name": "Vision Capabilities",
+                    "aliases": [
+                        "Image processing"
+                    ],
+                    "status": "available",
+                    "effective_date": "2024-03-04",
+                    "last_updated": "2026-09-21",
+                    "description": "画像データを処理・分析し、テキスト出力を生成できる。チャート、グラフ、技術図面、レポートなどの視覚資産の分析に非常に優れている。",
+                    "category": "Multimodal",
+                    "missing_count": 0
+                },
+                {
+                    "id": "coding-and-technical-analysis",
+                    "name": "Coding and Technical Analysis (Claude Code)",
+                    "aliases": [
+                        "Claude Code"
+                    ],
+                    "status": "available",
+                    "effective_date": "null",
+                    "last_updated": "2026-09-21",
+                    "description": "コードの生成、レビュー、デバッグ、リファクタリング、複数のファイルにわたるコードベースの推論を行う能力。インテリジェントなコード補完、構文提案、複数のプログラミング言語のサポートが含まれる。API、データベース、インタラクティブなコーディングにわたる複雑なアクションの計画と実行も可能。",
+                    "category": "Developer Tools",
+                    "missing_count": 0
+                },
+                {
+                    "id": "advanced-reasoning-and-complex-problem-solving",
+                    "name": "Advanced Reasoning and Complex Problem-Solving",
+                    "aliases": [
+                        "Complex Reasoning"
+                    ],
+                    "status": "available",
+                    "effective_date": "null",
+                    "last_updated": "2026-09-21",
+                    "description": "複雑な多段階の問題を構造化された論理的ステップに分解する能力。ソフトウェアエンジニアリング、ビジネスロジック、プロジェクト管理の課題解決に優れている。",
+                    "category": "Core Capabilities",
+                    "missing_count": 0
+                },
+                {
+                    "id": "industry-leading-context-window",
+                    "name": "Industry-Leading Context Window",
+                    "aliases": [
+                        "Long context",
+                        "Long document processing"
+                    ],
+                    "status": "available",
+                    "effective_date": "null",
+                    "last_updated": "2026-09-21",
+                    "description": "大規模なファイルを処理できるコンテキストウィンドウ。数百万トークンの入力を単一のクエリで処理し、詳細を見失うことなく長文のドキュメント、コードベース、財務監査を消化できる。",
+                    "category": "Core Capabilities",
+                    "missing_count": 0
+                },
+                {
+                    "id": "projects-and-memory",
+                    "name": "Projects and Memory",
+                    "aliases": [
+                        "Persistent memory"
+                    ],
+                    "status": "available",
+                    "effective_date": "null",
+                    "last_updated": "2026-09-21",
+                    "description": "ユーザーの好み、役割、コンテキストを学習し、長期的な作業を中心にチャットや知識を整理する機能。",
+                    "category": "Productivity",
+                    "missing_count": 0
+                },
+                {
+                    "id": "web-search-and-url-fetch",
+                    "name": "Web Search / Webpage Reading (URL fetch)",
+                    "aliases": [
+                        "Web browsing"
+                    ],
+                    "status": "available",
+                    "effective_date": "null",
+                    "last_updated": "2026-09-21",
+                    "description": "Web検索機能とURLからウェブページの内容を読み取る機能。",
+                    "category": "Information Retrieval",
+                    "missing_count": 0
+                },
+                {
+                    "id": "artifacts",
+                    "name": "Artifacts",
+                    "aliases": [
+                        "Live preview"
+                    ],
+                    "status": "available",
+                    "effective_date": "null",
+                    "last_updated": "2026-09-21",
+                    "description": "コードやドキュメントのライブプレビューパネル。",
+                    "category": "Productivity",
+                    "missing_count": 0
+                },
+                {
+                    "id": "cowork",
+                    "name": "Cowork",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "null",
+                    "last_updated": "2026-09-21",
+                    "description": "コラボレーション機能。",
+                    "category": "Collaboration",
+                    "missing_count": 0
+                },
+                {
+                    "id": "agent-sdk-and-managed-agents",
+                    "name": "Agent SDK / Managed Agents",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "null",
+                    "last_updated": "2026-09-21",
+                    "description": "エージェントの構築と管理をサポートするSDKと管理エージェント機能。",
+                    "category": "Developer Tools",
+                    "missing_count": 0
+                },
+                {
+                    "id": "function-calling-and-tool-use",
+                    "name": "Function Calling / Tool Use",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "null",
+                    "last_updated": "2026-09-21",
+                    "description": "外部ツールやAPIを呼び出す機能。",
+                    "category": "Developer Tools",
+                    "missing_count": 0
+                },
+                {
+                    "id": "json-mode",
+                    "name": "JSON Mode",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "null",
+                    "last_updated": "2026-09-21",
+                    "description": "JSON形式での出力に対応。",
+                    "category": "Output Control",
+                    "missing_count": 0
+                },
+                {
+                    "id": "structured-output",
+                    "name": "Structured Output",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "null",
+                    "last_updated": "2026-09-21",
+                    "description": "構造化された形式で情報を出力する機能。",
+                    "category": "Output Control",
+                    "missing_count": 0
+                },
+                {
+                    "id": "expanded-language-support",
+                    "name": "Expanded Language Support",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "2024-03-04",
+                    "last_updated": "2026-09-21",
+                    "description": "英語以外の言語（例：フランス語、日本語、スペイン語）での理解と応答が向上。",
+                    "category": "Multilingual",
+                    "missing_count": 0
+                },
+                {
+                    "id": "analytics-feature",
+                    "name": "Analytics Feature",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "null",
+                    "last_updated": "2026-09-21",
+                    "description": "コーディング習慣と生産性指標を追跡できる機能。",
+                    "category": "Developer Tools",
+                    "missing_count": 0
+                }
+            ],
+            "limitations": [
+                {
+                    "id": "rate-and-usage-limits",
+                    "name": "Rate and Usage Limits",
+                    "status": "available",
+                    "last_updated": "2026-09-21",
+                    "description": "たとえ有料プランの加入者であっても、重い使用量では制限に達することがある。使用制限は公開されておらず、動的に変動し、予測不可能である。Maxプランでもパワーユーザーは制限に達する可能性がある。",
+                    "category": "Usage",
+                    "missing_count": 0
+                },
+                {
+                    "id": "no-image-or-video-generation",
+                    "name": "No Image or Video Generation",
+                    "status": "available",
+                    "last_updated": "2026-09-21",
+                    "description": "画像を分析することはできるが、画像を生成することはできない。",
+                    "category": "Capabilities",
+                    "missing_count": 0
+                },
+                {
+                    "id": "occasional-over-cautiousness",
+                    "name": "Occasional Over-cautiousness",
+                    "status": "available",
+                    "last_updated": "2026-09-21",
+                    "description": "説得力のある文章に、意図しないバランスや免責事項を挿入するなど、過度に慎重な傾向が見られる場合がある。",
+                    "category": "Output Quality",
+                    "missing_count": 0
+                },
+                {
+                    "id": "hallucinations-and-errors",
+                    "name": "Hallucinations and Errors",
+                    "status": "available",
+                    "last_updated": "2026-09-21",
+                    "description": "誤った情報を生成したり、ソース資料を誤解したり、欠陥のあるコードを作成したり、誤った行動を取ったりする可能性があるため、重要な出力には人間のレビューが必要。",
+                    "category": "Output Quality",
+                    "missing_count": 0
+                },
+                {
+                    "id": "memory-limitations",
+                    "name": "Memory Limitations",
+                    "status": "available",
+                    "last_updated": "2026-09-21",
+                    "description": "セッション間でコンテキストを失うことがあり、手動での回避策なしには永続的な長期記憶がない。",
+                    "category": "Core Capabilities",
+                    "missing_count": 0
+                },
+                {
+                    "id": "integration-and-data-gaps",
+                    "name": "Integration and Data Gaps",
+                    "status": "available",
+                    "last_updated": "2026-09-21",
+                    "description": "GoogleやSalesforceなどの一部の統合が弱いと報告されている。",
+                    "category": "Ecosystem",
+                    "missing_count": 0
+                },
+                {
+                    "id": "context-window-and-token-limits-for-large-operations",
+                    "name": "Context Window and Token Limits for Large Operations",
+                    "status": "available",
+                    "last_updated": "2026-09-21",
+                    "description": "大規模なコンテキストウィンドウを持つにもかかわらず、非常に大規模な操作ではタスクの途中でトークン制限に達する可能性がある。",
+                    "category": "Usage",
+                    "missing_count": 0
+                },
+                {
+                    "id": "newer-tokenizer-higher-token-consumption",
+                    "name": "Newer Tokenizer Higher Token Consumption",
+                    "status": "available",
+                    "last_updated": "2026-09-21",
+                    "description": "Sonnet 5以降の新しいトークナイザーは、以前のバージョンと比較して、同じテキストで約30%多くのトークンを消費する可能性がある。",
+                    "category": "Cost",
+                    "missing_count": 0
+                },
+                {
+                    "id": "us-inference-pricing-multiplier",
+                    "name": "US Inference Pricing Multiplier",
+                    "status": "available",
+                    "last_updated": "2026-09-21",
+                    "description": "Claude 4.6以降のモデルで`inference_geo: \"us\"`を使用すると、1.1倍の価格乗数が適用される。",
+                    "category": "Cost",
+                    "missing_count": 0
+                }
+            ],
+            "notes": [
+                {
+                    "id": "model-pricing-and-plan-changes",
+                    "title": "Model Access, Pricing, and Plan Packaging Can Change",
+                    "category": "General Information",
+                    "status": "available",
+                    "description": "モデルのアクセス、価格設定、およびプランのパッケージングは変更される可能性があるため、生産決定を行う前に最新の詳細を確認する必要がある。",
+                    "last_updated": "2026-09-21",
+                    "missing_count": 0
+                },
+                {
+                    "id": "claude-code-definition",
+                    "title": "Definition of Claude Code",
+                    "category": "Product Definition",
+                    "status": "available",
+                    "description": "「Claude Code」という用語は、Claudeモデルのコーディング機能と、Claude Code（ターミナルセッション）のようなツールを指す。",
+                    "last_updated": "2026-09-21",
+                    "missing_count": 0
+                },
+                {
+                    "id": "limited-availability-models",
+                    "title": "Limited Availability Models",
+                    "category": "Model Access",
+                    "status": "available",
+                    "description": "一部のモデル（例：Mythos 5.1）は利用が限定されており、アクセスには承認が必要。",
+                    "last_updated": "2026-09-21",
+                    "missing_count": 0
+                },
+                {
+                    "id": "opus-5-fast-mode",
+                    "title": "Opus 5 Fast Mode",
+                    "category": "Performance and Cost",
+                    "status": "available",
+                    "description": "Opus 5のFastモードは、約2.5倍の速度で推論を行うが、価格は2倍になる。",
+                    "last_updated": "2026-09-21",
+                    "missing_count": 0
+                },
+                {
+                    "id": "effort-settings-for-tasks",
+                    "title": "Effort Settings for Tasks",
+                    "category": "Performance and Cost",
+                    "status": "available",
+                    "description": "タスクの低い努力設定は、深さよりも速度とトークン消費を優先する。",
+                    "last_updated": "2026-09-21",
+                    "missing_count": 0
+                },
+                {
+                    "id": "us-only-inference",
+                    "title": "US-Only Inference",
+                    "category": "Pricing",
+                    "status": "available",
+                    "description": "米国限定の推論は、標準価格の1.1倍で利用可能。",
+                    "last_updated": "2026-09-21",
+                    "missing_count": 0
+                },
+                {
+                    "id": "agent-sdk-credit-pool",
+                    "title": "Agent SDK Credit Pool",
+                    "category": "Pricing",
+                    "status": "available",
+                    "description": "Agent SDK、CIパイプライン、またはサードパーティのエージェントを介した使用は、月間の個別のクレジットプールから消費される。",
+                    "last_updated": "2026-09-21",
+                    "missing_count": 0
+                },
+                {
+                    "id": "sonnet-5-pricing-update",
+                    "title": "Claude Sonnet 5 Pricing Update",
+                    "category": "Pricing",
+                    "status": "available",
+                    "description": "2026年8月31日までの導入価格として発表されたClaude Sonnet 5の100万入力トークンあたり2ドル/100万出力トークンあたり10ドルの価格は、2026年9月1日以降の標準価格となった。以前予定されていた3ドル/15ドルへの値上げは実施されない。",
+                    "last_updated": "2026-09-21",
+                    "missing_count": 0
+                }
+            ],
+            "status": "available"
         },
         "perplexity": {
             "name": "Perplexity",
-            "last_verified": null,
-            "updated_at": null,
+            "last_verified": "2026-09-21",
+            "updated_at": "2026-09-21",
             "update_failed": false,
-            "sources": [],
-            "models": [],
-            "plans": [],
-            "features": [],
+            "sources": [
+                {
+                    "name": "Perplexity AI Official Website",
+                    "url": "https://www.perplexity.ai",
+                    "verified_at": "2026-09-21T01:57:00Z"
+                },
+                {
+                    "name": "What is Perplexity AI? A Smarter Way to Search - DigitalOcean",
+                    "url": "https://www.digitalocean.com/blog/what-is-perplexity-ai",
+                    "verified_at": "2025-03-13T00:00:00Z"
+                },
+                {
+                    "name": "Perplexity - CodeGPT",
+                    "url": "https://www.codegpt.co/docs/ai-providers/perplexity",
+                    "verified_at": "2026-09-21T01:57:00Z"
+                },
+                {
+                    "name": "Perplexity AI - Wikipedia",
+                    "url": "https://en.wikipedia.org/wiki/Perplexity_AI",
+                    "verified_at": "2026-09-21T01:57:00Z"
+                },
+                {
+                    "name": "Perplexity - AI Companion - Chrome Web Store",
+                    "url": "https://chromewebstore.google.com/detail/perplexity-ai-companion/kpmjjmeemhnndkggkmlfmpghoifcjddl",
+                    "verified_at": "2023-10-12T00:00:00Z"
+                }
+            ],
+            "models": [
+                {
+                    "id": "free_version_llms",
+                    "name": "Free Version LLMs",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": null,
+                    "last_updated": null,
+                    "description": "Perplexity AI's free public version uses large language models to generate responses to user queries. It is an AI-powered search engine providing precise, well-sourced answers with real-time citations",
+                    "modalities": [
+                        "text_input",
+                        "text_output",
+                        "web_search"
+                    ],
+                    "api_available": false,
+                    "missing_count": 0
+                },
+                {
+                    "id": "deepseek_r1",
+                    "name": "Deepseek R1",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": null,
+                    "last_updated": null,
+                    "description": "Available through Perplexity Pro.",
+                    "modalities": [
+                        "text_input",
+                        "text_output"
+                    ],
+                    "api_available": true,
+                    "missing_count": 0
+                },
+                {
+                    "id": "openai_o3_mini",
+                    "name": "OpenAI o3-mini",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": null,
+                    "last_updated": null,
+                    "description": "Available through Perplexity Pro.",
+                    "modalities": [
+                        "text_input",
+                        "text_output"
+                    ],
+                    "api_available": true,
+                    "missing_count": 0
+                },
+                {
+                    "id": "claude_3_7_sonnet",
+                    "name": "Claude 3.7 Sonnet",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": null,
+                    "last_updated": null,
+                    "description": "Available through Perplexity Pro.",
+                    "modalities": [
+                        "text_input",
+                        "text_output"
+                    ],
+                    "api_available": true,
+                    "missing_count": 0
+                },
+                {
+                    "id": "sonar",
+                    "name": "Sonar",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": null,
+                    "last_updated": null,
+                    "description": "Available through Perplexity Pro.",
+                    "modalities": [
+                        "text_input",
+                        "text_output"
+                    ],
+                    "api_available": true,
+                    "missing_count": 0
+                },
+                {
+                    "id": "gpt_4_omni",
+                    "name": "GPT-4 Omni",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": null,
+                    "last_updated": null,
+                    "description": "An advanced language model used by Perplexity AI for real-time, intelligent search and discovery, likely through Perplexity Pro.",
+                    "modalities": [
+                        "text_input",
+                        "text_output"
+                    ],
+                    "api_available": true,
+                    "missing_count": 0
+                },
+                {
+                    "id": "claude_3",
+                    "name": "Claude 3",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": null,
+                    "last_updated": null,
+                    "description": "An advanced language model used by Perplexity AI for real-time, intelligent search and discovery, likely through Perplexity Pro.",
+                    "modalities": [
+                        "text_input",
+                        "text_output"
+                    ],
+                    "api_available": true,
+                    "missing_count": 0
+                },
+                {
+                    "id": "pplx_7b_chat",
+                    "name": "pplx-7b-chat",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": null,
+                    "last_updated": null,
+                    "description": "A model available via the Perplexity API.",
+                    "modalities": [
+                        "text_input",
+                        "text_output"
+                    ],
+                    "api_available": true,
+                    "missing_count": 0
+                }
+            ],
+            "plans": [
+                {
+                    "id": "free_plan",
+                    "name": "Free Public Version",
+                    "aliases": [
+                        "Free Tier"
+                    ],
+                    "status": "available",
+                    "effective_date": null,
+                    "last_updated": null,
+                    "billing": "N/A",
+                    "description": "Perplexity is available to web users without charge or registration, operating on a freemium model. It provides an AI-powered conversational search engine with precise, well-sourced answers and real-time citations.",
+                    "pricing": [],
+                    "missing_count": 0
+                },
+                {
+                    "id": "perplexity_pro",
+                    "name": "Perplexity Pro",
+                    "aliases": [
+                        "Pro Subscription"
+                    ],
+                    "status": "available",
+                    "effective_date": null,
+                    "last_updated": null,
+                    "billing": "monthly or annual (implied)",
+                    "description": "A paid Pro subscription offers access to more advanced language models (e.g., Deepseek R1, OpenAI o3-mini, Claude 3.7 Sonnet, Sonar) and additional features like searching files from Spaces.",
+                    "pricing": [],
+                    "missing_count": 0
+                }
+            ],
+            "features": [
+                {
+                    "id": "ai_powered_search_engine",
+                    "name": "AI-powered Conversational Search Engine",
+                    "aliases": [
+                        "Answer Engine"
+                    ],
+                    "status": "available",
+                    "effective_date": null,
+                    "last_updated": null,
+                    "description": "Provides precise, well-sourced answers to user queries, distinguishing itself from traditional search engines.",
+                    "category": "Core Functionality",
+                    "missing_count": 0
+                },
+                {
+                    "id": "real_time_citations",
+                    "name": "Real-time Citations",
+                    "aliases": [
+                        "Verifiable Sources"
+                    ],
+                    "status": "available",
+                    "effective_date": null,
+                    "last_updated": null,
+                    "description": "Delivers comprehensive responses backed by verifiable sources with real-time citations.",
+                    "category": "Core Functionality",
+                    "missing_count": 0
+                },
+                {
+                    "id": "natural_language_processing",
+                    "name": "Natural Language Processing (NLP)",
+                    "aliases": [
+                        "Query Understanding"
+                    ],
+                    "status": "available",
+                    "effective_date": null,
+                    "last_updated": null,
+                    "description": "Analyzes questions using NLP to detect intent, context, and key details.",
+                    "category": "Technology",
+                    "missing_count": 0
+                },
+                {
+                    "id": "web_search_capability",
+                    "name": "Web Search Capability",
+                    "aliases": [
+                        "Information Retrieval"
+                    ],
+                    "status": "available",
+                    "effective_date": null,
+                    "last_updated": null,
+                    "description": "Retrieves relevant information from sources including articles, websites, journals, research papers, news sites, and live data feeds.",
+                    "category": "Core Functionality",
+                    "missing_count": 0
+                },
+                {
+                    "id": "information_processing",
+                    "name": "Information Processing",
+                    "aliases": [
+                        "Insight Extraction"
+                    ],
+                    "status": "available",
+                    "effective_date": null,
+                    "last_updated": null,
+                    "description": "The AI extracts insights, filters out redundant or misleading data, and generates a clear, concise response.",
+                    "category": "Core Functionality",
+                    "missing_count": 0
+                },
+                {
+                    "id": "organized_research_spaces",
+                    "name": "Organized Research Spaces",
+                    "aliases": [
+                        "Spaces"
+                    ],
+                    "status": "available",
+                    "effective_date": null,
+                    "last_updated": null,
+                    "description": "Feature available with Perplexity Pro for organizing research.",
+                    "category": "Productivity",
+                    "missing_count": 0
+                },
+                {
+                    "id": "instant_page_summaries",
+                    "name": "Instant Page Summaries",
+                    "aliases": [
+                        "Webpage Summarization"
+                    ],
+                    "status": "available",
+                    "effective_date": "2023-10-12T00:00:00Z",
+                    "last_updated": null,
+                    "description": "Summarizes any article or webpage at a glance (available via Chrome extension).",
+                    "category": "Utility",
+                    "missing_count": 0
+                },
+                {
+                    "id": "quick_queries",
+                    "name": "Quick Queries",
+                    "aliases": [
+                        "Toolbar Queries"
+                    ],
+                    "status": "available",
+                    "effective_date": "2023-10-12T00:00:00Z",
+                    "last_updated": null,
+                    "description": "Allows asking any question directly from the browser toolbar (available via Chrome extension).",
+                    "category": "Utility",
+                    "missing_count": 0
+                },
+                {
+                    "id": "contextual_understanding",
+                    "name": "Contextual Understanding",
+                    "aliases": [
+                        "Page-aware Answers"
+                    ],
+                    "status": "available",
+                    "effective_date": "2023-10-12T00:00:00Z",
+                    "last_updated": null,
+                    "description": "Provides answers relevant to the current page or specific to the current domain (available via Chrome extension).",
+                    "category": "Utility",
+                    "missing_count": 0
+                },
+                {
+                    "id": "shareable_insights",
+                    "name": "Shareable Insights",
+                    "aliases": [
+                        "Clickable Share Links"
+                    ],
+                    "status": "available",
+                    "effective_date": "2023-10-12T00:00:00Z",
+                    "last_updated": null,
+                    "description": "Easily share discoveries with a clickable link (available via Chrome extension).",
+                    "category": "Collaboration",
+                    "missing_count": 0
+                },
+                {
+                    "id": "dynamic_conversations",
+                    "name": "Dynamic Conversations",
+                    "aliases": [
+                        "Follow-up Questions"
+                    ],
+                    "status": "available",
+                    "effective_date": "2023-10-12T00:00:00Z",
+                    "last_updated": null,
+                    "description": "Click to ask follow-up questions for deeper understanding (available via Chrome extension).",
+                    "category": "Interaction",
+                    "missing_count": 0
+                }
+            ],
             "limitations": [],
-            "notes": []
+            "notes": [
+                {
+                    "id": "legal_scrutiny",
+                    "title": "Legal Scrutiny and Content Scraping Allegations",
+                    "category": "Legal/Ethical",
+                    "status": "available",
+                    "description": "Perplexity AI has faced legal scrutiny over allegations of copyright infringement, unauthorized use of content, and trademark issues from major media organizations. Analyses suggest Perplexity uses un",
+                    "last_updated": null,
+                    "missing_count": 0
+                }
+            ],
+            "status": "available"
         },
         "gemini_notebook": {
             "name": "Gemini Notebook",
-            "last_verified": null,
-            "updated_at": null,
+            "last_verified": "2026-09-21",
+            "updated_at": "2026-09-21",
             "update_failed": false,
-            "sources": [],
-            "models": [],
-            "plans": [],
-            "features": [],
-            "limitations": [],
-            "notes": []
+            "sources": [
+                {
+                    "name": "Organize your projects with notebooks in Gemini Apps - Computer - Google Help",
+                    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG23cWNGxj-q6o74TbNqGKZuET_ksGh13q2tcLieNG6vYtb0LlG_aoC7RN_ti-54BYr-mT9uMPDb07_LkKzvEcxEgHSxVB6UZg0rq1nxeuzGNBKkDIcm9sObyudVN8mFtXToTNo1FewAzOSTTlNe9tcYgHP24xmFHm-73OwGuOUFpEaJhSK4xXClGuA054d",
+                    "verified_at": "2026-09-21"
+                },
+                {
+                    "name": "Gemini Notebook (formerly NotebookLM): AI research and learning assistant tool | Google Workspace",
+                    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHwnn1ew2wMr1tjd1fbbbv6LWKGTe1-q8Gxb4hhHaS9htsy9tuNyWgLCUC7ryovQYfZ2Q3WUGK651UYCEzP-X7wvqsR3Y1v6hFpUP9PoAVak0sdOw34tWQjcp0AFWkkh2hM12PtnVcS7p10hOQfxDLxBA==",
+                    "verified_at": "2026-09-21"
+                },
+                {
+                    "name": "Gemini Notebook - Apps on Google Play",
+                    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEifBXWrXd-ECkn2etYFVLGMNA0DuNZiMu6DKwA9VMuTXZi0bIMxhJgdCLXF1ZiI-ONsIb9iXIo4xFtfMsl5fpd1aUwZM7jv8CXsuw7zcThS7z2cYbfhdRQjM-M-XA3uGP3NXh4cLRQyDpZP4yail4j0ENrR7VF101UjaBUHHLLoatYnX9h8W_kYqWk6sdfB5Ah_g0vW_u8xXJqyqx0HoUR",
+                    "verified_at": "2026-09-21"
+                },
+                {
+                    "name": "What you need to sign in to Gemini Apps - Google Help",
+                    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBQ7rd84p4vbcXaHeh3atCF2IjYTBGsm1IzP-zBhEnjl455Gyff8QsT-K-TOCM0zt2vDFhO1nRucR3BhRueg7QkxGSqEA12xZ8IcDI7MMTVvjiLowZOqPHKfxFrbAFATRPvN4s_tpgzQHC5O1",
+                    "verified_at": "2026-09-21"
+                },
+                {
+                    "name": "Gemini Notebook - Wikipedia",
+                    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGTj05dZrjhGqoGbPslD_GY9kGqGcipp83fLU72ADOjg6npgVhDSNjqPGEw8M5lHBYVYt60RuWluJI9c-1URBygJJONBVr5nhbDQ4PPmOhVeauPxJNKeh4Ta5RRqPwZmhRgGjkOCnkJqQ==",
+                    "verified_at": "2026-09-21"
+                }
+            ],
+            "models": [
+                {
+                    "id": "google_gemini",
+                    "name": "Google Gemini",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "2023",
+                    "last_updated": "2026-09-18",
+                    "description": "Gemini Notebookの基盤となるAIモデル。",
+                    "modalities": [
+                        "text",
+                        "audio",
+                        "video"
+                    ],
+                    "api_available": false,
+                    "missing_count": 0
+                }
+            ],
+            "plans": [
+                {
+                    "id": "free_access",
+                    "name": "無料アクセス",
+                    "aliases": [
+                        "Standard Access"
+                    ],
+                    "status": "available",
+                    "effective_date": "2026-04",
+                    "last_updated": "2026-08-24",
+                    "billing": "無料",
+                    "description": "Gemini Notebookは、現在、有料プランを必要とせずに利用可能です。",
+                    "pricing": [],
+                    "missing_count": 0
+                }
+            ],
+            "features": [
+                {
+                    "id": "quick_summarization",
+                    "name": "クイック要約",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "null",
+                    "last_updated": "null",
+                    "description": "ドキュメントやコンテンツの迅速な要約機能を提供します。",
+                    "category": "AI機能",
+                    "missing_count": 0
+                },
+                {
+                    "id": "note_taking",
+                    "name": "ノート作成",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "null",
+                    "last_updated": "null",
+                    "description": "情報を整理し、ノートを作成する機能です。",
+                    "category": "生産性",
+                    "missing_count": 0
+                },
+                {
+                    "id": "virtual_research_assistant",
+                    "name": "仮想リサーチアシスタント",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "null",
+                    "last_updated": "null",
+                    "description": "ユーザーのリサーチをサポートするAIアシスタント機能です。",
+                    "category": "AI機能",
+                    "missing_count": 0
+                },
+                {
+                    "id": "document_interaction",
+                    "name": "ドキュメントとの対話",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "null",
+                    "last_updated": "null",
+                    "description": "アップロードされたドキュメントと対話する機能を提供します。",
+                    "category": "AI機能",
+                    "missing_count": 0
+                },
+                {
+                    "id": "audio_overviews",
+                    "name": "オーディオ概要",
+                    "aliases": [
+                        "Podcast-style audio discussion"
+                    ],
+                    "status": "available",
+                    "effective_date": "null",
+                    "last_updated": "null",
+                    "description": "アップロードされたコンテンツからポッドキャスト形式のディスカッションを生成し、バックグラウンド再生とオフライン再生に対応しています。",
+                    "category": "AI機能",
+                    "missing_count": 0
+                },
+                {
+                    "id": "video_overview",
+                    "name": "ビデオ概要",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "null",
+                    "last_updated": "null",
+                    "description": "ノート、PDF、ドキュメントなどのコンテンツを、ナレーションとビジュアルを含むAI生成ビデオ要約に変換します。",
+                    "category": "AI機能",
+                    "missing_count": 0
+                },
+                {
+                    "id": "content_transformation",
+                    "name": "コンテンツ変換",
+                    "aliases": [
+                        "Slides",
+                        "Diagrams",
+                        "Charts"
+                    ],
+                    "status": "available",
+                    "effective_date": "null",
+                    "last_updated": "null",
+                    "description": "コンテンツをスライド、図、チャート、画像、フラッシュカード、データテーブルなどの形式に変換する機能です。",
+                    "category": "生産性",
+                    "missing_count": 0
+                },
+                {
+                    "id": "source_upload",
+                    "name": "ソースのアップロード",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "null",
+                    "last_updated": "null",
+                    "description": "PDF、ウェブサイト、YouTubeビデオ、テキストなどのさまざまなソースをアップロードできます。",
+                    "category": "データ管理",
+                    "missing_count": 0
+                },
+                {
+                    "id": "cited_insights",
+                    "name": "引用付きインサイト",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "null",
+                    "last_updated": "null",
+                    "description": "質問への回答にインラインで引用元が示されるため、情報の信頼性が保証されます。",
+                    "category": "AI機能",
+                    "missing_count": 0
+                },
+                {
+                    "id": "personalized_assistant",
+                    "name": "パーソナライズされたAIアシスタント",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "null",
+                    "last_updated": "null",
+                    "description": "ユーザーに合わせたAIリサーチアシスタント機能を提供します。",
+                    "category": "AI機能",
+                    "missing_count": 0
+                },
+                {
+                    "id": "continuous_chat",
+                    "name": "連続チャット体験",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "null",
+                    "last_updated": "null",
+                    "description": "ソース、指示、継続的な議論を記憶するチャット体験をGeminiアプリ内で提供します。",
+                    "category": "連携機能",
+                    "missing_count": 0
+                },
+                {
+                    "id": "project_organization",
+                    "name": "プロジェクト整理",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "null",
+                    "last_updated": "null",
+                    "description": "Geminiアプリ内でプロジェクトを専用の集中空間で整理できます。",
+                    "category": "連携機能",
+                    "missing_count": 0
+                },
+                {
+                    "id": "notebook_management",
+                    "name": "ノートブック管理",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "null",
+                    "last_updated": "null",
+                    "description": "Geminiウェブアプリでノートブックの作成、ピン留め、名前変更が可能です。",
+                    "category": "生産性",
+                    "missing_count": 0
+                },
+                {
+                    "id": "notebook_instructions",
+                    "name": "ノートブックの指示設定",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "null",
+                    "last_updated": "null",
+                    "description": "個々のノートブックに特定の指示を追加できます。",
+                    "category": "生産性",
+                    "missing_count": 0
+                },
+                {
+                    "id": "gemini_apps_connection",
+                    "name": "Gemini Appsとの接続",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "null",
+                    "last_updated": "null",
+                    "description": "Gemini NotebookをGemini Appsに接続して機能を拡張できます。",
+                    "category": "連携機能",
+                    "missing_count": 0
+                }
+            ],
+            "limitations": [
+                {
+                    "id": "age_restriction",
+                    "name": "年齢制限",
+                    "status": "available",
+                    "last_updated": "2026-08-24",
+                    "description": "利用者は18歳以上である必要があります。",
+                    "category": "利用資格",
+                    "missing_count": 0
+                },
+                {
+                    "id": "account_type",
+                    "name": "アカウントの種類",
+                    "status": "available",
+                    "last_updated": "2026-08-24",
+                    "description": "個人のGoogleアカウントを使用する必要があります。",
+                    "category": "利用資格",
+                    "missing_count": 0
+                },
+                {
+                    "id": "app_connection_required",
+                    "name": "Geminiアプリ接続要件",
+                    "status": "available",
+                    "last_updated": "2026-08-24",
+                    "description": "Gemini NotebookをGeminiアプリに接続する必要があります。",
+                    "category": "利用資格",
+                    "missing_count": 0
+                }
+            ],
+            "notes": [
+                {
+                    "id": "former_name",
+                    "title": "旧称",
+                    "category": "製品情報",
+                    "status": "available",
+                    "description": "Gemini Notebookは以前NotebookLMとして知られていました。",
+                    "last_updated": "2026-09-21",
+                    "missing_count": 0
+                },
+                {
+                    "id": "developer",
+                    "title": "開発元",
+                    "category": "製品情報",
+                    "status": "available",
+                    "description": "Google Labsによって開発されました。",
+                    "last_updated": "2026-09-21",
+                    "missing_count": 0
+                },
+                {
+                    "id": "release_year",
+                    "title": "リリース年",
+                    "category": "製品情報",
+                    "status": "available",
+                    "description": "2023年にリリースされました。",
+                    "last_updated": "2026-09-21",
+                    "missing_count": 0
+                },
+                {
+                    "id": "included_with",
+                    "title": "Geminiに付属",
+                    "category": "製品情報",
+                    "status": "available",
+                    "description": "Geminiに付属しています。",
+                    "last_updated": "2026-09-21",
+                    "missing_count": 0
+                }
+            ],
+            "status": "available"
         }
     }
 }

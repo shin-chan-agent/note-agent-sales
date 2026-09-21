@@ -32,3 +32,39 @@ PAID_VALUE: OK
 [2026-09-21 10:44:46] [ERROR] エラー通知のLINE送信にも失敗しました: LINE API Error 400
 {"message":"The property, 'to', in the request body is invalid (line: -, column: -)"}
 [2026-09-21 10:44:47] [INFO] 生成コンテンツをメールへ送信しました。
+[2026-09-21 10:57:51] [INFO] 対象サービス: ['perplexity', 'chatgpt', 'gemini_notebook']
+[2026-09-21 10:57:51] [INFO] DB更新対象: ['perplexity', 'gemini_notebook']
+[2026-09-21 10:57:51] [INFO] バックグラウンド更新対象: claude_code
+[2026-09-21 10:57:51] [INFO] perplexity の最新情報を取得します
+[2026-09-21 10:58:20] [INFO] 取得サービス: perplexity
+[2026-09-21 10:58:20] [INFO] perplexity のAI知識DBへの反映が完了しました
+[2026-09-21 10:58:20] [INFO] gemini_notebook の最新情報を取得します
+[2026-09-21 10:59:51] [INFO] 取得サービス: gemini_notebook
+[2026-09-21 10:59:51] [INFO] gemini_notebook のAI知識DBへの反映が完了しました
+[2026-09-21 10:59:51] [INFO] 対象サービスのAI知識DB更新が完了しました。
+[2026-09-21 10:59:51] [INFO] AI知識DBは安全利用期限内のため、記事生成を続行します。
+[2026-09-21 10:59:51] [INFO] claude_code の最新情報を取得します
+[2026-09-21 11:00:08] [WARNING] Gemini APIリトライ (1/3) : 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+[2026-09-21 11:00:08] [WARNING] 30秒待機します...
+[2026-09-21 11:02:10] [INFO] 取得サービス: claude_code
+[2026-09-21 11:02:10] [INFO] claude_code のAI知識DBへの反映が完了しました
+[2026-09-21 11:02:10] [INFO] バックグラウンドAI知識DB更新が完了しました。
+[2026-09-21 11:03:39] [INFO] 記事スコア：92
+SCORE:92
+SEO:95
+DUPLICATE: OK
+LATEST: OK
+PAID_VALUE: OK
+
+改善点なし
+[2026-09-21 11:03:39] [INFO] 品質スコア：92
+[2026-09-21 11:03:39] [INFO] SEOスコア：95
+[2026-09-21 11:03:39] [INFO] 重複判定：OK
+[2026-09-21 11:03:39] [INFO] 最新情報判定：OK
+[2026-09-21 11:03:39] [INFO] 有料記事価値判定：OK
+[2026-09-21 11:03:39] [INFO] すべての品質基準をクリアしました。
+[2026-09-21 11:04:00] [INFO] 全品質基準をクリアしたため、テーマ×切り口を履歴へ登録しました。
+[2026-09-21 11:04:00] [INFO] 生成コンテンツを保存しました: generated/2026/09/20260921_110400
+[2026-09-21 11:04:00] [INFO] 記事履歴を保存しました。
+[2026-09-21 11:04:01] [INFO] LINEへ完成通知を送信しました。
+[2026-09-21 11:04:02] [INFO] 生成コンテンツをメールへ送信しました。
