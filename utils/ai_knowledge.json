@@ -21582,6 +21582,741 @@
             "api_pricing": [],
             "status": "available",
             "update_failed": false
+        },
+        "copilot": {
+            "name": "Microsoft Copilot",
+            "last_verified": "2026-09-21",
+            "updated_at": "2026-09-21",
+            "update_failed": false,
+            "sources": [
+                {
+                    "name": "Microsoft Copilot Pricing Explained: Plans, Cost & Licensing (2026 Guide)",
+                    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQERI7YMfTe9WTdyz5rxRxo9yB-gnTLt1J9c6UDJ29pwk3C7uWKerjH7w7pFOFtA0Cw7GQgicKd27vwy9h-p6ggl4OMki2xKl26uEqoO0C9KK9w4bYlH268kwXJ6hxYzeQ2N8ooUIl82q8NBDt-f5U5sWxP7_ipS",
+                    "verified_at": "2026-09-21"
+                },
+                {
+                    "name": "Microsoft Copilot vs Copilot Pro: Price & Which to Choose",
+                    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG7zq3d2mCeyto3lRbos1yfS0hb-JOG27HHV9Fu4azfFXrvAR-W7XhoXabx1BF_NwqOMLIdgGLgTY_kia-zhuZhU6A9YdM3s04qtQ4pIgZ3EWwZDw7Kzi-iYNkGoh48Xe9fplkoSR9CX2qfUNY0Hma6YUoeO9ZjoIEc",
+                    "verified_at": "2026-09-21"
+                },
+                {
+                    "name": "Microsoft Copilot Pricing: Plans, Hidden Costs & Management - Reco AI",
+                    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHE_HLOBPnYUbihOdLwVh4wxn6mSnC5i7bH_CfCECYhC-3Di3jc6jBTOOGCTpksUFzS_wiwsMIpbYfuZECAajt6QA3AyzSLLghDr2zf2II5fOBM795z4sYVq_UvBgIjkLG-E-mi2Xmo1YJBAHQ=",
+                    "verified_at": "2026-09-21"
+                },
+                {
+                    "name": "Pricing for microsoft 365 co pilot - Microsoft Q&A",
+                    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUSgJ9HQkhcn9X8MOoQBZMX1scBEkDW8xzkP8McxKNrnX7NJbrQaNNXx9mUiobdp5BVjGsdASdZAFW9MFYAxOKmnu0OmrSHibYmQAGQIIRhaWpP0fd1Ac6UqH1F2QeyQshD_jKrgkEurgJnt9c8lj113U7epn_1nVAFADGvfu-s9NSd7LzWHkjyjEmAUiJ22_Dt2AgFsgy-Q==",
+                    "verified_at": "2026-09-21"
+                },
+                {
+                    "name": "What is Microsoft Copilot?",
+                    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGFv_uI-NluMnk8A_im-BdLZaA4cU7CMyOnPoeSU5dxoCy-sPCdzM7jtqgL8z1-iFbbR4s7eK-fmWJJm7wwWPVFzZ1OYfLyUxsrUERZvNB88RIN7VadddaPCyIAoF1_sqriTMHNekhzfgpHrAbh5UXW3mJfTXdPS4yKWLBloZ2La2FhhGTQ38n5icDECBOLA=",
+                    "verified_at": "2026-09-21"
+                }
+            ],
+            "models": [
+                {
+                    "id": "model-001",
+                    "name": "Microsoft Prometheus model",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "2023-02-01",
+                    "last_updated": "2026-09-21",
+                    "description": "Microsoft Copilotの基盤となる大規模言語モデルで、OpenAIのGPTシリーズを基盤とし、教師あり学習と強化学習でファインチューニングされています。",
+                    "modalities": [
+                        "text"
+                    ],
+                    "api_available": false,
+                    "missing_count": 0
+                },
+                {
+                    "id": "model-002",
+                    "name": "OpenAI GPT-4",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "2023-03-14",
+                    "last_updated": "2026-09-21",
+                    "description": "Microsoft Copilotの一部機能で使用されるOpenAIの大規模言語モデルです。",
+                    "modalities": [
+                        "text"
+                    ],
+                    "api_available": true,
+                    "missing_count": 0
+                },
+                {
+                    "id": "model-003",
+                    "name": "OpenAI GPT-4 Turbo",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "2023-11-06",
+                    "last_updated": "2026-09-21",
+                    "description": "Copilot Proの有料サブスクライバー向けに、優先的にアクセスが提供されるOpenAIの高度なAIモデルです。",
+                    "modalities": [
+                        "text"
+                    ],
+                    "api_available": true,
+                    "missing_count": 0
+                },
+                {
+                    "id": "model-004",
+                    "name": "OpenAI GPT-4o",
+                    "aliases": [],
+                    "status": "discontinued",
+                    "effective_date": "2024-05-13",
+                    "last_updated": "2026-09-21",
+                    "description": "以前Microsoft 365 Copilotのコア推論モデルとして使用されていましたが、現在はGPT-5に移行しています。",
+                    "modalities": [
+                        "text",
+                        "image",
+                        "audio"
+                    ],
+                    "api_available": true,
+                    "missing_count": 0
+                },
+                {
+                    "id": "model-005",
+                    "name": "OpenAI GPT-5",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "2026-01-09",
+                    "last_updated": "2026-09-21",
+                    "description": "Microsoft 365 Copilotのコア推論モデルとして、GPT-4oから移行されました。",
+                    "modalities": [
+                        "text"
+                    ],
+                    "api_available": true,
+                    "missing_count": 0
+                },
+                {
+                    "id": "model-006",
+                    "name": "OpenAI GPT 5.5 (Frontier)",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "2026-09-14",
+                    "last_updated": "2026-09-21",
+                    "description": "Copilot Coworkで利用可能なモデルで、中程度の作業に適しています。",
+                    "modalities": [
+                        "text"
+                    ],
+                    "api_available": true,
+                    "missing_count": 0
+                },
+                {
+                    "id": "model-007",
+                    "name": "OpenAI GPT 5.6 Sol",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "2026-09-14",
+                    "last_updated": "2026-09-21",
+                    "description": "Copilot Coworkで利用可能なモデルで、高度な作業に効率的です。",
+                    "modalities": [
+                        "text"
+                    ],
+                    "api_available": true,
+                    "missing_count": 0
+                },
+                {
+                    "id": "model-008",
+                    "name": "OpenAI GPT 5.6 Terra",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "2026-09-14",
+                    "last_updated": "2026-09-21",
+                    "description": "Copilot Coworkで利用可能なモデルで、一般的なタスクにバランスの取れた性能を発揮します。",
+                    "modalities": [
+                        "text"
+                    ],
+                    "api_available": true,
+                    "missing_count": 0
+                },
+                {
+                    "id": "model-009",
+                    "name": "Anthropic Claude Sonnet 4",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "2025-09-24",
+                    "last_updated": "2026-09-21",
+                    "description": "Copilot Studioでカスタムエージェントの作成に利用可能なAnthropicのモデルです。Microsoft 365 CopilotのResearcherエージェントでも利用できます。",
+                    "modalities": [
+                        "text"
+                    ],
+                    "api_available": true,
+                    "missing_count": 0
+                },
+                {
+                    "id": "model-010",
+                    "name": "Anthropic Claude Opus 4.1",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "2025-09-24",
+                    "last_updated": "2026-09-21",
+                    "description": "Copilot Studioでカスタムエージェントの作成に利用可能なAnthropicのモデルです。Microsoft 365 CopilotのResearcherエージェントでも利用でき、深い推論タスクに適しています。",
+                    "modalities": [
+                        "text"
+                    ],
+                    "api_available": true,
+                    "missing_count": 0
+                },
+                {
+                    "id": "model-011",
+                    "name": "Cowork 1",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "2026-06-16",
+                    "last_updated": "2026-09-21",
+                    "description": "Copilot Coworkの最新モデルで、タスクを大幅に低コストで処理するためにポストトレーニングされています。",
+                    "modalities": [
+                        "text"
+                    ],
+                    "api_available": false,
+                    "missing_count": 0
+                }
+            ],
+            "plans": [
+                {
+                    "id": "plan-001",
+                    "name": "無料版 Microsoft Copilot",
+                    "aliases": [
+                        "Copilot (Free)",
+                        "Copilot Chat"
+                    ],
+                    "status": "available",
+                    "effective_date": "2023-02-01",
+                    "last_updated": "2026-09-21",
+                    "billing": "無料",
+                    "description": "個人のユーザーや中小企業向けの基本的なAIアシスタンス。Webベースのチャット機能を提供し、Windows、Bing、Microsoft 365アプリに統合されています。",
+                    "pricing": [
+                        {
+                            "name": "基本アクセス",
+                            "unit": "ユーザー/月",
+                            "price": "0",
+                            "currency": "USD"
+                        }
+                    ],
+                    "missing_count": 0
+                },
+                {
+                    "id": "plan-002",
+                    "name": "Microsoft Copilot Pro",
+                    "aliases": [
+                        "Copilot Pro"
+                    ],
+                    "status": "available",
+                    "effective_date": "2024-01-15",
+                    "last_updated": "2026-09-21",
+                    "billing": "月払い",
+                    "description": "個人の生産性向上を目的としたプレミアムAIサブスクリプション。Microsoft 365 PersonalまたはFamilyサブスクライバー向けのWord、Excel、PowerPoint、Outlook、OneNoteへのCopilot統合、最新AIモデルへの優先アクセス、強化された画像生成機能（1日100ブースト）が含まれます。",
+                    "pricing": [
+                        {
+                            "name": "標準価格",
+                            "unit": "ユーザー/月",
+                            "price": "20",
+                            "currency": "USD"
+                        }
+                    ],
+                    "missing_count": 0
+                },
+                {
+                    "id": "plan-003",
+                    "name": "Microsoft 365 Copilot Business",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "2025-12-01",
+                    "last_updated": "2026-09-21",
+                    "billing": "年払い/月払い",
+                    "description": "適格なMicrosoft 365ビジネスプランを利用する組織向けのCopilotアドオン。Microsoft 365アプリにAIを統合し、組織のデータへのアクセスを提供します。2025年12月1日より月額30ドルから21ドルに値下げされました。",
+                    "pricing": [
+                        {
+                            "name": "年額コミットメント",
+                            "unit": "ユーザー/月",
+                            "price": "21",
+                            "currency": "USD"
+                        },
+                        {
+                            "name": "月額コミットメント",
+                            "unit": "ユーザー/月",
+                            "price": "25.20",
+                            "currency": "USD"
+                        }
+                    ],
+                    "missing_count": 0
+                },
+                {
+                    "id": "plan-004",
+                    "name": "Microsoft 365 Copilot Enterprise",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "2023-03-16",
+                    "last_updated": "2026-09-21",
+                    "billing": "年払い",
+                    "description": "適格なMicrosoft 365エンタープライズプランを利用する大企業向けのCopilotアドオン。Microsoft 365アプリへのAI統合、組織データへのアクセス、エンタープライズグレードのセキュリティ、プライバシー、コンプライアンスを提供します。",
+                    "pricing": [
+                        {
+                            "name": "標準価格",
+                            "unit": "ユーザー/月",
+                            "price": "30",
+                            "currency": "USD"
+                        }
+                    ],
+                    "missing_count": 0
+                },
+                {
+                    "id": "plan-005",
+                    "name": "Microsoft Copilot Studio",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "2023-11-01",
+                    "last_updated": "2026-09-21",
+                    "billing": "テナント/月",
+                    "description": "組織がAIを搭載したCopilotをカスタマイズし、作成するためのローコードプラットフォーム。ウェブサイト、内部ビジネスワークフロー、および外部データソースに接続できます。",
+                    "pricing": [
+                        {
+                            "name": "テナントごとの開始価格",
+                            "unit": "テナント/月",
+                            "price": "200",
+                            "currency": "USD"
+                        }
+                    ],
+                    "missing_count": 0
+                },
+                {
+                    "id": "plan-006",
+                    "name": "Copilot Cowork",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "2026-06-16",
+                    "last_updated": "2026-09-21",
+                    "billing": "使用量ベース",
+                    "description": "複雑で実行時間の長いマルチツールタスクを実行するCopilot。作業を定義すると、Coworkがエンドツーエンドで実行し、完了した結果を返します。Microsoft 365 Copilot User Subscription License (USL)が必要です。",
+                    "pricing": [
+                        {
+                            "name": "基本価格",
+                            "unit": "Microsoft 365 Copilot USLが必要",
+                            "price": "N/A",
+                            "currency": "USD"
+                        },
+                        {
+                            "name": "使用量",
+                            "unit": "タスク実行ごと",
+                            "price": "変数",
+                            "currency": "USD"
+                        }
+                    ],
+                    "missing_count": 0
+                }
+            ],
+            "features": [
+                {
+                    "id": "feature-001",
+                    "name": "AIチャット",
+                    "aliases": [
+                        "Copilot Chat"
+                    ],
+                    "status": "available",
+                    "effective_date": "2023-02-01",
+                    "last_updated": "2026-09-21",
+                    "description": "テキストプロンプトに基づいて応答を生成するAIアシスタント。一般的な質問への回答、コンテンツの作成、Webベースの調査などに利用できます。",
+                    "category": "汎用AIアシスタンス",
+                    "missing_count": 0
+                },
+                {
+                    "id": "feature-002",
+                    "name": "Microsoft 365アプリとの統合",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "2023-03-16",
+                    "last_updated": "2026-09-21",
+                    "description": "Word、Excel、PowerPoint、Outlook、OneNote、TeamsなどのMicrosoft 365アプリケーション内でAIアシスタンスを提供します。ドキュメントの作成、データ分析、プレゼンテーション作成、メール管理、会議の要約などを効率化します。",
+                    "category": "生産性向上",
+                    "missing_count": 0
+                },
+                {
+                    "id": "feature-003",
+                    "name": "コンテンツ生成",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "2023-03-16",
+                    "last_updated": "2026-09-21",
+                    "description": "レポート、プレゼンテーション、メールのドラフト作成、既存のコンテンツの改訂、トーンの提案、アウトラインからのテキスト生成など、多様なコンテンツを作成します。",
+                    "category": "生産性向上",
+                    "missing_count": 0
+                },
+                {
+                    "id": "feature-004",
+                    "name": "データ分析",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "2023-03-16",
+                    "last_updated": "2026-09-21",
+                    "description": "Excelでデータトレンドの分析、数式の生成、データの可視化を支援し、意思決定を簡素化します。",
+                    "category": "生産性向上",
+                    "missing_count": 0
+                },
+                {
+                    "id": "feature-005",
+                    "name": "プレゼンテーション作成",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "2023-03-16",
+                    "last_updated": "2026-09-21",
+                    "description": "PowerPointでプロンプトや既存のコンテンツから視覚的に魅力的なプレゼンテーションを作成し、AIによるデザイン提案を提供します。",
+                    "category": "生産性向上",
+                    "missing_count": 0
+                },
+                {
+                    "id": "feature-006",
+                    "name": "メールとコミュニケーションの管理",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "2023-03-16",
+                    "last_updated": "2026-09-21",
+                    "description": "Outlookでメールスレッドの要約、指定されたトーンと長さでのメールのドラフト作成、メールのトーンと構造の調整を支援します。",
+                    "category": "生産性向上",
+                    "missing_count": 0
+                },
+                {
+                    "id": "feature-007",
+                    "name": "会議の要約とプロジェクト管理",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "2023-03-16",
+                    "last_updated": "2026-09-21",
+                    "description": "Teamsで会議の記録、メモの作成、会話に基づいたアクションアイテムの生成、タスクとスケジュールの追跡を容易にします。",
+                    "category": "生産性向上",
+                    "missing_count": 0
+                },
+                {
+                    "id": "feature-008",
+                    "name": "AI画像生成",
+                    "aliases": [
+                        "Image Creator from Designer"
+                    ],
+                    "status": "available",
+                    "effective_date": "2023-02-01",
+                    "last_updated": "2026-09-21",
+                    "description": "テキストプロンプトに基づいて画像を生成します。Copilot Proでは1日100ブーストの強化された画像生成が可能です。",
+                    "category": "クリエイティブツール",
+                    "missing_count": 0
+                },
+                {
+                    "id": "feature-009",
+                    "name": "最新AIモデルへの優先アクセス",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "2024-01-15",
+                    "last_updated": "2026-09-21",
+                    "description": "Copilot Proのサブスクライバーは、ピーク時でも最新のAIモデルに優先的にアクセスでき、より高速な応答と一貫したパフォーマンスが保証されます。",
+                    "category": "パフォーマンス",
+                    "missing_count": 0
+                },
+                {
+                    "id": "feature-010",
+                    "name": "Work IQ (Microsoft Graph連携)",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "2023-03-16",
+                    "last_updated": "2026-09-21",
+                    "description": "Microsoft 365 Copilotにおいて、組織のMicrosoft 365データ（ファイル、メール、チャットなど）をコンテキストとして利用し、パーソナライズされた応答を生成します。",
+                    "category": "データ統合",
+                    "missing_count": 0
+                },
+                {
+                    "id": "feature-011",
+                    "name": "推論AI",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "2023-03-16",
+                    "last_updated": "2026-09-21",
+                    "description": "Microsoft 365 Copilotで利用可能な、研究やデータ分析のための高度なAI機能。",
+                    "category": "高度なAI機能",
+                    "missing_count": 0
+                },
+                {
+                    "id": "feature-012",
+                    "name": "事前構築済みMicrosoftエージェント",
+                    "aliases": [
+                        "Researcher",
+                        "Analyst",
+                        "Facilitator"
+                    ],
+                    "status": "available",
+                    "effective_date": "2023-03-16",
+                    "last_updated": "2026-09-21",
+                    "description": "Microsoft 365 Copilotに含まれる、特定のタスクを支援するエージェント。",
+                    "category": "高度なAI機能",
+                    "missing_count": 0
+                },
+                {
+                    "id": "feature-013",
+                    "name": "カスタムエージェントの作成",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "2023-11-01",
+                    "last_updated": "2026-09-21",
+                    "description": "Copilot Studioを通じて、組織固有のニーズに合わせてAIを搭載したCopilotエージェントを作成およびカスタマイズできます。",
+                    "category": "カスタマイズ",
+                    "missing_count": 0
+                },
+                {
+                    "id": "feature-014",
+                    "name": "プラグインによる拡張性",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "2023-11-01",
+                    "last_updated": "2026-09-21",
+                    "description": "Instacart、Kayak、Klarna、OpenTable、Shopifyなどのサードパーティ製アプリケーションとの連携を可能にするプラグインをサポートします。",
+                    "category": "データ統合",
+                    "missing_count": 0
+                },
+                {
+                    "id": "feature-015",
+                    "name": "LLMモデルの選択",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "2025-09-24",
+                    "last_updated": "2026-09-21",
+                    "description": "Copilot Studioや一部のMicrosoft 365 Copilot体験（Researcherエージェントなど）で、OpenAIやAnthropicのモデルなど、利用可能な複数のモデルから選択できます。",
+                    "category": "カスタマイズ",
+                    "missing_count": 0
+                },
+                {
+                    "id": "feature-016",
+                    "name": "Copilot Cowork",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "2026-06-16",
+                    "last_updated": "2026-09-21",
+                    "description": "複雑で実行時間の長いマルチツールタスクをエンドツーエンドで実行し、完了した結果を返す機能。クラウドホスティング、ネイティブWork IQサポート、モデル選択、プラグインによる拡張性、コスト管理機能が含まれます。",
+                    "category": "ワークフロー自動化",
+                    "missing_count": 0
+                },
+                {
+                    "id": "feature-017",
+                    "name": "コードインタプリタ",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "2026-01-08",
+                    "last_updated": "2026-09-21",
+                    "description": "Microsoft 365 Copilotにおいて、コードの分析や実行を支援する機能。",
+                    "category": "開発支援",
+                    "missing_count": 0
+                },
+                {
+                    "id": "feature-018",
+                    "name": "Deep Research",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "2026-01-08",
+                    "last_updated": "2026-09-21",
+                    "description": "Copilot Proの機能で、詳細なマルチソースレポートを提供します。",
+                    "category": "調査・分析",
+                    "missing_count": 0
+                }
+            ],
+            "limitations": [
+                {
+                    "id": "limitation-001",
+                    "name": "無料版Copilotでの画像生成制限",
+                    "status": "available",
+                    "last_updated": "2025-05-20",
+                    "description": "Microsoft 365 CopilotライセンスのないCopilot Chatユーザーは、2025年4月下旬から画像生成数に日次制限があります。制限数は非公開で変更される可能性があります。",
+                    "category": "使用制限",
+                    "missing_count": 0
+                },
+                {
+                    "id": "limitation-002",
+                    "name": "Copilot ProとTeamsの非互換性",
+                    "status": "available",
+                    "last_updated": "2026-07-27",
+                    "description": "Copilot ProはTeamsアプリと互換性がなく、TeamsでのAIアシスタンスは提供されません。",
+                    "category": "機能制限",
+                    "missing_count": 0
+                },
+                {
+                    "id": "limitation-003",
+                    "name": "精度の低さと推論能力",
+                    "status": "available",
+                    "last_updated": "2025-11-08",
+                    "description": "一部の企業導入において、Copilotの精度と推論能力が最先端のモデルに比べて劣るという報告があります。",
+                    "category": "AI性能",
+                    "missing_count": 0
+                },
+                {
+                    "id": "limitation-004",
+                    "name": "Microsoft 365エコシステムとの統合の不整合",
+                    "status": "available",
+                    "last_updated": "2025-11-08",
+                    "description": "Microsoft 365エコシステムとの接続に一貫性がない場合があります。",
+                    "category": "統合",
+                    "missing_count": 0
+                },
+                {
+                    "id": "limitation-005",
+                    "name": "一貫性のない長期記憶",
+                    "status": "available",
+                    "last_updated": "2026-05-19",
+                    "description": "現在のMicrosoft Copilot 365の導入では、セッション間の記憶が不足しており、ウィンドウやセッションを閉じるとほとんどの履歴を忘れてしまいます。これにより、コンテキストの再確立や指示の繰り返しが必要になることがあります。",
+                    "category": "AI性能",
+                    "missing_count": 0
+                },
+                {
+                    "id": "limitation-006",
+                    "name": "異なるMicrosoftサービス間での記憶の一貫性の変動",
+                    "status": "available",
+                    "last_updated": "2026-02-10",
+                    "description": "Copilot in Windows、Copilot in Edge、Copilot Chat for work、Officeアプリに組み込まれたCopilotなど、異なるMicrosoftサービス間で記憶の深さや会話の永続性が異なる場合があります。",
+                    "category": "機能制限",
+                    "missing_count": 0
+                },
+                {
+                    "id": "limitation-007",
+                    "name": "高度な機能へのアクセス要件",
+                    "status": "available",
+                    "last_updated": "2026-02-10",
+                    "description": "Microsoft 365 Copilotの最も強力な機能を利用するには、適格なMicrosoft 365サブスクリプション、Exchange Onlineメールボックス、および管理されたAzure Active Directoryテナントが必要です。",
+                    "category": "利用条件",
+                    "missing_count": 0
+                },
+                {
+                    "id": "limitation-008",
+                    "name": "Microsoft 365 Personal/FamilyでのAI機能共有不可",
+                    "status": "available",
+                    "last_updated": "2026-06-27",
+                    "description": "Microsoft 365 FamilyおよびPersonalプランのCopilot AI機能は、サブスクリプション所有者のみが利用でき、他のプランメンバーと共有できません。",
+                    "category": "共有制限",
+                    "missing_count": 0
+                },
+                {
+                    "id": "limitation-009",
+                    "name": "Excel CopilotでのAutoSave要件",
+                    "status": "available",
+                    "last_updated": "2026-09-21",
+                    "description": "ExcelのCopilot機能はAutoSaveが有効になっている必要があり、ファイルがOneDriveに保存されている必要があります。",
+                    "category": "利用条件",
+                    "missing_count": 0
+                },
+                {
+                    "id": "limitation-010",
+                    "name": "その他の機能における明示的な上限",
+                    "status": "available",
+                    "last_updated": "2026-05-11",
+                    "description": "Actions、Vision、Voiceなどの機能には、明示的な使用制限（例：月あたりのタスク数、1日あたりの分数）が設定されています。",
+                    "category": "使用制限",
+                    "missing_count": 0
+                },
+                {
+                    "id": "limitation-011",
+                    "name": "市場と言語による利用可能性の制限",
+                    "status": "available",
+                    "last_updated": "2026-09-21",
+                    "description": "Microsoft 365 Copilotは、すべての市場と言語で利用できるわけではありません。",
+                    "category": "利用地域",
+                    "missing_count": 0
+                }
+            ],
+            "notes": [
+                {
+                    "id": "note-001",
+                    "title": "Microsoft Copilotの名称変更",
+                    "category": "一般情報",
+                    "status": "available",
+                    "description": "以前はMicrosoft 365 CopilotはMicrosoft Copilot、Microsoft 365 Copilot ChatはMicrosoft Copilot Chatという名称でしたが、現在は移行期間中で、一部の体験やライセンス、機能では古い名称が使用されている場合があります。",
+                    "last_updated": "2026-08-18",
+                    "missing_count": 0
+                },
+                {
+                    "id": "note-002",
+                    "title": "基盤LLMのトレーニングデータとしての不使用",
+                    "category": "プライバシー",
+                    "status": "available",
+                    "description": "プロンプト、応答、およびMicrosoft Graphを通じてアクセスされるデータは、基盤となるLLMのトレーニングには使用されません。",
+                    "last_updated": "2026-08-18",
+                    "missing_count": 0
+                },
+                {
+                    "id": "note-003",
+                    "title": "GDPRおよびEUデータ境界の遵守",
+                    "category": "コンプライアンス",
+                    "status": "available",
+                    "description": "Microsoft Copilotは、GDPRおよびEUデータ境界を含むMicrosoft 365商用顧客への既存のプライバシー、セキュリティ、およびコンプライアンスのコミットメントに準拠しています。",
+                    "last_updated": "2026-08-18",
+                    "missing_count": 0
+                },
+                {
+                    "id": "note-004",
+                    "title": "フリーミアムモデル",
+                    "category": "ビジネスモデル",
+                    "status": "available",
+                    "description": "MicrosoftはCopilotをフリーミアムモデルで運用しています。無料版でほとんどの機能にアクセスでき、有料サブスクライバーには新機能への優先アクセスが提供されます。",
+                    "last_updated": "2026-07-25",
+                    "missing_count": 0
+                },
+                {
+                    "id": "note-005",
+                    "title": "Copilot ProとMicrosoft 365 Premiumのバンドル",
+                    "category": "プラン",
+                    "status": "available",
+                    "description": "2025年10月1日以降、Copilot Proはスタンドアロンアドオンとしては販売されていません。代わりに、既存のサブスクライバーおよび新規ユーザーは、Microsoft 365 Familyの標準特典とCopilot Proの高度なAI機能を組み合わせたMicrosoft 365 Premiumプランに誘導されます。",
+                    "last_updated": "2026-01-22",
+                    "missing_count": 0
+                },
+                {
+                    "id": "note-006",
+                    "title": "Copilot Coworkの課金開始",
+                    "category": "利用状況",
+                    "status": "available",
+                    "description": "Copilot Coworkの課金は2026年7月1日から開始されており、管理者は使用量ベースの請求に対して支出制限と予算を割り当てることができます。",
+                    "last_updated": "2026-06-16",
+                    "missing_count": 0
+                },
+                {
+                    "id": "note-007",
+                    "title": "Anthropicモデルのエンタープライズデータ保護",
+                    "category": "セキュリティ",
+                    "status": "available",
+                    "description": "Microsoft Copilot体験内でサブプロセッサとして提供されるAnthropicモデルは、Microsoft Enterpriseのデータ保護のもとで運用されます。",
+                    "last_updated": "2026-09-17",
+                    "missing_count": 0
+                }
+            ],
+            "status": "available"
+        },
+        "claude_code": {
+            "name": "Claude Code",
+            "last_verified": null,
+            "updated_at": null,
+            "update_failed": false,
+            "sources": [],
+            "models": [],
+            "plans": [],
+            "features": [],
+            "limitations": [],
+            "notes": []
+        },
+        "perplexity": {
+            "name": "Perplexity",
+            "last_verified": null,
+            "updated_at": null,
+            "update_failed": false,
+            "sources": [],
+            "models": [],
+            "plans": [],
+            "features": [],
+            "limitations": [],
+            "notes": []
+        },
+        "gemini_notebook": {
+            "name": "Gemini Notebook",
+            "last_verified": null,
+            "updated_at": null,
+            "update_failed": false,
+            "sources": [],
+            "models": [],
+            "plans": [],
+            "features": [],
+            "limitations": [],
+            "notes": []
         }
     }
 }
