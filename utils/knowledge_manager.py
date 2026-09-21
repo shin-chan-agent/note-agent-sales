@@ -104,6 +104,28 @@ def load_knowledge():
     if "services" not in data:
         data["services"] = {}
 
+    # config.pyに追加された新しいサービスを
+    # 既存DBへ自動追加する
+    for service_id, service in AI_SERVICES.items():
+
+        if service_id in data["services"]:
+            continue
+
+        data["services"][service_id] = {
+            "name": service["name"],
+            "last_verified": None,
+            "updated_at": None,
+            "update_failed": False,
+            "sources": [],
+            "models": [],
+            "plans": [],
+            "features": [],
+            "limitations": [],
+            "notes": [],
+        }
+
+    save_knowledge(data)
+
     return data
 
 
