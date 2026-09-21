@@ -74,6 +74,43 @@ AI_SERVICES = {
             "support.capcut.com",
         ],
     },
+
+    "copilot": {
+        "name": "Microsoft Copilot",
+        "enabled": True,
+        "official_domains": [
+            "copilot.com",
+            "support.microsoft.com",
+            "learn.microsoft.com",
+        ],
+    },
+
+    "claude_code": {
+        "name": "Claude Code",
+        "enabled": True,
+        "official_domains": [
+            "anthropic.com",
+            "docs.anthropic.com",
+            "docs.claude.com",
+        ],
+    },
+
+    "perplexity": {
+        "name": "Perplexity",
+        "enabled": True,
+        "official_domains": [
+            "perplexity.ai",
+        ],
+    },
+
+    "gemini_notebook": {
+        "name": "Gemini Notebook",
+        "enabled": True,
+        "official_domains": [
+            "support.google.com",
+            "blog.google",
+        ],
+    },
 }
 
 
