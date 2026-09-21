@@ -344,7 +344,7 @@ def generate_and_send_line():
     prompt = get_article_prompt(
         theme,
         angle,
-        target_services,
+        services,
         knowledge,
         past_articles_text,
         current_date,
