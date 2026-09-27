@@ -1,0 +1,39 @@
+[2026-09-28 04:47:53] [INFO] 対象サービス: ['perplexity', 'gemini_notebook', 'claude']
+[2026-09-28 04:47:53] [INFO] DB更新対象: ['perplexity', 'gemini_notebook']
+[2026-09-28 04:47:53] [INFO] バックグラウンド更新対象: canva
+[2026-09-28 04:47:54] [INFO] perplexity の最新情報を取得します
+[2026-09-28 04:49:06] [INFO] 取得サービス: perplexity
+[2026-09-28 04:49:06] [INFO] perplexity のAI知識DBへの反映が完了しました
+[2026-09-28 04:49:06] [INFO] gemini_notebook の最新情報を取得します
+[2026-09-28 04:51:08] [ERROR] JSON解析失敗: gemini_notebook
+[2026-09-28 04:51:08] [ERROR] 
+JSONの解析に失敗しました。
+
+位置: line=144, column=262, pos=10710
+
+エラー:
+Invalid control character at: line 144 column 262 (char 10710)
+
+対象:
+ng-api-redirect/AUZIYQGLY7k2vEihOPyy5LDMryRo3QDK5Ur8-Am71IJfjq3cSKfmA8I6BfydqS81nl2xWWp1I4CSjzoqcSOIiUCjIenek02pwP8fWAQ4O239Mn2PpYZ_bN2LZNklCO2672itlrbf-R3OQ1z5auFcq2hhFdrTyz-nwmJVAyFuMMkCcTzU3WFhDEzj
+  ],
+  "models": [
+    {
+      "id": "gemini-ultra",
+      "name": "Gemini Ultra",
+      "aliases": [],
+      "status": "available",
+      "effective_date": "2023-12-13",
+      "last_updated": "2023-
+
+[2026-09-28 04:51:08] [INFO] 対象サービスのAI知識DB更新が完了しました。
+[2026-09-28 04:51:08] [INFO] AI知識DBは安全利用期限内のため、記事生成を続行します。
+[2026-09-28 04:51:08] [INFO] canva の最新情報を取得します
+[2026-09-28 04:52:22] [INFO] 取得サービス: canva
+[2026-09-28 04:52:22] [INFO] canva のAI知識DBへの反映が完了しました
+[2026-09-28 04:52:22] [INFO] バックグラウンドAI知識DB更新が完了しました。
+[2026-09-28 04:53:35] [WARNING] 記事文字数超過（20903文字）。再生成します。
+[2026-09-28 04:54:48] [WARNING] 記事文字数超過（20349文字）。再生成します。
+[2026-09-28 04:56:22] [WARNING] 記事文字数超過（21226文字）。再生成します。
+[2026-09-28 04:56:22] [ERROR] 記事生成エラー: cannot access local variable 'evaluation' where it is not associated with a value
+[2026-09-28 04:56:22] [INFO] エラー通知をLINEへ送信しました。
