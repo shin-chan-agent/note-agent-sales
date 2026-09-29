@@ -25258,34 +25258,34 @@
         },
         "claude_code": {
             "name": "Claude Code",
-            "last_verified": "2026-09-21",
-            "updated_at": "2026-09-21",
+            "last_verified": "2026-09-30",
+            "updated_at": "2026-09-30",
             "update_failed": false,
             "sources": [
                 {
-                    "name": "Claude 3 Haiku - API Pricing & Benchmarks - OpenRouter",
-                    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGsaoi8NSCeX8hZaq3CyoiSpT8iaPGMsVTv3viGGwWQDCUOYxlYW5UQrRVHZp46PvZNen8PpbYz8oEIJ5Rb78YJbaIunBNk0gqKN7gZzeJ_uJ85kuCeLvWjrjSR1TgU-EWpmREw7edO5iI=",
-                    "verified_at": "2026-09-21"
+                    "name": "CloudZero - Claude pricing in 2026",
+                    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFrNSNtXqpfiBZd7cgFmxZ1s1FeqSdwMd3fJzialVhx96E-x2WjtVMn6ARet0edr8yt4yO0lmi_RyxHI7lg5D3BAdCPTO9Tnt6z7ifCunHx1jLx6oPTe-IWLve1ZwAQZpewSKmPXM3L0lw=",
+                    "verified_at": "2026-09-14"
                 },
                 {
-                    "name": "claude-3.5-sonnet Cost Calculator - Vercel Ai Gateway | Bifrost",
-                    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEK9xhJ3dKAySXJb0kS43fn4o8aF5-HAFP0BiY-akMDe_QKP3lobCWfbfweWMDL1_frsJCMHa-P6n5FL0wXHvs5sun2-dQvBLJeDkS-0_GRYgRqPuhiS3Kph9_eomLIICWVXWRPWrRnkbyipVADWQ2e87cn5PhRe1JWO546uQfN3WEzntsCGtrIQ3ODfX_ahzPbyqcTnu9bo85GD5mVGthqqA==",
-                    "verified_at": "2026-09-21"
+                    "name": "Morph - Claude Code Pricing (2026)",
+                    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHmBg-6OzNdIkjQPpBKk9doIz3JLtF1YmrXD6R6uvtmxJge5ACk2il4RzImgtrdQjf52hnlKp6arY_7NSlznpMD3QlOhE0jHvJukbp-86c5HkiZ-OOSPrptW7fungzbq2PtJZUiVqPW",
+                    "verified_at": "2026-09-19"
                 },
                 {
-                    "name": "Claude Pricing 2026: Plans, Team, and API Costs - Blockchain Council",
-                    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZ2KzmmWrSFxShY8Jk9sm5iLXgp4BO1cFoXq5vavdFeF1RlrNG3drWnRx3PANyZK6u1w-L6dZ67DqDkA51e3Iu3ToEqK0GCTUE81YnWJf2l95x35aKOPvBI30Et5PzoLlXb_pHpPp5hkkEN-6J1wZD1y2xEyYqXQ==",
-                    "verified_at": "2026-09-21"
+                    "name": "Fello AI - Claude Pricing 2026",
+                    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrHLPIT-mPIGE10io1jBGH8ku8BRx8pHbiYNPBUGdy5BhiETHywoqE4BR9B4nubOaRVb_9vnX1SDOh27t6M5ufiUzoK6NPgfDxIG8FjRcfTOL9w4LqlQ4mNenZCK7e",
+                    "verified_at": "2026-09-29"
                 },
                 {
-                    "name": "Claude 3 Haiku Pricing - anthropic | LLM API Costs",
-                    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEieVbaUdyAEaiLJ42xAbTPzVT_2RN3CeIrWvej64ycQIS5kW7uwCSKRycAYGHV63ARCyC2WUhR005lkev86pqDmLjM705le2H7qT1SG_Es-fUMrSFLO5TwrkdD7YAXUr6-y_0QuvfQH99HGGF5dJ2HMV1uSqmfBVvmANVlsNs=",
-                    "verified_at": "2026-09-21"
+                    "name": "BenchLM.ai - Claude API Pricing (September 2026)",
+                    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFPkXaMWtXv7GQVa0-pFSXlabBrFL_yo4tSxeIgizkvQfp46Pwi4nEEQsM6DwPeQkPfg6tGrMyirLkiD3u-03IoDSSu1HARVChZxGyX4Mdt0JbU5kcP5T6wMJVCxjmr9RHWq9E=",
+                    "verified_at": "2026-09-28"
                 },
                 {
-                    "name": "Claude 3 Sonnet - Intelligence, Performance & Price Analysis",
-                    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGinIS2r5kIGx-DYc1U4xIyDXMmBba71q9WQBFaKqQdZW-lnmjy_qJ8h-NInL-iH9A4JMWCzP2xOEz9IaOdvbl1Wn1nFJBbQdZqE8pEPu8wcCJc_sXiYXRELDIz_BeWS3W2g2F5vU1PrEc23lNI-_c=",
-                    "verified_at": "2026-09-21"
+                    "name": "Gradually AI - Claude Models Explained",
+                    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF53B8w6Egr4UCeJSFdkvY5tmct3G5ewQN3YiHdasbA3N3Cts1cY6ZXQ71flqBiAiszJlgZTsdJZtyCnmKYLKh0bhYQkEFCeiQSAp56143VnRgNdB7PSCDmACxB76CFGzt0AXQ8Gw==",
+                    "verified_at": "2026-09-29"
                 }
             ],
             "models": [
@@ -25293,12 +25293,12 @@
                     "id": "claude-fable-5-1",
                     "name": "Claude Fable 5.1",
                     "aliases": [
-                        "Fable 5"
+                        "Fable 5.1"
                     ],
                     "status": "available",
-                    "effective_date": "2026-06-09",
-                    "last_updated": "2026-09-21",
-                    "description": "Anthropicの最上位モデル。",
+                    "effective_date": "2026-09-01",
+                    "last_updated": "2026-09-29",
+                    "description": "Anthropic's frontier model optimized for long-running agents, coding, research, and office files, featuring a 1M-token context window and high output token limits.",
                     "modalities": [
                         "text",
                         "image"
@@ -25319,20 +25319,18 @@
                         "image"
                     ],
                     "api_available": true,
-                    "missing_count": 0
+                    "missing_count": 1
                 },
                 {
                     "id": "claude-opus-5",
                     "name": "Claude Opus 5",
                     "aliases": [
-                        "Opus 4.8",
-                        "Opus 4.7",
-                        "Opus 4.6"
+                        "Opus 5"
                     ],
                     "status": "available",
                     "effective_date": "null",
-                    "last_updated": "2026-09-21",
-                    "description": "複雑な推論と高度なタスクのためのフラッグシップモデル。最も知的で、高度な分析、研究、タスク自動化に適している。",
+                    "last_updated": "2026-09-29",
+                    "description": "An older, legacy Opus model, still available via API with its own pricing. Offers a context window of up to 1M tokens.",
                     "modalities": [
                         "text",
                         "image"
@@ -25344,14 +25342,12 @@
                     "id": "claude-sonnet-5",
                     "name": "Claude Sonnet 5",
                     "aliases": [
-                        "Claude 3.5 Sonnet",
-                        "Sonnet 4.6",
-                        "Sonnet"
+                        "Sonnet 5"
                     ],
                     "status": "available",
-                    "effective_date": "2026-06-21",
-                    "last_updated": "2026-09-21",
-                    "description": "インテリジェンスとスピードのバランスが取れたミドルティアモデル。企業向けワークロードに適しており、幅広い評価で競合モデルやClaude 3 Opusを上回る性能を発揮する。",
+                    "effective_date": "null",
+                    "last_updated": "2026-09-29",
+                    "description": "An older, legacy Sonnet model, often the default for Free and Pro users, available via API with its own pricing. Offers a context window of up to 1M tokens.",
                     "modalities": [
                         "text",
                         "image"
@@ -25363,13 +25359,12 @@
                     "id": "claude-haiku-4-5",
                     "name": "Claude Haiku 4.5",
                     "aliases": [
-                        "Claude 3 Haiku",
-                        "Haiku"
+                        "Haiku 4.5"
                     ],
                     "status": "available",
                     "effective_date": "null",
-                    "last_updated": "2026-09-21",
-                    "description": "最速かつ最もコンパクトなモデルで、低レイテンシーのタスクに最適化されている。高ボリュームのタスク向けのコスト効率の良いオプション。",
+                    "last_updated": "2026-09-29",
+                    "description": "Optimized for speed, low latency, and inexpensive high-volume work, with a context window of up to 1M tokens.",
                     "modalities": [
                         "text",
                         "image"
@@ -25385,6 +25380,57 @@
                     "effective_date": "2024-03-04",
                     "last_updated": "2026-09-21",
                     "description": "Anthropicの初期のOpusティアのフラッグシップモデル。新しいプロジェクトにはOpus 4.7またはSonnet 4.6が推奨されている。",
+                    "modalities": [
+                        "text",
+                        "image"
+                    ],
+                    "api_available": true,
+                    "missing_count": 1
+                },
+                {
+                    "id": "claude-opus-5-5",
+                    "name": "Claude Opus 5.5",
+                    "aliases": [
+                        "Opus 5.5"
+                    ],
+                    "status": "available",
+                    "effective_date": "2026-09-22",
+                    "last_updated": "2026-09-29",
+                    "description": "The newest Opus model, reaching Fable 5.1-level performance on most work and designed as a daily driver. It offers a context window of up to 1M tokens.",
+                    "modalities": [
+                        "text",
+                        "image"
+                    ],
+                    "api_available": true,
+                    "missing_count": 0
+                },
+                {
+                    "id": "claude-sonnet-5-5",
+                    "name": "Claude Sonnet 5.5",
+                    "aliases": [
+                        "Sonnet 5.5"
+                    ],
+                    "status": "available",
+                    "effective_date": "2026-09-28",
+                    "last_updated": "2026-09-29",
+                    "description": "A faster, lower-cost complement for well-scoped everyday tasks with a context window of up to 1M tokens.",
+                    "modalities": [
+                        "text",
+                        "image"
+                    ],
+                    "api_available": true,
+                    "missing_count": 0
+                },
+                {
+                    "id": "claude-3-5-sonnet",
+                    "name": "Claude 3.5 Sonnet",
+                    "aliases": [
+                        "3.5 Sonnet"
+                    ],
+                    "status": "available",
+                    "effective_date": "2024-06-20",
+                    "last_updated": "2024-06-21",
+                    "description": "A powerful model excelling in code generation and building prototypes with Artifacts. It is also Anthropic's strongest vision model. It has a 200K token context window.",
                     "modalities": [
                         "text",
                         "image"
@@ -25411,7 +25457,7 @@
                             "currency": "USD"
                         }
                     ],
-                    "missing_count": 0
+                    "missing_count": 1
                 },
                 {
                     "id": "pro",
@@ -25436,7 +25482,7 @@
                             "currency": "USD"
                         }
                     ],
-                    "missing_count": 0
+                    "missing_count": 1
                 },
                 {
                     "id": "max-5x",
@@ -25455,7 +25501,7 @@
                             "currency": "USD"
                         }
                     ],
-                    "missing_count": 0
+                    "missing_count": 1
                 },
                 {
                     "id": "max-20x",
@@ -25474,7 +25520,7 @@
                             "currency": "USD"
                         }
                     ],
-                    "missing_count": 0
+                    "missing_count": 1
                 },
                 {
                     "id": "team-standard",
@@ -25499,7 +25545,7 @@
                             "currency": "USD"
                         }
                     ],
-                    "missing_count": 0
+                    "missing_count": 1
                 },
                 {
                     "id": "team-premium",
@@ -25524,7 +25570,7 @@
                             "currency": "USD"
                         }
                     ],
-                    "missing_count": 0
+                    "missing_count": 1
                 },
                 {
                     "id": "enterprise",
@@ -25543,7 +25589,7 @@
                             "currency": "USD"
                         }
                     ],
-                    "missing_count": 0
+                    "missing_count": 1
                 },
                 {
                     "id": "api-pay-as-you-go",
@@ -25670,6 +25716,301 @@
                             "currency": "null"
                         }
                     ],
+                    "missing_count": 1
+                },
+                {
+                    "id": "free-tier",
+                    "name": "Free Tier",
+                    "aliases": [
+                        "Free"
+                    ],
+                    "status": "available",
+                    "effective_date": "null",
+                    "last_updated": "2026-09-29",
+                    "billing": "N/A",
+                    "description": "Basic use of Claude with rolling daily limits, web search, basic file uploads, and chat memory. Claude Code is not included in the free tier.",
+                    "pricing": [
+                        {
+                            "name": "Monthly",
+                            "unit": "month",
+                            "price": "0",
+                            "currency": "USD"
+                        }
+                    ],
+                    "missing_count": 0
+                },
+                {
+                    "id": "claude-pro",
+                    "name": "Claude Pro",
+                    "aliases": [
+                        "Pro"
+                    ],
+                    "status": "available",
+                    "effective_date": "null",
+                    "last_updated": "2026-09-29",
+                    "billing": "monthly / annually",
+                    "description": "Includes Claude Code, Claude Cowork, unlimited projects, Research mode, and at least 5x the usage of the Free plan per five-hour session. Significantly more usage than the free tier, with priority access.",
+                    "pricing": [
+                        {
+                            "name": "Monthly",
+                            "unit": "month",
+                            "price": "20",
+                            "currency": "USD"
+                        },
+                        {
+                            "name": "Annually",
+                            "unit": "month",
+                            "price": "17",
+                            "currency": "USD"
+                        }
+                    ],
+                    "missing_count": 0
+                },
+                {
+                    "id": "claude-max-5x",
+                    "name": "Claude Max 5x",
+                    "aliases": [
+                        "Max 5x"
+                    ],
+                    "status": "available",
+                    "effective_date": "null",
+                    "last_updated": "2026-09-29",
+                    "billing": "monthly",
+                    "description": "Provides 5x the usage capacity of Claude Pro, designed for heavy daily users of Claude Code. Includes all models.",
+                    "pricing": [
+                        {
+                            "name": "Monthly",
+                            "unit": "month",
+                            "price": "100",
+                            "currency": "USD"
+                        }
+                    ],
+                    "missing_count": 0
+                },
+                {
+                    "id": "claude-max-20x",
+                    "name": "Claude Max 20x",
+                    "aliases": [
+                        "Max 20x"
+                    ],
+                    "status": "available",
+                    "effective_date": "null",
+                    "last_updated": "2026-09-29",
+                    "billing": "monthly",
+                    "description": "Provides 20x the usage capacity of Claude Pro, built for developers who use Claude Code full-time and cannot afford to hit rolling limits mid-session. Includes all models and early access to new features.",
+                    "pricing": [
+                        {
+                            "name": "Monthly",
+                            "unit": "month",
+                            "price": "200",
+                            "currency": "USD"
+                        }
+                    ],
+                    "missing_count": 0
+                },
+                {
+                    "id": "claude-team-standard",
+                    "name": "Claude Team Standard",
+                    "aliases": [
+                        "Team Standard"
+                    ],
+                    "status": "available",
+                    "effective_date": "null",
+                    "last_updated": "2026-09-29",
+                    "billing": "monthly / annually",
+                    "description": "For organizations and small teams. Includes central administration, SSO, consolidated billing, and shared Projects. A minimum of five seats is required.",
+                    "pricing": [
+                        {
+                            "name": "Monthly per seat",
+                            "unit": "seat/month",
+                            "price": "25",
+                            "currency": "USD"
+                        },
+                        {
+                            "name": "Annually per seat",
+                            "unit": "seat/month",
+                            "price": "20",
+                            "currency": "USD"
+                        }
+                    ],
+                    "missing_count": 0
+                },
+                {
+                    "id": "claude-team-premium",
+                    "name": "Claude Team Premium",
+                    "aliases": [
+                        "Team Premium"
+                    ],
+                    "status": "available",
+                    "effective_date": "null",
+                    "last_updated": "2026-09-29",
+                    "billing": "monthly / annually",
+                    "description": "Provides 5x usage compared to the Standard seat. Includes Claude Code for engineering teams. A minimum of five seats is required.",
+                    "pricing": [
+                        {
+                            "name": "Monthly per seat",
+                            "unit": "seat/month",
+                            "price": "125",
+                            "currency": "USD"
+                        },
+                        {
+                            "name": "Annually per seat",
+                            "unit": "seat/month",
+                            "price": "100",
+                            "currency": "USD"
+                        }
+                    ],
+                    "missing_count": 0
+                },
+                {
+                    "id": "claude-enterprise",
+                    "name": "Claude Enterprise",
+                    "aliases": [
+                        "Enterprise"
+                    ],
+                    "status": "available",
+                    "effective_date": "null",
+                    "last_updated": "2026-09-29",
+                    "billing": "annually + usage",
+                    "description": "Custom pricing for enterprise organizations. Includes compliance infrastructure, HIPAA, data residency, audit logs, 1M context window (default), volume discounts, and role-based access. Billed per seat plus usage at API rates.",
+                    "pricing": [
+                        {
+                            "name": "Annually per seat (minimum)",
+                            "unit": "seat/month",
+                            "price": "20",
+                            "currency": "USD"
+                        },
+                        {
+                            "name": "Usage (API rates)",
+                            "unit": "token",
+                            "price": "variable",
+                            "currency": "USD"
+                        }
+                    ],
+                    "missing_count": 0
+                },
+                {
+                    "id": "claude-api-usage",
+                    "name": "Claude API Usage",
+                    "aliases": [
+                        "API pricing",
+                        "Pay-as-you-go API"
+                    ],
+                    "status": "available",
+                    "effective_date": "null",
+                    "last_updated": "2026-09-29",
+                    "billing": "per million tokens",
+                    "description": "Pay-as-you-go pricing for API access, billed per million input and output tokens, varying by model. Batch API offers a 50% discount. Prompt caching can cut input cost.",
+                    "pricing": [
+                        {
+                            "name": "Claude Fable 5.1 (Input)",
+                            "unit": "million tokens",
+                            "price": "10",
+                            "currency": "USD"
+                        },
+                        {
+                            "name": "Claude Fable 5.1 (Output)",
+                            "unit": "million tokens",
+                            "price": "50",
+                            "currency": "USD"
+                        },
+                        {
+                            "name": "Claude Opus 5.5 (Input)",
+                            "unit": "million tokens",
+                            "price": "4",
+                            "currency": "USD"
+                        },
+                        {
+                            "name": "Claude Opus 5.5 (Output)",
+                            "unit": "million tokens",
+                            "price": "20",
+                            "currency": "USD"
+                        },
+                        {
+                            "name": "Claude Sonnet 5.5 (Input)",
+                            "unit": "million tokens",
+                            "price": "2",
+                            "currency": "USD"
+                        },
+                        {
+                            "name": "Claude Sonnet 5.5 (Output)",
+                            "unit": "million tokens",
+                            "price": "10",
+                            "currency": "USD"
+                        },
+                        {
+                            "name": "Claude Haiku 4.5 (Input)",
+                            "unit": "million tokens",
+                            "price": "1",
+                            "currency": "USD"
+                        },
+                        {
+                            "name": "Claude Haiku 4.5 (Output)",
+                            "unit": "million tokens",
+                            "price": "5",
+                            "currency": "USD"
+                        },
+                        {
+                            "name": "Claude 3.5 Sonnet (Input)",
+                            "unit": "million tokens",
+                            "price": "3",
+                            "currency": "USD"
+                        },
+                        {
+                            "name": "Claude 3.5 Sonnet (Output)",
+                            "unit": "million tokens",
+                            "price": "15",
+                            "currency": "USD"
+                        },
+                        {
+                            "name": "Claude Opus 5 (Input)",
+                            "unit": "million tokens",
+                            "price": "5",
+                            "currency": "USD"
+                        },
+                        {
+                            "name": "Claude Opus 5 (Output)",
+                            "unit": "million tokens",
+                            "price": "25",
+                            "currency": "USD"
+                        },
+                        {
+                            "name": "Claude Sonnet 5 (Input)",
+                            "unit": "million tokens",
+                            "price": "2",
+                            "currency": "USD"
+                        },
+                        {
+                            "name": "Claude Sonnet 5 (Output)",
+                            "unit": "million tokens",
+                            "price": "10",
+                            "currency": "USD"
+                        },
+                        {
+                            "name": "Fable 5.1 Cache Reads",
+                            "unit": "million tokens",
+                            "price": "0.25",
+                            "currency": "USD"
+                        },
+                        {
+                            "name": "Opus 5.5 Cache Reads",
+                            "unit": "million tokens",
+                            "price": "0.20",
+                            "currency": "USD"
+                        },
+                        {
+                            "name": "Other Current Claude Cache Hits",
+                            "unit": "percentage of input cost",
+                            "price": "10%",
+                            "currency": "N/A"
+                        },
+                        {
+                            "name": "Batch API Discount",
+                            "unit": "percentage of standard rates",
+                            "price": "50%",
+                            "currency": "N/A"
+                        }
+                    ],
                     "missing_count": 0
                 }
             ],
@@ -25685,7 +26026,7 @@
                     "last_updated": "2026-09-21",
                     "description": "画像データを処理・分析し、テキスト出力を生成できる。チャート、グラフ、技術図面、レポートなどの視覚資産の分析に非常に優れている。",
                     "category": "Multimodal",
-                    "missing_count": 0
+                    "missing_count": 1
                 },
                 {
                     "id": "coding-and-technical-analysis",
@@ -25698,7 +26039,7 @@
                     "last_updated": "2026-09-21",
                     "description": "コードの生成、レビュー、デバッグ、リファクタリング、複数のファイルにわたるコードベースの推論を行う能力。インテリジェントなコード補完、構文提案、複数のプログラミング言語のサポートが含まれる。API、データベース、インタラクティブなコーディングにわたる複雑なアクションの計画と実行も可能。",
                     "category": "Developer Tools",
-                    "missing_count": 0
+                    "missing_count": 1
                 },
                 {
                     "id": "advanced-reasoning-and-complex-problem-solving",
@@ -25711,7 +26052,7 @@
                     "last_updated": "2026-09-21",
                     "description": "複雑な多段階の問題を構造化された論理的ステップに分解する能力。ソフトウェアエンジニアリング、ビジネスロジック、プロジェクト管理の課題解決に優れている。",
                     "category": "Core Capabilities",
-                    "missing_count": 0
+                    "missing_count": 1
                 },
                 {
                     "id": "industry-leading-context-window",
@@ -25725,7 +26066,7 @@
                     "last_updated": "2026-09-21",
                     "description": "大規模なファイルを処理できるコンテキストウィンドウ。数百万トークンの入力を単一のクエリで処理し、詳細を見失うことなく長文のドキュメント、コードベース、財務監査を消化できる。",
                     "category": "Core Capabilities",
-                    "missing_count": 0
+                    "missing_count": 1
                 },
                 {
                     "id": "projects-and-memory",
@@ -25738,7 +26079,7 @@
                     "last_updated": "2026-09-21",
                     "description": "ユーザーの好み、役割、コンテキストを学習し、長期的な作業を中心にチャットや知識を整理する機能。",
                     "category": "Productivity",
-                    "missing_count": 0
+                    "missing_count": 1
                 },
                 {
                     "id": "web-search-and-url-fetch",
@@ -25751,19 +26092,19 @@
                     "last_updated": "2026-09-21",
                     "description": "Web検索機能とURLからウェブページの内容を読み取る機能。",
                     "category": "Information Retrieval",
-                    "missing_count": 0
+                    "missing_count": 1
                 },
                 {
                     "id": "artifacts",
                     "name": "Artifacts",
                     "aliases": [
-                        "Live preview"
+                        "Interactive Outputs"
                     ],
                     "status": "available",
                     "effective_date": "null",
-                    "last_updated": "2026-09-21",
-                    "description": "コードやドキュメントのライブプレビューパネル。",
-                    "category": "Productivity",
+                    "last_updated": "2024-08-19",
+                    "description": "Enables interactive outputs and rapid prototyping of applications, games, or analytics dashboards.",
+                    "category": "Development Tools",
                     "missing_count": 0
                 },
                 {
@@ -25775,7 +26116,7 @@
                     "last_updated": "2026-09-21",
                     "description": "コラボレーション機能。",
                     "category": "Collaboration",
-                    "missing_count": 0
+                    "missing_count": 1
                 },
                 {
                     "id": "agent-sdk-and-managed-agents",
@@ -25786,7 +26127,7 @@
                     "last_updated": "2026-09-21",
                     "description": "エージェントの構築と管理をサポートするSDKと管理エージェント機能。",
                     "category": "Developer Tools",
-                    "missing_count": 0
+                    "missing_count": 1
                 },
                 {
                     "id": "function-calling-and-tool-use",
@@ -25797,7 +26138,7 @@
                     "last_updated": "2026-09-21",
                     "description": "外部ツールやAPIを呼び出す機能。",
                     "category": "Developer Tools",
-                    "missing_count": 0
+                    "missing_count": 1
                 },
                 {
                     "id": "json-mode",
@@ -25808,7 +26149,7 @@
                     "last_updated": "2026-09-21",
                     "description": "JSON形式での出力に対応。",
                     "category": "Output Control",
-                    "missing_count": 0
+                    "missing_count": 1
                 },
                 {
                     "id": "structured-output",
@@ -25819,7 +26160,7 @@
                     "last_updated": "2026-09-21",
                     "description": "構造化された形式で情報を出力する機能。",
                     "category": "Output Control",
-                    "missing_count": 0
+                    "missing_count": 1
                 },
                 {
                     "id": "expanded-language-support",
@@ -25830,7 +26171,7 @@
                     "last_updated": "2026-09-21",
                     "description": "英語以外の言語（例：フランス語、日本語、スペイン語）での理解と応答が向上。",
                     "category": "Multilingual",
-                    "missing_count": 0
+                    "missing_count": 1
                 },
                 {
                     "id": "analytics-feature",
@@ -25841,6 +26182,246 @@
                     "last_updated": "2026-09-21",
                     "description": "コーディング習慣と生産性指標を追跡できる機能。",
                     "category": "Developer Tools",
+                    "missing_count": 1
+                },
+                {
+                    "id": "claude-code-feature",
+                    "name": "Claude Code",
+                    "aliases": [
+                        "Coding Assistance",
+                        "Code Generation",
+                        "Code Review"
+                    ],
+                    "status": "available",
+                    "effective_date": "null",
+                    "last_updated": "2026-09-20",
+                    "description": "Explains code, generates and reviews changes, reasons across larger codebases, and can hand off deeper implementation work. Integrated into paid plans and accessible via API.",
+                    "category": "Coding",
+                    "missing_count": 0
+                },
+                {
+                    "id": "claude-cowork",
+                    "name": "Claude Cowork",
+                    "aliases": [
+                        "Cowork",
+                        "Agentic Workflows"
+                    ],
+                    "status": "available",
+                    "effective_date": "null",
+                    "last_updated": "2026-07-06",
+                    "description": "Supports work that extends beyond one prompt or a single document, enabling persistent and agentic workflows.",
+                    "category": "Workflow Management",
+                    "missing_count": 0
+                },
+                {
+                    "id": "projects",
+                    "name": "Projects",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "null",
+                    "last_updated": "2026-08-28",
+                    "description": "Organize chats and knowledge around ongoing work, with project retrieval and memory features. Unlimited for Pro plans.",
+                    "category": "Workflow Management",
+                    "missing_count": 0
+                },
+                {
+                    "id": "web-search",
+                    "name": "Web Search",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "null",
+                    "last_updated": "2026-09-02",
+                    "description": "Allows Claude to gather information from the web.",
+                    "category": "Information Retrieval",
+                    "missing_count": 0
+                },
+                {
+                    "id": "file-uploads",
+                    "name": "File Uploads",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "null",
+                    "last_updated": "2026-09-02",
+                    "description": "Enables users to upload documents and other files for Claude to analyze.",
+                    "category": "Data Input",
+                    "missing_count": 0
+                },
+                {
+                    "id": "extended-thinking",
+                    "name": "Extended Thinking",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "null",
+                    "last_updated": "2026-07-08",
+                    "description": "Enhanced reasoning capabilities for more complex tasks.",
+                    "category": "Core Capability",
+                    "missing_count": 0
+                },
+                {
+                    "id": "research-mode",
+                    "name": "Research Mode",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "null",
+                    "last_updated": "2026-07-08",
+                    "description": "Dedicated mode for in-depth research and synthesis.",
+                    "category": "Information Retrieval",
+                    "missing_count": 0
+                },
+                {
+                    "id": "integrations-google-microsoft",
+                    "name": "Google Workspace and Microsoft 365 Integration",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "null",
+                    "last_updated": "2026-07-08",
+                    "description": "Integration with popular office suites for enhanced workflow.",
+                    "category": "Productivity",
+                    "missing_count": 0
+                },
+                {
+                    "id": "voice-mode",
+                    "name": "Voice Mode",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "null",
+                    "last_updated": "2026-07-08",
+                    "description": "Allows interaction with Claude using voice commands.",
+                    "category": "User Interface",
+                    "missing_count": 0
+                },
+                {
+                    "id": "memory-2-0",
+                    "name": "Memory 2.0",
+                    "aliases": [
+                        "Persistent Memory",
+                        "Autodream"
+                    ],
+                    "status": "available",
+                    "effective_date": "null",
+                    "last_updated": "2026-05-04",
+                    "description": "Automatically synthesizes conversations into a persistent memory summary every 24 hours, with an 'autodream' process for merging duplicates and cleaning outdated information.",
+                    "category": "Core Capability",
+                    "missing_count": 0
+                },
+                {
+                    "id": "scheduled-tasks",
+                    "name": "Scheduled Tasks",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "null",
+                    "last_updated": "2026-05-04",
+                    "description": "Enables setting up recurring tasks for automated workflows.",
+                    "category": "Workflow Management",
+                    "missing_count": 0
+                },
+                {
+                    "id": "claude-dispatch",
+                    "name": "Claude Dispatch",
+                    "aliases": [
+                        "Phone as Remote Control"
+                    ],
+                    "status": "available",
+                    "effective_date": "null",
+                    "last_updated": "2026-05-04",
+                    "description": "Allows users to control Claude from their phone.",
+                    "category": "User Interface",
+                    "missing_count": 0
+                },
+                {
+                    "id": "computer-use",
+                    "name": "Computer Use",
+                    "aliases": [
+                        "Interacting with Software"
+                    ],
+                    "status": "available",
+                    "effective_date": "null",
+                    "last_updated": "2026-05-04",
+                    "description": "Enables Claude to interact with real software on a desktop.",
+                    "category": "Automation",
+                    "missing_count": 0
+                },
+                {
+                    "id": "visualizations",
+                    "name": "Visualizations",
+                    "aliases": [
+                        "Diagrams"
+                    ],
+                    "status": "available",
+                    "effective_date": "null",
+                    "last_updated": "2026-05-04",
+                    "description": "Ability to generate diagrams without manual effort.",
+                    "category": "Development Tools",
+                    "missing_count": 0
+                },
+                {
+                    "id": "multimodal-input",
+                    "name": "Multimodal Input (Vision)",
+                    "aliases": [
+                        "Image Processing"
+                    ],
+                    "status": "available",
+                    "effective_date": "null",
+                    "last_updated": "2026-09-25",
+                    "description": "Supports processing and understanding of visual content provided as input.",
+                    "category": "Core Capability",
+                    "missing_count": 0
+                },
+                {
+                    "id": "tool-use",
+                    "name": "Tool Use / Function Calling",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "null",
+                    "last_updated": "2026-09-25",
+                    "description": "Enables Claude to use external tools or functions to retrieve current information or perform actions.",
+                    "category": "Automation",
+                    "missing_count": 0
+                },
+                {
+                    "id": "constitutional-ai",
+                    "name": "Constitutional AI",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "null",
+                    "last_updated": "2026-09-29",
+                    "description": "Claude is trained with a set of principles to ensure responses are helpful, harmless, and honest, and applies policy-based filtering to avoid harm.",
+                    "category": "Safety & Ethics",
+                    "missing_count": 0
+                },
+                {
+                    "id": "large-context-windows",
+                    "name": "Large Context Windows",
+                    "aliases": [
+                        "Long Context Handling"
+                    ],
+                    "status": "available",
+                    "effective_date": "null",
+                    "last_updated": "2026-09-29",
+                    "description": "Modern Claude models can process large amounts of information, up to 1 million tokens, for extensive conversations and document analysis.",
+                    "category": "Core Capability",
+                    "missing_count": 0
+                },
+                {
+                    "id": "prompt-caching",
+                    "name": "Prompt Caching",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "null",
+                    "last_updated": "2026-09-29",
+                    "description": "Reduces input cost by up to 90% for repeated context in API usage.",
+                    "category": "API Management",
+                    "missing_count": 0
+                },
+                {
+                    "id": "batch-api",
+                    "name": "Batch API",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "null",
+                    "last_updated": "2026-09-29",
+                    "description": "Offers a flat 50% discount for asynchronous processing tasks like document analysis or evaluation pipelines.",
+                    "category": "API Management",
                     "missing_count": 0
                 }
             ],
@@ -25852,7 +26433,7 @@
                     "last_updated": "2026-09-21",
                     "description": "たとえ有料プランの加入者であっても、重い使用量では制限に達することがある。使用制限は公開されておらず、動的に変動し、予測不可能である。Maxプランでもパワーユーザーは制限に達する可能性がある。",
                     "category": "Usage",
-                    "missing_count": 0
+                    "missing_count": 1
                 },
                 {
                     "id": "no-image-or-video-generation",
@@ -25861,7 +26442,7 @@
                     "last_updated": "2026-09-21",
                     "description": "画像を分析することはできるが、画像を生成することはできない。",
                     "category": "Capabilities",
-                    "missing_count": 0
+                    "missing_count": 1
                 },
                 {
                     "id": "occasional-over-cautiousness",
@@ -25870,7 +26451,7 @@
                     "last_updated": "2026-09-21",
                     "description": "説得力のある文章に、意図しないバランスや免責事項を挿入するなど、過度に慎重な傾向が見られる場合がある。",
                     "category": "Output Quality",
-                    "missing_count": 0
+                    "missing_count": 1
                 },
                 {
                     "id": "hallucinations-and-errors",
@@ -25879,7 +26460,7 @@
                     "last_updated": "2026-09-21",
                     "description": "誤った情報を生成したり、ソース資料を誤解したり、欠陥のあるコードを作成したり、誤った行動を取ったりする可能性があるため、重要な出力には人間のレビューが必要。",
                     "category": "Output Quality",
-                    "missing_count": 0
+                    "missing_count": 1
                 },
                 {
                     "id": "memory-limitations",
@@ -25888,7 +26469,7 @@
                     "last_updated": "2026-09-21",
                     "description": "セッション間でコンテキストを失うことがあり、手動での回避策なしには永続的な長期記憶がない。",
                     "category": "Core Capabilities",
-                    "missing_count": 0
+                    "missing_count": 1
                 },
                 {
                     "id": "integration-and-data-gaps",
@@ -25897,7 +26478,7 @@
                     "last_updated": "2026-09-21",
                     "description": "GoogleやSalesforceなどの一部の統合が弱いと報告されている。",
                     "category": "Ecosystem",
-                    "missing_count": 0
+                    "missing_count": 1
                 },
                 {
                     "id": "context-window-and-token-limits-for-large-operations",
@@ -25906,7 +26487,7 @@
                     "last_updated": "2026-09-21",
                     "description": "大規模なコンテキストウィンドウを持つにもかかわらず、非常に大規模な操作ではタスクの途中でトークン制限に達する可能性がある。",
                     "category": "Usage",
-                    "missing_count": 0
+                    "missing_count": 1
                 },
                 {
                     "id": "newer-tokenizer-higher-token-consumption",
@@ -25915,7 +26496,7 @@
                     "last_updated": "2026-09-21",
                     "description": "Sonnet 5以降の新しいトークナイザーは、以前のバージョンと比較して、同じテキストで約30%多くのトークンを消費する可能性がある。",
                     "category": "Cost",
-                    "missing_count": 0
+                    "missing_count": 1
                 },
                 {
                     "id": "us-inference-pricing-multiplier",
@@ -25924,6 +26505,87 @@
                     "last_updated": "2026-09-21",
                     "description": "Claude 4.6以降のモデルで`inference_geo: \"us\"`を使用すると、1.1倍の価格乗数が適用される。",
                     "category": "Cost",
+                    "missing_count": 1
+                },
+                {
+                    "id": "usage-limits",
+                    "name": "Usage Limits",
+                    "status": "available",
+                    "last_updated": "2026-09-02",
+                    "description": "Paid plans have 5-hour session limits and weekly caps that reset every 7 days, with heavy usage potentially hitting limits quickly, especially with Opus or extended thinking. Free tier has tight usage",
+                    "category": "Usage",
+                    "missing_count": 0
+                },
+                {
+                    "id": "hallucination-and-errors",
+                    "name": "Hallucination and Errors",
+                    "status": "available",
+                    "last_updated": "2026-08-28",
+                    "description": "Claude can still hallucinate, misunderstand source material, or write flawed code, requiring human review for consequential outputs.",
+                    "category": "Accuracy",
+                    "missing_count": 0
+                },
+                {
+                    "id": "limited-modality-support",
+                    "name": "Limited Modality Support",
+                    "status": "available",
+                    "last_updated": "2026-09-25",
+                    "description": "No native image generation, audio transcription, or Realtime API equivalent.",
+                    "category": "Functionality",
+                    "missing_count": 0
+                },
+                {
+                    "id": "smaller-developer-ecosystem",
+                    "name": "Smaller Developer Ecosystem",
+                    "status": "available",
+                    "last_updated": "2026-09-25",
+                    "description": "Fewer framework integrations and community tutorials compared to some competitors.",
+                    "category": "Development",
+                    "missing_count": 0
+                },
+                {
+                    "id": "no-fine-tuning-api",
+                    "name": "No Fine-tuning API",
+                    "status": "available",
+                    "last_updated": "2026-09-25",
+                    "description": "Claude models currently do not offer a fine-tuning API for domain customization.",
+                    "category": "Customization",
+                    "missing_count": 0
+                },
+                {
+                    "id": "system-prompt-confidentiality",
+                    "name": "System Prompt Confidentiality",
+                    "status": "available",
+                    "last_updated": "2026-09-25",
+                    "description": "By default, Claude will acknowledge a system prompt exists if asked but will keep its contents confidential if instructed to do so.",
+                    "category": "Security",
+                    "missing_count": 0
+                },
+                {
+                    "id": "response-non-determinism",
+                    "name": "Response Non-Determinism",
+                    "status": "available",
+                    "last_updated": "2026-09-25",
+                    "description": "LLM outputs are probabilistic, meaning the same prompt can return different responses.",
+                    "category": "Consistency",
+                    "missing_count": 0
+                },
+                {
+                    "id": "api-rate-limits-and-latency",
+                    "name": "API Rate Limits and Latency Variance",
+                    "status": "available",
+                    "last_updated": "2026-09-25",
+                    "description": "Rate limits can throttle high-volume applications, and response latency varies under load.",
+                    "category": "API Usage",
+                    "missing_count": 0
+                },
+                {
+                    "id": "non-api-agent-use-violates-tos",
+                    "name": "Non-API Agent Use Violates TOS",
+                    "status": "available",
+                    "last_updated": "2024-04-15",
+                    "description": "Running automated agents through non-API means violates Anthropic's Terms of Service Section 3.7 and can lead to account suspension with no warning.",
+                    "category": "Compliance",
                     "missing_count": 0
                 }
             ],
@@ -25935,7 +26597,7 @@
                     "status": "available",
                     "description": "モデルのアクセス、価格設定、およびプランのパッケージングは変更される可能性があるため、生産決定を行う前に最新の詳細を確認する必要がある。",
                     "last_updated": "2026-09-21",
-                    "missing_count": 0
+                    "missing_count": 1
                 },
                 {
                     "id": "claude-code-definition",
@@ -25944,7 +26606,7 @@
                     "status": "available",
                     "description": "「Claude Code」という用語は、Claudeモデルのコーディング機能と、Claude Code（ターミナルセッション）のようなツールを指す。",
                     "last_updated": "2026-09-21",
-                    "missing_count": 0
+                    "missing_count": 1
                 },
                 {
                     "id": "limited-availability-models",
@@ -25953,7 +26615,7 @@
                     "status": "available",
                     "description": "一部のモデル（例：Mythos 5.1）は利用が限定されており、アクセスには承認が必要。",
                     "last_updated": "2026-09-21",
-                    "missing_count": 0
+                    "missing_count": 1
                 },
                 {
                     "id": "opus-5-fast-mode",
@@ -25962,7 +26624,7 @@
                     "status": "available",
                     "description": "Opus 5のFastモードは、約2.5倍の速度で推論を行うが、価格は2倍になる。",
                     "last_updated": "2026-09-21",
-                    "missing_count": 0
+                    "missing_count": 1
                 },
                 {
                     "id": "effort-settings-for-tasks",
@@ -25971,7 +26633,7 @@
                     "status": "available",
                     "description": "タスクの低い努力設定は、深さよりも速度とトークン消費を優先する。",
                     "last_updated": "2026-09-21",
-                    "missing_count": 0
+                    "missing_count": 1
                 },
                 {
                     "id": "us-only-inference",
@@ -25980,7 +26642,7 @@
                     "status": "available",
                     "description": "米国限定の推論は、標準価格の1.1倍で利用可能。",
                     "last_updated": "2026-09-21",
-                    "missing_count": 0
+                    "missing_count": 1
                 },
                 {
                     "id": "agent-sdk-credit-pool",
@@ -25989,7 +26651,7 @@
                     "status": "available",
                     "description": "Agent SDK、CIパイプライン、またはサードパーティのエージェントを介した使用は、月間の個別のクレジットプールから消費される。",
                     "last_updated": "2026-09-21",
-                    "missing_count": 0
+                    "missing_count": 1
                 },
                 {
                     "id": "sonnet-5-pricing-update",
@@ -25998,6 +26660,78 @@
                     "status": "available",
                     "description": "2026年8月31日までの導入価格として発表されたClaude Sonnet 5の100万入力トークンあたり2ドル/100万出力トークンあたり10ドルの価格は、2026年9月1日以降の標準価格となった。以前予定されていた3ドル/15ドルへの値上げは実施されない。",
                     "last_updated": "2026-09-21",
+                    "missing_count": 1
+                },
+                {
+                    "id": "claude-code-bundling",
+                    "title": "Claude Code is a bundled feature",
+                    "category": "Pricing",
+                    "status": "available",
+                    "description": "Claude Code does not have a separate subscription fee; it is included with paid Claude plans (Pro, Max, Team, Enterprise) and can also be accessed via the Claude API at standard per-token rates.",
+                    "last_updated": "2026-09-20",
+                    "missing_count": 0
+                },
+                {
+                    "id": "usage-pooling",
+                    "title": "Usage Pools Across Features",
+                    "category": "Usage",
+                    "status": "available",
+                    "description": "Chat, Claude Code, and Cowork draw from the same usage allowance on subscription plans.",
+                    "last_updated": "2026-09-14",
+                    "missing_count": 0
+                },
+                {
+                    "id": "annual-billing-discounts",
+                    "title": "Annual Billing Discounts",
+                    "category": "Pricing",
+                    "status": "available",
+                    "description": "Annual billing provides discounts on Claude Pro and Team Standard/Premium plans compared to monthly billing.",
+                    "last_updated": "2026-09-29",
+                    "missing_count": 0
+                },
+                {
+                    "id": "enterprise-hybrid-pricing",
+                    "title": "Enterprise Hybrid Pricing",
+                    "category": "Pricing",
+                    "status": "available",
+                    "description": "Claude Enterprise pricing is a hybrid model, consisting of a per-seat annual fee plus usage billed at API rates.",
+                    "last_updated": "2026-09-14",
+                    "missing_count": 0
+                },
+                {
+                    "id": "ai-transparency",
+                    "title": "AI Transparency and Responsible Disclosure",
+                    "category": "Ethics & Compliance",
+                    "status": "available",
+                    "description": "Responsible disclosure involves being transparent with users about interacting with AI, clearly communicating Claude's limitations, disclosing data usage practices, and providing mechanisms for users ",
+                    "last_updated": "2026-09-25",
+                    "missing_count": 0
+                },
+                {
+                    "id": "anthropic-mission",
+                    "title": "Anthropic's Mission",
+                    "category": "Company Philosophy",
+                    "status": "available",
+                    "description": "Anthropic's mission is to build AI systems that are safe, beneficial, and understandable.",
+                    "last_updated": "2026-09-25",
+                    "missing_count": 0
+                },
+                {
+                    "id": "wellbeing-and-safety",
+                    "title": "Wellbeing and Safety Focus",
+                    "category": "Safety & Ethics",
+                    "status": "available",
+                    "description": "Claude cares about people's wellbeing and avoids encouraging or facilitating self-destructive behaviors, or creating content that would support them.",
+                    "last_updated": "2024-04-15",
+                    "missing_count": 0
+                },
+                {
+                    "id": "data-usage-for-training",
+                    "title": "Data Usage for Model Training",
+                    "category": "Privacy",
+                    "status": "available",
+                    "description": "Users or integrators may explicitly choose not to allow AI services to use their data for training models, but the enforcement of this preference relies on the AI companies honoring their commitments.",
+                    "last_updated": "2026-09-24",
                     "missing_count": 0
                 }
             ],
