@@ -34596,34 +34596,34 @@
         },
         "gemini_notebook": {
             "name": "Gemini Notebook",
-            "last_verified": "2026-10-02",
-            "updated_at": "2026-10-02",
+            "last_verified": "2026-10-12",
+            "updated_at": "2026-10-12",
             "update_failed": false,
             "sources": [
                 {
-                    "name": "Gemini Notebook - Google Blog",
-                    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFaY2I-T7edCM9yrXxGUcjGI1NAe38mN3PoZ_o-14CmZloD8rJS2e0qVFXPlzIpV1EitypRKpZrUV2n0xYeqNnbsbqEv4llp0Xhv5hc0q3VyNzj8E2IVfqsLxLiQGifqtEjXMM9SqCgGl_TPxBI7XfZ4JoZn-nKybQ47A==",
-                    "verified_at": "2026-10-01"
+                    "name": "Gemini Notebook - Wikipedia",
+                    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQzxrXSkWUsi8BxZMuHR1TG0rLVsxDTUNfJulSNJchH3TFl0G3SMPBmP-2zMnAF65mt-Tj6wep_bIu-S3VUPaFWp5NF0JeLlNKdW7ra0-i_j_TaIrUGxnBq_YeW0RNeNf4RKAIH_fr",
+                    "verified_at": "2026-10-11T20:22:00Z"
                 },
                 {
-                    "name": "NotebookLM is now Gemini Notebook - Google Blog",
-                    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFyiGS0mz_4I5Gl3OXDKvoJinUiLcZ0WyaGKoJRC6jcd3hvhNgf1Fm86na0cN2MhUeFoa-U4e-c8cSxGj0aMtsmovYGSRYU8xgHRvFeXb6ncN2NTRf1YzjpVuUGtjtcTY8H3DJkGidSDztj-eR6DnzeJ65DzDgztCCt4z8sQRR7xcXDz0ZSsAZwdrS3D64cFEdyNnIiRmZ7A==",
-                    "verified_at": "2026-10-01"
+                    "name": "Gemini Notebook",
+                    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHy1h1BvZqnQcLrnpb760qxNs9r5EYI8BGLkJQQVJkEydjaF4U5aXRicWEWbDCCVXfJtWgyLIAIkCLiXxdKtkW5vTXNDYB4xHVb8sUb4Mja5htQFkZJNA==",
+                    "verified_at": "2026-10-11T20:22:00Z"
                 },
                 {
-                    "name": "Try notebooks in Gemini to easily keep track of projects - Google Blog",
-                    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHW5Zy6d1BOI_8EN4oU8eWcEPTwNeYTqqOZyQfA6pFDUsbs9qlCiDLxV_KA-umPq_inXQsgARJ2etCfkzWJt65suPVSzK47WdP96SrguZifish-wUBCLbLjkRphQUuUV0Fi46DNO92JJ_CTFimY-vb56zvrGf0kntPs_ZeXwDW9xhrwKXXRYMmGKFSaVfRo9sKA",
-                    "verified_at": "2026-10-01"
+                    "name": "Gemini API: Getting started with Gemini models - Google Colab",
+                    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFhGdZwkweTKRxsqpOvtTcmk6JMOS1cL5rp135hApNo3eO-XXVKdmelsS6bmjiYmsKVCqieTig07FotZ0fODo-Gck_91EW5BIDBxZ6-Ef1zp49NDLV5SV4nj_ZxQdkfJv_l24HRmIqjEe9x5KPMAdjX3PV69qS0-w0PjuMMkfOQON8KY6Ix3rndcqAwlzzlirZsVj0oEQDyIzHF2wL1t8ZbA==",
+                    "verified_at": "2026-10-11T20:22:00Z"
                 },
                 {
-                    "name": "AI research tool and thinking partner - Gemini Notebook",
-                    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFRiaIMr9w40dChsqfkXmL86U5cpDL2qG4fLQc3sp25eXjDRe5xERCg8N7T6Y2o3tUW0PK8dg1PMMahZMAO8TvE5XFJKBCmdFsj2QF8fztuh6IwJ_7J7yfbb3XqLFfn",
-                    "verified_at": "2026-10-01"
+                    "name": "Gemini Notebook (formerly NotebookLM): AI research and learning assistant tool | Google Workspace",
+                    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEGWWX5-0EiLWd7psiOMBCEMLyxJKUdoOM5eMwUgHLk7WVZaeOD3JNluDsWyx0A6sPccRXksdWLON0SZtV4koCo8OMTPFnHdxIoCdhDntmg0jsW_UgjeybTGHtypVVo1DvtFwUkwCjPNWe8nMn_2qc",
+                    "verified_at": "2026-10-11T20:22:00Z"
                 },
                 {
-                    "name": "AI リサーチツール＆思考パートナー - Gemini Notebook",
-                    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGhcpnay54ljLV-_XOcbA-vwwmvYfbltmqN2q4npC6PkWUgjQJpGi24x6nPEtNpZ8X2ZP77O1Bpcf7waYufnVATdwR_NoI7lx0Auq0nj4JUsU8V8IZ3x7H7fsvA",
-                    "verified_at": "2026-10-01"
+                    "name": "Gemini in Colab Enterprise | Google Cloud Documentation",
+                    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEfRc_z4C-q1azPPEfCo9m7LjM4RpiXf25VUkwvGUrVG5l0NnZJiB5t3k8P5ARzLDUYsfu_uorVUYrzKzS5KHkblh3_GLkFuH5lZCmxnNtkGUgYPyPQisj6fyKmPHshGI2KA_q35dBxbpGJEFeeksq7GLK2QyZVuB88nv4=",
+                    "verified_at": "2026-10-11T20:22:00Z"
                 }
             ],
             "models": [
@@ -34631,7 +34631,7 @@
                     "id": "google_gemini",
                     "name": "Google Gemini",
                     "aliases": [],
-                    "status": "available",
+                    "status": "discontinued",
                     "effective_date": "2023",
                     "last_updated": "2026-09-18",
                     "description": "Gemini Notebookの基盤となるAIモデル。",
@@ -34641,7 +34641,7 @@
                         "video"
                     ],
                     "api_available": false,
-                    "missing_count": 1
+                    "missing_count": 2
                 },
                 {
                     "id": "gemini-4-argon",
@@ -34659,7 +34659,7 @@
                         "video"
                     ],
                     "api_available": true,
-                    "missing_count": 0
+                    "missing_count": 1
                 },
                 {
                     "id": "gemini-3.7-flash",
@@ -34674,7 +34674,7 @@
                         "code"
                     ],
                     "api_available": true,
-                    "missing_count": 0
+                    "missing_count": 1
                 },
                 {
                     "id": "gemini-3.6-flash",
@@ -34691,7 +34691,7 @@
                         "audio"
                     ],
                     "api_available": true,
-                    "missing_count": 0
+                    "missing_count": 1
                 },
                 {
                     "id": "gemini-3.5-flash-lite",
@@ -34709,22 +34709,21 @@
                         "pdf"
                     ],
                     "api_available": true,
-                    "missing_count": 0
+                    "missing_count": 1
                 },
                 {
                     "id": "gemini-3.1-pro",
                     "name": "Gemini 3.1 Pro",
                     "aliases": [],
                     "status": "available",
-                    "effective_date": "null",
-                    "last_updated": "2026-10-01",
-                    "description": "高度なインテリジェンス、複雑な問題解決能力、強力なエージェント機能とバイブ コーディング機能。",
+                    "effective_date": "2026-10-11T20:22:00Z",
+                    "last_updated": "2026-10-11T20:22:00Z",
+                    "description": "A powerful Gemini model with no free tier.",
                     "modalities": [
                         "text",
-                        "code",
                         "image",
-                        "video",
-                        "audio"
+                        "audio",
+                        "video"
                     ],
                     "api_available": true,
                     "missing_count": 0
@@ -34742,7 +34741,7 @@
                         "video"
                     ],
                     "api_available": true,
-                    "missing_count": 0
+                    "missing_count": 1
                 },
                 {
                     "id": "gemini-omni-flash",
@@ -34759,7 +34758,7 @@
                         "image"
                     ],
                     "api_available": true,
-                    "missing_count": 0
+                    "missing_count": 1
                 },
                 {
                     "id": "gemini-live",
@@ -34774,7 +34773,7 @@
                         "video"
                     ],
                     "api_available": true,
-                    "missing_count": 0
+                    "missing_count": 1
                 },
                 {
                     "id": "nano-banana",
@@ -34791,7 +34790,7 @@
                         "text"
                     ],
                     "api_available": true,
-                    "missing_count": 0
+                    "missing_count": 1
                 },
                 {
                     "id": "gemini-robotics-er-2-preview",
@@ -34807,7 +34806,7 @@
                         "image"
                     ],
                     "api_available": true,
-                    "missing_count": 0
+                    "missing_count": 1
                 },
                 {
                     "id": "gemini-robotics-er-1.6-preview",
@@ -34823,7 +34822,7 @@
                         "image"
                     ],
                     "api_available": true,
-                    "missing_count": 0
+                    "missing_count": 1
                 },
                 {
                     "id": "gemini-embedding-001",
@@ -34837,7 +34836,7 @@
                         "text"
                     ],
                     "api_available": true,
-                    "missing_count": 0
+                    "missing_count": 1
                 },
                 {
                     "id": "gemini-2.5-computer-use-preview-10-2025",
@@ -34852,7 +34851,7 @@
                         "text"
                     ],
                     "api_available": true,
-                    "missing_count": 0
+                    "missing_count": 1
                 },
                 {
                     "id": "gemini-2.0-flash",
@@ -34869,7 +34868,7 @@
                         "audio"
                     ],
                     "api_available": true,
-                    "missing_count": 0
+                    "missing_count": 1
                 },
                 {
                     "id": "gemini-2.0-flash-lite",
@@ -34883,7 +34882,7 @@
                         "text"
                     ],
                     "api_available": true,
-                    "missing_count": 0
+                    "missing_count": 1
                 },
                 {
                     "id": "gemini-3.1-flash-lite-preview",
@@ -34900,7 +34899,7 @@
                         "audio"
                     ],
                     "api_available": true,
-                    "missing_count": 0
+                    "missing_count": 1
                 },
                 {
                     "id": "gemini-3-pro-preview",
@@ -34917,6 +34916,113 @@
                         "audio"
                     ],
                     "api_available": true,
+                    "missing_count": 1
+                },
+                {
+                    "id": "gemini-1.5-flash",
+                    "name": "Gemini 1.5 Flash",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "2026-10-11T20:22:00Z",
+                    "last_updated": "2026-10-11T20:22:00Z",
+                    "description": "Optimized for multi-modal use-cases where speed and cost are important. This is a go-to model for many applications.",
+                    "modalities": [
+                        "text",
+                        "image",
+                        "audio",
+                        "video"
+                    ],
+                    "api_available": true,
+                    "missing_count": 0
+                },
+                {
+                    "id": "gemini-1.5-pro",
+                    "name": "Gemini 1.5 Pro",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "2026-10-11T20:22:00Z",
+                    "last_updated": "2026-10-11T20:22:00Z",
+                    "description": "Optimized for high intelligence tasks, the most powerful Gemini model.",
+                    "modalities": [
+                        "text",
+                        "image",
+                        "audio",
+                        "video"
+                    ],
+                    "api_available": true,
+                    "missing_count": 0
+                },
+                {
+                    "id": "gemini-2.5-flash",
+                    "name": "Gemini 2.5 Flash",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "2025-11-12T00:00:00Z",
+                    "last_updated": "2025-11-12T00:00:00Z",
+                    "description": "An efficient Gemini model accessible to free tier users of Google Colab via the google.colab.ai library, with monthly usage limits.",
+                    "modalities": [
+                        "text"
+                    ],
+                    "api_available": true,
+                    "missing_count": 0
+                },
+                {
+                    "id": "gemini-2.5-flash-lite",
+                    "name": "Gemini 2.5 Flash Lite",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "2025-11-12T00:00:00Z",
+                    "last_updated": "2025-11-12T00:00:00Z",
+                    "description": "An efficient Gemini model accessible to free tier users of Google Colab via the google.colab.ai library, with monthly usage limits.",
+                    "modalities": [
+                        "text"
+                    ],
+                    "api_available": true,
+                    "missing_count": 0
+                },
+                {
+                    "id": "gemini-3.8-flash",
+                    "name": "Gemini 3.8 Flash",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "2026-10-11T20:22:00Z",
+                    "last_updated": "2026-10-11T20:22:00Z",
+                    "description": "Latest multimodal model available on the Gemini platform (formerly Vertex AI) and Model Garden.",
+                    "modalities": [
+                        "text",
+                        "image",
+                        "audio",
+                        "video"
+                    ],
+                    "api_available": true,
+                    "missing_count": 0
+                },
+                {
+                    "id": "gemma-models",
+                    "name": "Gemma Models",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "2025-11-12T00:00:00Z",
+                    "last_updated": "2025-11-12T00:00:00Z",
+                    "description": "Open models available via the google.colab.ai library for all Colab users and in Model Garden on the Gemini platform.",
+                    "modalities": [
+                        "text"
+                    ],
+                    "api_available": true,
+                    "missing_count": 0
+                },
+                {
+                    "id": "claude-model-family",
+                    "name": "Anthropic's Claude Model Family",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "2026-10-11T20:22:00Z",
+                    "last_updated": "2026-10-11T20:22:00Z",
+                    "description": "Third-party models available in Model Garden on the Gemini platform.",
+                    "modalities": [
+                        "text"
+                    ],
+                    "api_available": true,
                     "missing_count": 0
                 }
             ],
@@ -34927,13 +35033,13 @@
                     "aliases": [
                         "Standard Access"
                     ],
-                    "status": "available",
+                    "status": "discontinued",
                     "effective_date": "2026-04",
                     "last_updated": "2026-08-24",
                     "billing": "無料",
                     "description": "Gemini Notebookは、現在、有料プランを必要とせずに利用可能です。",
                     "pricing": [],
-                    "missing_count": 1
+                    "missing_count": 2
                 },
                 {
                     "id": "gemini-notebook-enterprise",
@@ -34952,7 +35058,7 @@
                             "currency": "USD"
                         }
                     ],
-                    "missing_count": 0
+                    "missing_count": 1
                 },
                 {
                     "id": "gemini-notebook-workspace",
@@ -34964,7 +35070,7 @@
                     "billing": "Workspaceプランによる",
                     "description": "Google Workspaceのコアサービスとして、すべてのWorkspaceプランでGemini Notebookが利用可能。エディションによって利用上限が異なる。",
                     "pricing": [],
-                    "missing_count": 0
+                    "missing_count": 1
                 },
                 {
                     "id": "gemini-notebook-individual-plus",
@@ -34983,7 +35089,7 @@
                             "currency": "JPY"
                         }
                     ],
-                    "missing_count": 0
+                    "missing_count": 1
                 },
                 {
                     "id": "gemini-notebook-individual-free",
@@ -35002,7 +35108,7 @@
                             "currency": "JPY"
                         }
                     ],
-                    "missing_count": 0
+                    "missing_count": 1
                 },
                 {
                     "id": "gemini-api-payg",
@@ -35082,6 +35188,66 @@
                             "currency": "USD"
                         }
                     ],
+                    "missing_count": 1
+                },
+                {
+                    "id": "notebooklm-plus",
+                    "name": "NotebookLM Plus",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "2024-12-01T00:00:00Z",
+                    "last_updated": "2024-12-01T00:00:00Z",
+                    "billing": "Subscription",
+                    "description": "A paid tier of NotebookLM (also referred to as Gemini Notebook) for enterprise customers and Gemini Advanced subscribers, accessible via Google Workspace and Google Cloud. Users with a qualifying Workspace plan get access to higher limits and additional features.",
+                    "pricing": [],
+                    "missing_count": 0
+                },
+                {
+                    "id": "colab-free-tier",
+                    "name": "Colab Free Tier",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "2025-11-12T00:00:00Z",
+                    "last_updated": "2025-11-12T00:00:00Z",
+                    "billing": "Free (with usage limits)",
+                    "description": "Provides access to the google.colab.ai Python library to use efficient Gemini 2.5 Flash and Gemini 2.5 Flash Lite models within Colab environments, subject to monthly usage limits.",
+                    "pricing": [],
+                    "missing_count": 0
+                },
+                {
+                    "id": "colab-pro-plus-subscribers",
+                    "name": "Colab Pro and Pro+ Subscribers",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "2025-11-12T00:00:00Z",
+                    "last_updated": "2025-11-12T00:00:00Z",
+                    "billing": "Subscription",
+                    "description": "Subscribers enjoy higher usage limits and access to a wider variety of advanced Gemini and Gemma models in Google Colab.",
+                    "pricing": [],
+                    "missing_count": 0
+                },
+                {
+                    "id": "gemini-api-free-tier",
+                    "name": "Gemini API Free Tier (Flash models)",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "2026-10-11T20:22:00Z",
+                    "last_updated": "2026-10-11T20:22:00Z",
+                    "billing": "Free (with rate limits)",
+                    "description": "Gemini-Flash models offer a free tier with a rate limit of 15 requests per minute (RPM) in supported countries. Options for requesting rate limit increases are available.",
+                    "pricing": [],
+                    "missing_count": 0
+                },
+                {
+                    "id": "gemini-api-paid-tier",
+                    "name": "Gemini API Paid Tier",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "2026-10-11T20:22:00Z",
+                    "last_updated": "2026-10-11T20:22:00Z",
+                    "billing": "Pay-as-you-go",
+                    "description": "Utilizing Gemini models like Gemini 3.1 Pro incurs costs as they do not have a free tier. Pricing is applied for usage beyond free tiers or for specific models.",
+                    "pricing": [],
                     "missing_count": 0
                 }
             ],
@@ -35090,45 +35256,45 @@
                     "id": "quick_summarization",
                     "name": "クイック要約",
                     "aliases": [],
-                    "status": "available",
+                    "status": "discontinued",
                     "effective_date": "null",
                     "last_updated": "null",
                     "description": "ドキュメントやコンテンツの迅速な要約機能を提供します。",
                     "category": "AI機能",
-                    "missing_count": 1
+                    "missing_count": 2
                 },
                 {
                     "id": "note_taking",
                     "name": "ノート作成",
                     "aliases": [],
-                    "status": "available",
+                    "status": "discontinued",
                     "effective_date": "null",
                     "last_updated": "null",
                     "description": "情報を整理し、ノートを作成する機能です。",
                     "category": "生産性",
-                    "missing_count": 1
+                    "missing_count": 2
                 },
                 {
                     "id": "virtual_research_assistant",
                     "name": "仮想リサーチアシスタント",
                     "aliases": [],
-                    "status": "available",
+                    "status": "discontinued",
                     "effective_date": "null",
                     "last_updated": "null",
                     "description": "ユーザーのリサーチをサポートするAIアシスタント機能です。",
                     "category": "AI機能",
-                    "missing_count": 1
+                    "missing_count": 2
                 },
                 {
                     "id": "document_interaction",
                     "name": "ドキュメントとの対話",
                     "aliases": [],
-                    "status": "available",
+                    "status": "discontinued",
                     "effective_date": "null",
                     "last_updated": "null",
                     "description": "アップロードされたドキュメントと対話する機能を提供します。",
                     "category": "AI機能",
-                    "missing_count": 1
+                    "missing_count": 2
                 },
                 {
                     "id": "audio_overviews",
@@ -35136,23 +35302,23 @@
                     "aliases": [
                         "Podcast-style audio discussion"
                     ],
-                    "status": "available",
+                    "status": "discontinued",
                     "effective_date": "null",
                     "last_updated": "null",
                     "description": "アップロードされたコンテンツからポッドキャスト形式のディスカッションを生成し、バックグラウンド再生とオフライン再生に対応しています。",
                     "category": "AI機能",
-                    "missing_count": 1
+                    "missing_count": 2
                 },
                 {
                     "id": "video_overview",
                     "name": "ビデオ概要",
                     "aliases": [],
-                    "status": "available",
+                    "status": "discontinued",
                     "effective_date": "null",
                     "last_updated": "null",
                     "description": "ノート、PDF、ドキュメントなどのコンテンツを、ナレーションとビジュアルを含むAI生成ビデオ要約に変換します。",
                     "category": "AI機能",
-                    "missing_count": 1
+                    "missing_count": 2
                 },
                 {
                     "id": "content_transformation",
@@ -35162,100 +35328,100 @@
                         "Diagrams",
                         "Charts"
                     ],
-                    "status": "available",
+                    "status": "discontinued",
                     "effective_date": "null",
                     "last_updated": "null",
                     "description": "コンテンツをスライド、図、チャート、画像、フラッシュカード、データテーブルなどの形式に変換する機能です。",
                     "category": "生産性",
-                    "missing_count": 1
+                    "missing_count": 2
                 },
                 {
                     "id": "source_upload",
                     "name": "ソースのアップロード",
                     "aliases": [],
-                    "status": "available",
+                    "status": "discontinued",
                     "effective_date": "null",
                     "last_updated": "null",
                     "description": "PDF、ウェブサイト、YouTubeビデオ、テキストなどのさまざまなソースをアップロードできます。",
                     "category": "データ管理",
-                    "missing_count": 1
+                    "missing_count": 2
                 },
                 {
                     "id": "cited_insights",
                     "name": "引用付きインサイト",
                     "aliases": [],
-                    "status": "available",
+                    "status": "discontinued",
                     "effective_date": "null",
                     "last_updated": "null",
                     "description": "質問への回答にインラインで引用元が示されるため、情報の信頼性が保証されます。",
                     "category": "AI機能",
-                    "missing_count": 1
+                    "missing_count": 2
                 },
                 {
                     "id": "personalized_assistant",
                     "name": "パーソナライズされたAIアシスタント",
                     "aliases": [],
-                    "status": "available",
+                    "status": "discontinued",
                     "effective_date": "null",
                     "last_updated": "null",
                     "description": "ユーザーに合わせたAIリサーチアシスタント機能を提供します。",
                     "category": "AI機能",
-                    "missing_count": 1
+                    "missing_count": 2
                 },
                 {
                     "id": "continuous_chat",
                     "name": "連続チャット体験",
                     "aliases": [],
-                    "status": "available",
+                    "status": "discontinued",
                     "effective_date": "null",
                     "last_updated": "null",
                     "description": "ソース、指示、継続的な議論を記憶するチャット体験をGeminiアプリ内で提供します。",
                     "category": "連携機能",
-                    "missing_count": 1
+                    "missing_count": 2
                 },
                 {
                     "id": "project_organization",
                     "name": "プロジェクト整理",
                     "aliases": [],
-                    "status": "available",
+                    "status": "discontinued",
                     "effective_date": "null",
                     "last_updated": "null",
                     "description": "Geminiアプリ内でプロジェクトを専用の集中空間で整理できます。",
                     "category": "連携機能",
-                    "missing_count": 1
+                    "missing_count": 2
                 },
                 {
                     "id": "notebook_management",
                     "name": "ノートブック管理",
                     "aliases": [],
-                    "status": "available",
+                    "status": "discontinued",
                     "effective_date": "null",
                     "last_updated": "null",
                     "description": "Geminiウェブアプリでノートブックの作成、ピン留め、名前変更が可能です。",
                     "category": "生産性",
-                    "missing_count": 1
+                    "missing_count": 2
                 },
                 {
                     "id": "notebook_instructions",
                     "name": "ノートブックの指示設定",
                     "aliases": [],
-                    "status": "available",
+                    "status": "discontinued",
                     "effective_date": "null",
                     "last_updated": "null",
                     "description": "個々のノートブックに特定の指示を追加できます。",
                     "category": "生産性",
-                    "missing_count": 1
+                    "missing_count": 2
                 },
                 {
                     "id": "gemini_apps_connection",
                     "name": "Gemini Appsとの接続",
                     "aliases": [],
-                    "status": "available",
+                    "status": "discontinued",
                     "effective_date": "null",
                     "last_updated": "null",
                     "description": "Gemini NotebookをGemini Appsに接続して機能を拡張できます。",
                     "category": "連携機能",
-                    "missing_count": 1
+                    "missing_count": 2
                 },
                 {
                     "id": "feature-renamed",
@@ -35268,7 +35434,7 @@
                     "last_updated": "2026-10-01",
                     "description": "2026年7月にNotebookLMからGemini Notebookに名称変更されました。",
                     "category": "Product Information",
-                    "missing_count": 0
+                    "missing_count": 1
                 },
                 {
                     "id": "feature-ai-research-assistant",
@@ -35279,7 +35445,7 @@
                     "last_updated": "2026-10-01",
                     "description": "AIを活用したリサーチアシスタントであり思考パートナー。信頼できる情報に基づいて構築されています。",
                     "category": "Core Functionality",
-                    "missing_count": 0
+                    "missing_count": 1
                 },
                 {
                     "id": "feature-source-grounding",
@@ -35293,7 +35459,7 @@
                     "last_updated": "2026-10-01",
                     "description": "PDF、ウェブサイト、YouTube動画、音声ファイル、Googleドキュメント、Googleスライドなどのユーザーが提供したソースを分析し、その情報に基づいて回答を生成します。",
                     "category": "Core Functionality",
-                    "missing_count": 0
+                    "missing_count": 1
                 },
                 {
                     "id": "feature-content-summarization-analysis",
@@ -35307,7 +35473,7 @@
                     "last_updated": "2026-10-01",
                     "description": "アップロードされたコンテンツの要約や分析を行います。複数のファイルをまとめて分析し、要点や違いを整理できます。",
                     "category": "Content Processing",
-                    "missing_count": 0
+                    "missing_count": 1
                 },
                 {
                     "id": "feature-notebook-organization",
@@ -35320,7 +35486,7 @@
                     "last_updated": "2026-10-01",
                     "description": "案件やテーマごとに資料や会話をノートブックにまとめて整理できます。",
                     "category": "Organization",
-                    "missing_count": 0
+                    "missing_count": 1
                 },
                 {
                     "id": "feature-custom-instructions",
@@ -35333,7 +35499,7 @@
                     "last_updated": "2026-10-01",
                     "description": "Geminiにカスタム指示を与えて、特定のタスクを処理させることで、より効率的なプロンプト作成が可能です。",
                     "category": "Customization",
-                    "missing_count": 0
+                    "missing_count": 1
                 },
                 {
                     "id": "feature-file-upload-context",
@@ -35346,7 +35512,7 @@
                     "last_updated": "2026-10-01",
                     "description": "ドキュメントやPDFなどの関連ファイルをアップロードして、Geminiにより多くのコンテキストを提供できます。",
                     "category": "Data Input",
-                    "missing_count": 0
+                    "missing_count": 1
                 },
                 {
                     "id": "feature-audio-overview",
@@ -35359,7 +35525,7 @@
                     "last_updated": "2026-10-01",
                     "description": "コンテンツをワンクリックで音声解説に変換し、移動中やマルチタスク中に聞くことができます。",
                     "category": "Content Generation",
-                    "missing_count": 0
+                    "missing_count": 1
                 },
                 {
                     "id": "feature-flashcards-quizzes",
@@ -35373,7 +35539,7 @@
                     "last_updated": "2026-10-01",
                     "description": "学習資料からフラッシュカードやクイズを生成し、効率的な学習を支援します。",
                     "category": "Content Generation",
-                    "missing_count": 0
+                    "missing_count": 1
                 },
                 {
                     "id": "feature-infographics-generation",
@@ -35386,7 +35552,7 @@
                     "last_updated": "2026-10-01",
                     "description": "長文コンテンツからソーシャルメディア用のインフォグラフィックを生成します。",
                     "category": "Content Generation",
-                    "missing_count": 0
+                    "missing_count": 1
                 },
                 {
                     "id": "feature-slides-generation",
@@ -35399,7 +35565,7 @@
                     "last_updated": "2026-10-01",
                     "description": "リサーチや資料からプレゼンテーション用のスライドを生成します。",
                     "category": "Content Generation",
-                    "missing_count": 0
+                    "missing_count": 1
                 },
                 {
                     "id": "feature-reports-generation",
@@ -35412,7 +35578,7 @@
                     "last_updated": "2026-10-01",
                     "description": "リサーチ結果からレポートを生成し、洞察の連携を支援します。",
                     "category": "Content Generation",
-                    "missing_count": 0
+                    "missing_count": 1
                 },
                 {
                     "id": "feature-note-creation",
@@ -35425,7 +35591,7 @@
                     "last_updated": "2026-10-01",
                     "description": "ノートブック内でメモを作成・追加できます。",
                     "category": "Organization",
-                    "missing_count": 0
+                    "missing_count": 1
                 },
                 {
                     "id": "feature-mind-maps",
@@ -35438,7 +35604,7 @@
                     "last_updated": "2026-10-01",
                     "description": "マインドマップ機能を利用して、思考や情報の整理を視覚的に行えます。",
                     "category": "Organization",
-                    "missing_count": 0
+                    "missing_count": 1
                 },
                 {
                     "id": "feature-source-discovery-deep-research",
@@ -35452,7 +35618,7 @@
                     "last_updated": "2026-10-01",
                     "description": "Gemini Notebook内で新しい情報を見つけたり、詳細なリサーチを行ったりできます。",
                     "category": "Research",
-                    "missing_count": 0
+                    "missing_count": 1
                 },
                 {
                     "id": "feature-public-sharing",
@@ -35465,7 +35631,7 @@
                     "last_updated": "2026-10-01",
                     "description": "公開ノートブックを作成し、他のユーザーと直接共有できます（コンシューマーアカウントのみ）。",
                     "category": "Collaboration",
-                    "missing_count": 0
+                    "missing_count": 1
                 },
                 {
                     "id": "feature-workspace-integration",
@@ -35478,7 +35644,7 @@
                     "last_updated": "2026-10-01",
                     "description": "GoogleドキュメントやスライドをGoogleドライブから直接簡単にインポートできます。",
                     "category": "Integration",
-                    "missing_count": 0
+                    "missing_count": 1
                 },
                 {
                     "id": "feature-mobile-app",
@@ -35491,6 +35657,259 @@
                     "last_updated": "2026-10-01",
                     "description": "Gemini Notebookモバイルアプリが提供されており、国や地域によって利用状況が異なります。",
                     "category": "Accessibility",
+                    "missing_count": 1
+                },
+                {
+                    "id": "notebooklm-summarization",
+                    "name": "Summarization",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "2024-10-17T00:00:00Z",
+                    "last_updated": "2024-10-17T00:00:00Z",
+                    "description": "Generates summaries of uploaded content.",
+                    "category": "NotebookLM Core Functionality",
+                    "missing_count": 0
+                },
+                {
+                    "id": "notebooklm-note-taking",
+                    "name": "Note-taking",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "2024-10-17T00:00:00Z",
+                    "last_updated": "2024-10-17T00:00:00Z",
+                    "description": "Assists users in research and note-taking.",
+                    "category": "NotebookLM Core Functionality",
+                    "missing_count": 0
+                },
+                {
+                    "id": "notebooklm-rag",
+                    "name": "Retrieval-Augmented Generation (RAG)",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "2024-10-17T00:00:00Z",
+                    "last_updated": "2024-10-17T00:00:00Z",
+                    "description": "Utilizes AI (Google Gemini) to interact with user-provided documents.",
+                    "category": "NotebookLM Core Functionality",
+                    "missing_count": 0
+                },
+                {
+                    "id": "notebooklm-source-analysis",
+                    "name": "Source Analysis",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "2024-10-17T00:00:00Z",
+                    "last_updated": "2024-10-17T00:00:00Z",
+                    "description": "Processes and analyzes various source types including PDFs, Google Docs, websites, Google Slides, YouTube videos (transcripts), text files, markdown files, and audio files.",
+                    "category": "NotebookLM Core Functionality",
+                    "missing_count": 0
+                },
+                {
+                    "id": "notebooklm-audio-overviews",
+                    "name": "Audio Overviews",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "2024-09-01T00:00:00Z",
+                    "last_updated": "2024-09-01T00:00:00Z",
+                    "description": "Generates podcast-like discussions about uploaded content.",
+                    "category": "NotebookLM Core Functionality",
+                    "missing_count": 0
+                },
+                {
+                    "id": "notebooklm-virtual-research-assistant",
+                    "name": "Virtual Research Assistant",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "2024-10-17T00:00:00Z",
+                    "last_updated": "2024-10-17T00:00:00Z",
+                    "description": "Provides a personalized learning and research environment.",
+                    "category": "NotebookLM Core Functionality",
+                    "missing_count": 0
+                },
+                {
+                    "id": "notebooklm-in-line-citations",
+                    "name": "In-line Citations",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "2024-10-17T00:00:00Z",
+                    "last_updated": "2024-10-17T00:00:00Z",
+                    "description": "Cites sources within the generated answers, allowing users to trust the information.",
+                    "category": "NotebookLM Core Functionality",
+                    "missing_count": 0
+                },
+                {
+                    "id": "colab-gemini-chat",
+                    "name": "Chat about Notebook with Gemini",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "2026-10-05T00:00:00Z",
+                    "last_updated": "2026-10-05T00:00:00Z",
+                    "description": "Allows users to discuss their notebook, potential coding solutions, or specific tasks with Gemini in Colab Enterprise.",
+                    "category": "Colab Integration",
+                    "missing_count": 0
+                },
+                {
+                    "id": "colab-code-completion",
+                    "name": "Code Completion",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "2026-10-05T00:00:00Z",
+                    "last_updated": "2026-10-05T00:00:00Z",
+                    "description": "Gemini in Colab Enterprise suggests code segments while typing in a code cell.",
+                    "category": "Colab Integration",
+                    "missing_count": 0
+                },
+                {
+                    "id": "colab-code-generation",
+                    "name": "Code Generation",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "2026-10-05T00:00:00Z",
+                    "last_updated": "2026-10-05T00:00:00Z",
+                    "description": "Generates code based on a description provided by the user in Colab Enterprise.",
+                    "category": "Colab Integration",
+                    "missing_count": 0
+                },
+                {
+                    "id": "colab-explain-code",
+                    "name": "Explain Code Cells",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "2026-10-05T00:00:00Z",
+                    "last_updated": "2026-10-05T00:00:00Z",
+                    "description": "Provides explanations of code cells using Gemini in Colab Enterprise.",
+                    "category": "Colab Integration",
+                    "missing_count": 0
+                },
+                {
+                    "id": "colab-google-colab-ai-library",
+                    "name": "google.colab.ai Python Library Access",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "2025-11-12T00:00:00Z",
+                    "last_updated": "2025-11-12T00:00:00Z",
+                    "description": "Effortless access to Gemini and Gemma models in Colab environments with no API key or separate Cloud account required. Allows for text generation, translation, creative content writing, text categoriz",
+                    "category": "Colab Integration",
+                    "missing_count": 0
+                },
+                {
+                    "id": "colab-ai-prompt-cell",
+                    "name": "AI Prompt Cell",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "2025-11-12T00:00:00Z",
+                    "last_updated": "2025-11-12T00:00:00Z",
+                    "description": "Provides a more intuitive no/low code AI workflow within Colab.",
+                    "category": "Colab Integration",
+                    "missing_count": 0
+                },
+                {
+                    "id": "gemini-api-multimodal-prompting",
+                    "name": "Multimodal Prompting",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "2026-10-11T20:22:00Z",
+                    "last_updated": "2026-10-11T20:22:00Z",
+                    "description": "Supports content generation with multimodal inputs (text, code, images, speech, video).",
+                    "category": "Gemini API",
+                    "missing_count": 0
+                },
+                {
+                    "id": "gemini-api-system-instructions",
+                    "name": "Setting System Instructions",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "2026-10-11T20:22:00Z",
+                    "last_updated": "2026-10-11T20:22:00Z",
+                    "description": "Allows for configuring system-level instructions for Gemini models.",
+                    "category": "Gemini API",
+                    "missing_count": 0
+                },
+                {
+                    "id": "gemini-api-control-thinking-process",
+                    "name": "Control Thinking Process",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "2026-10-11T20:22:00Z",
+                    "last_updated": "2026-10-11T20:22:00Z",
+                    "description": "Configurable thinking levels to control internal reasoning, leading to better results for complex tasks (may use more tokens and take longer).",
+                    "category": "Gemini API",
+                    "missing_count": 0
+                },
+                {
+                    "id": "gemini-api-count-tokens",
+                    "name": "Count Tokens",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "2026-10-11T20:22:00Z",
+                    "last_updated": "2026-10-11T20:22:00Z",
+                    "description": "Method to calculate the number of input tokens before sending a request to the Gemini API.",
+                    "category": "Gemini API",
+                    "missing_count": 0
+                },
+                {
+                    "id": "gemini-api-configure-model-parameters",
+                    "name": "Configure Model Parameters",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "2026-10-11T20:22:00Z",
+                    "last_updated": "2026-10-11T20:22:00Z",
+                    "description": "Ability to configure various parameters for Gemini models.",
+                    "category": "Gemini API",
+                    "missing_count": 0
+                },
+                {
+                    "id": "gemini-api-generate-images",
+                    "name": "Generate Images",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "2026-10-11T20:22:00Z",
+                    "last_updated": "2026-10-11T20:22:00Z",
+                    "description": "Capability to generate images using Gemini models.",
+                    "category": "Gemini API",
+                    "missing_count": 0
+                },
+                {
+                    "id": "gemini-api-safety-filters",
+                    "name": "Safety Filters",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "2026-10-11T20:22:00Z",
+                    "last_updated": "2026-10-11T20:22:00Z",
+                    "description": "Filters to ensure safety of generated content.",
+                    "category": "Gemini API",
+                    "missing_count": 0
+                },
+                {
+                    "id": "gemini-api-multiple-candidates",
+                    "name": "Generate Multiple Candidates",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "2026-10-11T20:22:00Z",
+                    "last_updated": "2026-10-11T20:22:00Z",
+                    "description": "Gemini can generate multiple possible responses (candidates) for a single prompt for review.",
+                    "category": "Gemini API",
+                    "missing_count": 0
+                },
+                {
+                    "id": "gemini-api-stream-responses",
+                    "name": "Stream Responses",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "2026-10-11T20:22:00Z",
+                    "last_updated": "2026-10-11T20:22:00Z",
+                    "description": "Ability to stream the model's response as it is being generated, returning chunks as soon as they are available.",
+                    "category": "Gemini API",
+                    "missing_count": 0
+                },
+                {
+                    "id": "gemini-api-function-calling",
+                    "name": "Function Calling",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "2025-05-02T00:00:00Z",
+                    "last_updated": "2025-05-02T00:00:00Z",
+                    "description": "Ability to perform function calling using the Gemini API, demonstrated with Gemini 2.0 Flash in Vertex AI Workbench.",
+                    "category": "Gemini API",
                     "missing_count": 0
                 }
             ],
@@ -35498,29 +35917,29 @@
                 {
                     "id": "age_restriction",
                     "name": "年齢制限",
-                    "status": "available",
+                    "status": "discontinued",
                     "last_updated": "2026-08-24",
                     "description": "利用者は18歳以上である必要があります。",
                     "category": "利用資格",
-                    "missing_count": 1
+                    "missing_count": 2
                 },
                 {
                     "id": "account_type",
                     "name": "アカウントの種類",
-                    "status": "available",
+                    "status": "discontinued",
                     "last_updated": "2026-08-24",
                     "description": "個人のGoogleアカウントを使用する必要があります。",
                     "category": "利用資格",
-                    "missing_count": 1
+                    "missing_count": 2
                 },
                 {
                     "id": "app_connection_required",
                     "name": "Geminiアプリ接続要件",
-                    "status": "available",
+                    "status": "discontinued",
                     "last_updated": "2026-08-24",
                     "description": "Gemini NotebookをGeminiアプリに接続する必要があります。",
                     "category": "利用資格",
-                    "missing_count": 1
+                    "missing_count": 2
                 },
                 {
                     "id": "limitation-free-plan-usage",
@@ -35529,7 +35948,7 @@
                     "last_updated": "2026-10-01",
                     "description": "無料プランでは、1日の利用回数や機能に制限があります。例えば、1日あたり5プロンプトまでに制限されることがあります。長文の文章生成、高度なデータ分析、一部の画像生成、高解像度の画像生成、動画生成機能は無料プランでは利用できません。",
                     "category": "Usage",
-                    "missing_count": 0
+                    "missing_count": 1
                 },
                 {
                     "id": "limitation-data-capacity",
@@ -35538,7 +35957,7 @@
                     "last_updated": "2026-10-01",
                     "description": "ファイルアップロードのサイズやコンテキストウィンドウ（一度に処理できる文字数）には無料版固有の制限があります。長文資料の要約や大量データ解析では上限に達するケースが頻繁に発生します。",
                     "category": "Usage",
-                    "missing_count": 0
+                    "missing_count": 1
                 },
                 {
                     "id": "limitation-api-rate-limits",
@@ -35547,7 +35966,7 @@
                     "last_updated": "2026-10-01",
                     "description": "Gemini APIには、1分あたりのリクエスト数（RPM）、1分あたりのトークン数（入力）（TPM）、1日あたりのリクエスト数（RPD）のレート制限があります。試験運用版およびプレビュー版モデルではレート制限が厳しくなります。",
                     "category": "Usage",
-                    "missing_count": 0
+                    "missing_count": 1
                 },
                 {
                     "id": "limitation-free-plan-data-use",
@@ -35556,7 +35975,7 @@
                     "last_updated": "2026-10-01",
                     "description": "無料版のGeminiでは、ユーザーが入力したデータがAIモデルの学習やサービス改善に利用される仕組みが採用されています（アクティビティをオフにしない限り）。",
                     "category": "Security & Privacy",
-                    "missing_count": 0
+                    "missing_count": 1
                 },
                 {
                     "id": "limitation-personal-account-business-use",
@@ -35565,7 +35984,7 @@
                     "last_updated": "2026-10-01",
                     "description": "個人アカウントでの業務利用は、データ処理や管理者による統制の欠如により推奨されません。",
                     "category": "Security & Privacy",
-                    "missing_count": 0
+                    "missing_count": 1
                 },
                 {
                     "id": "limitation-disable-activity-disables-extensions",
@@ -35574,7 +35993,7 @@
                     "last_updated": "2026-10-01",
                     "description": "「Gemini アプリ アクティビティ」をオフにすると、GmailやGoogleドライブなどと連携する拡張機能が利用できなくなる場合があります。",
                     "category": "Functionality",
-                    "missing_count": 0
+                    "missing_count": 1
                 },
                 {
                     "id": "limitation-workspace-edition-limits",
@@ -35583,7 +36002,7 @@
                     "last_updated": "2026-10-01",
                     "description": "Google Workspaceを介したGemini Notebookの利用は、Workspaceのエディションによって利用できる上限が異なります。",
                     "category": "Usage",
-                    "missing_count": 0
+                    "missing_count": 1
                 },
                 {
                     "id": "limitation-mobile-app-availability",
@@ -35592,6 +36011,51 @@
                     "last_updated": "2026-10-01",
                     "description": "Gemini Notebookモバイルアプリの提供状況は、国や地域により異なる場合があります。",
                     "category": "Accessibility",
+                    "missing_count": 1
+                },
+                {
+                    "id": "notebooklm-source-size-limit",
+                    "name": "NotebookLM Source Size Limit",
+                    "status": "available",
+                    "last_updated": "2026-10-11T20:22:00Z",
+                    "description": "Each source uploaded to NotebookLM can contain up to 500,000 words or up to 200MB for uploaded files.",
+                    "category": "NotebookLM",
+                    "missing_count": 0
+                },
+                {
+                    "id": "colab-free-tier-usage-limits",
+                    "name": "Colab Free Tier Monthly Usage Limits",
+                    "status": "available",
+                    "last_updated": "2025-11-12T00:00:00Z",
+                    "description": "Free tier users of Google Colab accessing Gemini models via google.colab.ai library are subject to monthly usage limits.",
+                    "category": "Colab Integration",
+                    "missing_count": 0
+                },
+                {
+                    "id": "gemini-api-flash-rate-limit",
+                    "name": "Gemini-Flash Models API Rate Limit",
+                    "status": "available",
+                    "last_updated": "2026-10-11T20:22:00Z",
+                    "description": "The rate limit for Gemini-Flash models is 15 requests per minute (RPM) for free in supported countries. Options for requesting rate limit increases are available.",
+                    "category": "Gemini API",
+                    "missing_count": 0
+                },
+                {
+                    "id": "gemini-3-1-pro-no-free-tier",
+                    "name": "Gemini 3.1 Pro No Free Tier",
+                    "status": "available",
+                    "last_updated": "2026-10-11T20:22:00Z",
+                    "description": "The Gemini 3.1 Pro model does not have a free tier.",
+                    "category": "Gemini API",
+                    "missing_count": 0
+                },
+                {
+                    "id": "gemini-ai-plausibility",
+                    "name": "AI Output Plausibility",
+                    "status": "available",
+                    "last_updated": "2026-10-05T00:00:00Z",
+                    "description": "As an early-stage technology, Gemini for Google Cloud products can generate output that seems plausible but is factually incorrect. It is recommended to validate all output.",
+                    "category": "General AI",
                     "missing_count": 0
                 }
             ],
@@ -35600,37 +36064,37 @@
                     "id": "former_name",
                     "title": "旧称",
                     "category": "製品情報",
-                    "status": "available",
+                    "status": "discontinued",
                     "description": "Gemini Notebookは以前NotebookLMとして知られていました。",
                     "last_updated": "2026-09-21",
-                    "missing_count": 1
+                    "missing_count": 2
                 },
                 {
                     "id": "developer",
                     "title": "開発元",
                     "category": "製品情報",
-                    "status": "available",
+                    "status": "discontinued",
                     "description": "Google Labsによって開発されました。",
                     "last_updated": "2026-09-21",
-                    "missing_count": 1
+                    "missing_count": 2
                 },
                 {
                     "id": "release_year",
                     "title": "リリース年",
                     "category": "製品情報",
-                    "status": "available",
+                    "status": "discontinued",
                     "description": "2023年にリリースされました。",
                     "last_updated": "2026-09-21",
-                    "missing_count": 1
+                    "missing_count": 2
                 },
                 {
                     "id": "included_with",
                     "title": "Geminiに付属",
                     "category": "製品情報",
-                    "status": "available",
+                    "status": "discontinued",
                     "description": "Geminiに付属しています。",
                     "last_updated": "2026-09-21",
-                    "missing_count": 1
+                    "missing_count": 2
                 },
                 {
                     "id": "note-renaming-context",
@@ -35639,7 +36103,7 @@
                     "status": "available",
                     "description": "Gemini Notebookは、2026年7月にNotebookLMから名称変更されたAIリサーチツールです。",
                     "last_updated": "2026-07-01",
-                    "missing_count": 0
+                    "missing_count": 1
                 },
                 {
                     "id": "note-core-description",
@@ -35648,7 +36112,7 @@
                     "status": "available",
                     "description": "信頼できる情報に基づくリサーチと思考のパートナーであり、最新のGeminiモデルで構築されています。",
                     "last_updated": "2026-10-01",
-                    "missing_count": 0
+                    "missing_count": 1
                 },
                 {
                     "id": "note-enterprise-privacy",
@@ -35657,7 +36121,7 @@
                     "status": "available",
                     "description": "組織または学校のデータはプライベートに保たれ、Gemini Notebookのトレーニングには使用されません。Gemini Notebookはユーザーデータを第三者と共有しません。",
                     "last_updated": "2026-10-01",
-                    "missing_count": 0
+                    "missing_count": 1
                 },
                 {
                     "id": "note-workspace-privacy",
@@ -35666,7 +36130,7 @@
                     "status": "available",
                     "description": "Google Workspaceの法人契約の場合、プロンプト、Workspaceのコンテンツ、生成結果は、許可なく人間によるレビューやドメイン外の生成AIモデルの学習には使用されません。",
                     "last_updated": "2026-10-01",
-                    "missing_count": 0
+                    "missing_count": 1
                 },
                 {
                     "id": "note-individual-privacy",
@@ -35675,7 +36139,7 @@
                     "status": "available",
                     "description": "個人アカウントで「Gemini アプリ アクティビティ」がオフの場合、今後のチャットはアクティビティに表示されず、AIモデルのトレーニングにも使用されません（フィードバックを送信した場合を除く）。チャットは72時間保存されます。人間がレビューしたチャットは、削除後も最長3年間保存されることがあります。",
                     "last_updated": "2026-10-01",
-                    "missing_count": 0
+                    "missing_count": 1
                 },
                 {
                     "id": "note-standalone-product",
@@ -35684,7 +36148,7 @@
                     "status": "available",
                     "description": "Gemini Notebookはスタンドアロンの製品です。",
                     "last_updated": "2026-10-01",
-                    "missing_count": 0
+                    "missing_count": 1
                 },
                 {
                     "id": "note-enterprise-cloud-availability",
@@ -35693,6 +36157,69 @@
                     "status": "available",
                     "description": "Gemini Notebookは、Google Cloudを介してエンタープライズ向けにも提供されています。",
                     "last_updated": "2026-10-01",
+                    "missing_count": 1
+                },
+                {
+                    "id": "notebooklm-alias",
+                    "title": "Alias: NotebookLM",
+                    "category": "Product Naming",
+                    "status": "available",
+                    "description": "Gemini Notebook is also known as NotebookLM, and was previously called Google NotebookLM and Project Tailwind.",
+                    "last_updated": "2024-10-17T00:00:00Z",
+                    "missing_count": 0
+                },
+                {
+                    "id": "notebooklm-experimental-status-removed",
+                    "title": "NotebookLM Removed 'Experimental' Status",
+                    "category": "Product Status",
+                    "status": "available",
+                    "description": "On October 17, 2024, NotebookLM removed its 'experimental' status, signaling its transition into a stable product.",
+                    "last_updated": "2024-10-17T00:00:00Z",
+                    "missing_count": 0
+                },
+                {
+                    "id": "notebooklm-plus-launch",
+                    "title": "NotebookLM Plus Launch",
+                    "category": "Product Offering",
+                    "status": "available",
+                    "description": "In December 2024, Google launched a paid tier named NotebookLM Plus for enterprise customers and Gemini Advanced subscribers via Google Workspace and Google Cloud.",
+                    "last_updated": "2024-12-01T00:00:00Z",
+                    "missing_count": 0
+                },
+                {
+                    "id": "notebooklm-data-privacy",
+                    "title": "NotebookLM Data Privacy",
+                    "category": "Privacy and Security",
+                    "status": "available",
+                    "description": "Uploaded data in NotebookLM stays private unless shared, and is never used for model training.",
+                    "last_updated": "2026-10-11T20:22:00Z",
+                    "missing_count": 0
+                },
+                {
+                    "id": "colab-ai-library-general-availability",
+                    "title": "google.colab.ai Library Available to All Colab Users",
+                    "category": "Colab Integration",
+                    "status": "available",
+                    "description": "As of November 12, 2025, the google.colab.ai Python library, which provides access to Gemini and Gemma models, became available to all Colab users, including free tier users.",
+                    "last_updated": "2025-11-12T00:00:00Z",
+                    "missing_count": 0
+                },
+                {
+                    "id": "gemini-colab-enterprise-training-data",
+                    "title": "Gemini in Colab Enterprise Training Data",
+                    "category": "Model Training",
+                    "status": "available",
+                    "description": "The Gemini LLMs used by Gemini in Colab Enterprise are trained on publicly available code, Google Cloud-specific material, and other relevant technical information, in addition to foundation model dat",
+                    "last_updated": "2026-10-05T00:00:00Z",
+                    "missing_count": 0
+                },
+                {
+                    "id": "gemini-platform-overview",
+                    "title": "Gemini Platform Integration",
+                    "category": "Platform Integration",
+                    "status": "available",
+                    "description": "The Gemini platform (formerly Vertex AI) is an open and integrated AI platform that includes notebooks like Colab Enterprise or Workbench, natively integrated with BigQuery for data and AI workloads. ",
+                    "last_updated": "2026-10-11T20:22:00Z",
                     "missing_count": 0
                 }
             ],
