@@ -1,0 +1,9 @@
+[2026-11-09 05:37:24] [INFO] 対象サービス: ['chatgpt', 'gemini', 'copilot']
+[2026-11-09 05:37:25] [INFO] DB更新対象: ['chatgpt', 'gemini']
+[2026-11-09 05:37:25] [INFO] バックグラウンド更新対象: gemini_notebook
+[2026-11-09 05:37:25] [INFO] chatgpt の最新情報を取得します
+[2026-11-09 05:37:26] [ERROR] 対象サービスのAI知識DB更新エラー: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'Search as tool is not enabled for api version v1. Use api version v1beta instead.', 'status': 'INVALID_ARGUMENT'}}
+[2026-11-09 05:37:26] [INFO] エラー通知をLINEへ送信しました。
+[2026-11-09 05:37:27] [ERROR] AI知識DBの安全利用期限を超えたため、記事生成を中止します。
+対象サービス: ['gemini']
+[2026-11-09 05:37:27] [INFO] エラー通知をLINEへ送信しました。
