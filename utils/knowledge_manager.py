@@ -129,6 +129,7 @@ def load_knowledge():
     return data
 
 
+
 def get_article_knowledge(service_ids):
     """
     記事生成用に必要な情報だけを返す。
@@ -146,7 +147,7 @@ def get_article_knowledge(service_ids):
             service_id
         )
 
-        if not service:
+        if not isinstance(service, dict):
             continue
 
         result[service_id] = {
@@ -158,14 +159,14 @@ def get_article_knowledge(service_ids):
                     "id": item.get("id"),
                     "name": item.get("name"),
                     "status": item.get("status"),
-                    "description": item.get(
-                        "description",
-                        "",
+                    "description": (
+                        item.get("description") or ""
                     )[:80],
                 }
                 for item in filter_active_items(
-                    service.get("models", [])
+                    service.get("models") or []
                 )
+                if isinstance(item, dict)
             ],
 
             "plans": [
@@ -173,18 +174,15 @@ def get_article_knowledge(service_ids):
                     "id": item.get("id"),
                     "name": item.get("name"),
                     "status": item.get("status"),
-                    "description": item.get(
-                        "description",
-                        "",
+                    "description": (
+                        item.get("description") or ""
                     )[:80],
-                    "pricing": item.get(
-                        "pricing",
-                        [],
-                    ),
+                    "pricing": item.get("pricing") or [],
                 }
                 for item in filter_active_items(
-                    service.get("plans", [])
+                    service.get("plans") or []
                 )
+                if isinstance(item, dict)
             ],
 
             "features": [
@@ -192,14 +190,14 @@ def get_article_knowledge(service_ids):
                     "id": item.get("id"),
                     "name": item.get("name"),
                     "status": item.get("status"),
-                    "description": item.get(
-                        "description",
-                        "",
+                    "description": (
+                        item.get("description") or ""
                     )[:80],
                 }
                 for item in filter_active_items(
-                    service.get("features", [])
+                    service.get("features") or []
                 )
+                if isinstance(item, dict)
             ],
 
             "limitations": [
@@ -207,28 +205,28 @@ def get_article_knowledge(service_ids):
                     "id": item.get("id"),
                     "name": item.get("name"),
                     "status": item.get("status"),
-                    "description": item.get(
-                        "description",
-                        "",
+                    "description": (
+                        item.get("description") or ""
                     )[:80],
                 }
                 for item in filter_active_items(
-                    service.get("limitations", [])
+                    service.get("limitations") or []
                 )
+                if isinstance(item, dict)
             ],
 
             "notes": [
                 {
                     "title": item.get("title"),
                     "status": item.get("status"),
-                    "description": item.get(
-                        "description",
-                        "",
+                    "description": (
+                        item.get("description") or ""
                     )[:80],
                 }
                 for item in filter_active_items(
-                    service.get("notes", [])
+                    service.get("notes") or []
                 )
+                if isinstance(item, dict)
             ],
         }
 
