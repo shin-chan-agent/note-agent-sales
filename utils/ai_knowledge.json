@@ -45466,14 +45466,34 @@
         },
         "perplexity": {
             "name": "Perplexity",
-            "last_verified": "2026-10-28",
-            "updated_at": "2026-10-28",
+            "last_verified": "2026-11-18",
+            "updated_at": "2026-11-18",
             "update_failed": false,
             "sources": [
                 {
-                    "name": "Perplexity AI Official Website",
-                    "url": "https://www.perplexity.ai/",
-                    "verified_at": "2026-10-27T20:49:00Z"
+                    "name": "Perplexity Pro - vertexaisearch.cloud.google.com",
+                    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGuiutKPR2FcViRpPHH4XarZt9FQFUsDrlFRzhByjisiw2Wqw33pJvc5nhQL9ZaP1sNk_sa5ta-vDr4AVu9HpE2mV7htDdCfc_By6g8jPL3aJ1-Clv_Tpxy",
+                    "verified_at": "2026-11-17"
+                },
+                {
+                    "name": "Perplexity Pricing: Free, Pro, Max and Enterprise Plans - HOW TO // AI",
+                    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFmzuo8_3GJozqQXrBJbbZMCT8jWg7ryvwNVHLt4IpxUx7dvtkJtlid2Xl0gAZuVkTFoLGtiJECGOI7bkGwYoZxf667EfG7AEcyAmI0KGlGjyrOCVBgLW52F_nmZ47-8o1mFQ==",
+                    "verified_at": "2026-10-17"
+                },
+                {
+                    "name": "Perplexity API - vertexaisearch.cloud.google.com",
+                    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG7tQGq2dXQ0jWQdaYS3dXJUuFn0ZBS0T9kQRWHMMrpNaVVb3libqhmrgLVqBB6hbQk7wcvW_6Cm6ZReuInKIzkv0J2u3rTmwE2rUxKUqBYh4_Sn0HBBkhnTuEK92Q1-obSwdpyk4m0apaT1aGD8cL192T",
+                    "verified_at": "2026-11-17"
+                },
+                {
+                    "name": "Perplexity Pricing: Plans for Individuals and Enterprise - vertexaisearch.cloud.google.com",
+                    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFaCs4mt1gImr6u_WO-eIQF2o3VYQSgHJeT1cUwk6yfMyemjRm7D0ohfAin6MsVpbtHbg5STFvlupQgfQSiwUI-E_ddoCQzl1QOs-A2MF_rRMhRdxNzzBrJw6ekFsBZ30o=",
+                    "verified_at": "2026-11-17"
+                },
+                {
+                    "name": "Perplexity Pricing 2026: Pro, Max, Comet & Sonar API Costs - Subscription Plans - vertexaisearch.cloud.google.com",
+                    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG6B6s1hGeH1dqwF5pvGzoF34LmI-KWadw-TejsqbhogR5m2vLsAHZ4BKT5h6jQbzMGWa1p1sMxboUk-QmI17hu0UrZqsTGT77CP2UwdSmkYlD6imI09vuxTnuraYz1KJ1n3wNdpgc=",
+                    "verified_at": "2026-09-01"
                 }
             ],
             "models": [
@@ -45491,7 +45511,7 @@
                         "web_search"
                     ],
                     "api_available": false,
-                    "missing_count": 4
+                    "missing_count": 5
                 },
                 {
                     "id": "deepseek_r1",
@@ -45506,7 +45526,7 @@
                         "text_output"
                     ],
                     "api_available": true,
-                    "missing_count": 4
+                    "missing_count": 5
                 },
                 {
                     "id": "openai_o3_mini",
@@ -45521,36 +45541,35 @@
                         "text_output"
                     ],
                     "api_available": true,
-                    "missing_count": 4
+                    "missing_count": 5
                 },
                 {
                     "id": "claude_3_7_sonnet",
                     "name": "Claude 3.7 Sonnet",
                     "aliases": [],
-                    "status": "discontinued",
+                    "status": "available",
                     "effective_date": null,
                     "last_updated": null,
-                    "description": "Available through Perplexity Pro.",
+                    "description": "Access to top AI models for Pro subscribers.",
                     "modalities": [
-                        "text_input",
-                        "text_output"
+                        "text"
                     ],
                     "api_available": true,
-                    "missing_count": 4
+                    "missing_count": 0
                 },
                 {
                     "id": "sonar",
                     "name": "Sonar",
                     "aliases": [],
-                    "status": "discontinued",
-                    "effective_date": "null",
-                    "last_updated": "2026-09-27T00:00:00Z",
-                    "description": "Basic search-augmented generation. Optimized for search-augmented generation with built-in web retrieval.",
+                    "status": "available",
+                    "effective_date": null,
+                    "last_updated": null,
+                    "description": "Base Sonar model for API, real-time web search with citations.",
                     "modalities": [
                         "text"
                     ],
                     "api_available": true,
-                    "missing_count": 2
+                    "missing_count": 0
                 },
                 {
                     "id": "gpt_4_omni",
@@ -45565,7 +45584,7 @@
                         "text_output"
                     ],
                     "api_available": true,
-                    "missing_count": 4
+                    "missing_count": 5
                 },
                 {
                     "id": "claude_3",
@@ -45580,7 +45599,7 @@
                         "text_output"
                     ],
                     "api_available": true,
-                    "missing_count": 4
+                    "missing_count": 5
                 },
                 {
                     "id": "pplx_7b_chat",
@@ -45595,7 +45614,7 @@
                         "text_output"
                     ],
                     "api_available": true,
-                    "missing_count": 4
+                    "missing_count": 5
                 },
                 {
                     "id": "best-default",
@@ -45609,7 +45628,7 @@
                         "text"
                     ],
                     "api_available": false,
-                    "missing_count": 3
+                    "missing_count": 4
                 },
                 {
                     "id": "sonar-auto-selected",
@@ -45623,7 +45642,7 @@
                         "text"
                     ],
                     "api_available": true,
-                    "missing_count": 3
+                    "missing_count": 4
                 },
                 {
                     "id": "sonar-2",
@@ -45637,7 +45656,7 @@
                         "text"
                     ],
                     "api_available": true,
-                    "missing_count": 3
+                    "missing_count": 4
                 },
                 {
                     "id": "gpt-5.1",
@@ -45651,7 +45670,7 @@
                         "text"
                     ],
                     "api_available": false,
-                    "missing_count": 3
+                    "missing_count": 4
                 },
                 {
                     "id": "gpt-5.6-terra",
@@ -45665,7 +45684,7 @@
                         "text"
                     ],
                     "api_available": false,
-                    "missing_count": 3
+                    "missing_count": 4
                 },
                 {
                     "id": "gpt-5.6-sol",
@@ -45679,7 +45698,7 @@
                         "text"
                     ],
                     "api_available": false,
-                    "missing_count": 3
+                    "missing_count": 4
                 },
                 {
                     "id": "claude-opus-4.5",
@@ -45693,7 +45712,7 @@
                         "text"
                     ],
                     "api_available": true,
-                    "missing_count": 3
+                    "missing_count": 4
                 },
                 {
                     "id": "claude-opus-5",
@@ -45707,7 +45726,7 @@
                         "text"
                     ],
                     "api_available": true,
-                    "missing_count": 3
+                    "missing_count": 4
                 },
                 {
                     "id": "claude-sonnet-4.5",
@@ -45721,7 +45740,7 @@
                         "text"
                     ],
                     "api_available": true,
-                    "missing_count": 3
+                    "missing_count": 4
                 },
                 {
                     "id": "claude-sonnet-5",
@@ -45735,7 +45754,7 @@
                         "text"
                     ],
                     "api_available": true,
-                    "missing_count": 3
+                    "missing_count": 4
                 },
                 {
                     "id": "gemini-3-pro",
@@ -45752,7 +45771,7 @@
                         "video"
                     ],
                     "api_available": false,
-                    "missing_count": 3
+                    "missing_count": 4
                 },
                 {
                     "id": "gemini-3.1-pro",
@@ -45769,7 +45788,7 @@
                         "video"
                     ],
                     "api_available": false,
-                    "missing_count": 3
+                    "missing_count": 4
                 },
                 {
                     "id": "gemini-3.7-flash",
@@ -45786,7 +45805,7 @@
                         "video"
                     ],
                     "api_available": false,
-                    "missing_count": 3
+                    "missing_count": 4
                 },
                 {
                     "id": "grok-4.1",
@@ -45800,7 +45819,7 @@
                         "text"
                     ],
                     "api_available": false,
-                    "missing_count": 3
+                    "missing_count": 4
                 },
                 {
                     "id": "grok-4.6",
@@ -45814,7 +45833,7 @@
                         "text"
                     ],
                     "api_available": false,
-                    "missing_count": 3
+                    "missing_count": 4
                 },
                 {
                     "id": "kimi-k2-thinking",
@@ -45828,7 +45847,7 @@
                         "text"
                     ],
                     "api_available": false,
-                    "missing_count": 3
+                    "missing_count": 4
                 },
                 {
                     "id": "kimi-k3-glm-5.2-nemotron-3-ultra",
@@ -45842,7 +45861,7 @@
                         "text"
                     ],
                     "api_available": false,
-                    "missing_count": 3
+                    "missing_count": 4
                 },
                 {
                     "id": "o3-pro",
@@ -45856,7 +45875,7 @@
                         "text"
                     ],
                     "api_available": false,
-                    "missing_count": 3
+                    "missing_count": 4
                 },
                 {
                     "id": "sonar-small-online",
@@ -45870,7 +45889,7 @@
                         "text"
                     ],
                     "api_available": true,
-                    "missing_count": 3
+                    "missing_count": 4
                 },
                 {
                     "id": "sonar-large-online",
@@ -45884,7 +45903,7 @@
                         "text"
                     ],
                     "api_available": true,
-                    "missing_count": 3
+                    "missing_count": 4
                 },
                 {
                     "id": "sonar-huge-online",
@@ -45898,7 +45917,7 @@
                         "text"
                     ],
                     "api_available": true,
-                    "missing_count": 3
+                    "missing_count": 4
                 },
                 {
                     "id": "sonar-pro-api",
@@ -45912,7 +45931,7 @@
                         "text"
                     ],
                     "api_available": true,
-                    "missing_count": 3
+                    "missing_count": 4
                 },
                 {
                     "id": "sonar-reasoning-pro",
@@ -45926,7 +45945,7 @@
                         "text"
                     ],
                     "api_available": true,
-                    "missing_count": 3
+                    "missing_count": 4
                 },
                 {
                     "id": "sonar-deep-research",
@@ -45940,7 +45959,7 @@
                         "text"
                     ],
                     "api_available": true,
-                    "missing_count": 3
+                    "missing_count": 4
                 },
                 {
                     "id": "claude-fable-5",
@@ -45954,7 +45973,7 @@
                         "text"
                     ],
                     "api_available": true,
-                    "missing_count": 3
+                    "missing_count": 4
                 },
                 {
                     "id": "claude-fable-5.1",
@@ -45968,7 +45987,7 @@
                         "text"
                     ],
                     "api_available": true,
-                    "missing_count": 3
+                    "missing_count": 4
                 },
                 {
                     "id": "claude-opus-5.5",
@@ -45982,7 +46001,7 @@
                         "text"
                     ],
                     "api_available": true,
-                    "missing_count": 3
+                    "missing_count": 4
                 },
                 {
                     "id": "claude-opus-4.8",
@@ -45996,7 +46015,7 @@
                         "text"
                     ],
                     "api_available": true,
-                    "missing_count": 3
+                    "missing_count": 4
                 },
                 {
                     "id": "claude-opus-4.7",
@@ -46010,7 +46029,7 @@
                         "text"
                     ],
                     "api_available": true,
-                    "missing_count": 3
+                    "missing_count": 4
                 },
                 {
                     "id": "claude-opus-4.6",
@@ -46024,7 +46043,7 @@
                         "text"
                     ],
                     "api_available": true,
-                    "missing_count": 3
+                    "missing_count": 4
                 },
                 {
                     "id": "anthropic-claude-sonnet-4.6",
@@ -46038,7 +46057,7 @@
                         "text"
                     ],
                     "api_available": true,
-                    "missing_count": 3
+                    "missing_count": 4
                 },
                 {
                     "id": "sonar_pro",
@@ -46052,7 +46071,7 @@
                         "text"
                     ],
                     "api_available": true,
-                    "missing_count": 2
+                    "missing_count": 3
                 },
                 {
                     "id": "sonar_reasoning_pro",
@@ -46066,21 +46085,21 @@
                         "text"
                     ],
                     "api_available": true,
-                    "missing_count": 2
+                    "missing_count": 3
                 },
                 {
                     "id": "sonar_deep_research",
                     "name": "Sonar Deep Research",
                     "aliases": [],
-                    "status": "discontinued",
-                    "effective_date": "null",
-                    "last_updated": "2026-09-27T00:00:00Z",
-                    "description": "Autonomous research model that conducts multiple web searches, evaluates sources, and generates comprehensive reports. Exhaustive multi-search research mode.",
+                    "status": "available",
+                    "effective_date": null,
+                    "last_updated": null,
+                    "description": "API model for long, multi-step research jobs.",
                     "modalities": [
                         "text"
                     ],
                     "api_available": true,
-                    "missing_count": 2
+                    "missing_count": 0
                 },
                 {
                     "id": "sonar_pro_search",
@@ -46094,7 +46113,7 @@
                         "text"
                     ],
                     "api_available": true,
-                    "missing_count": 2
+                    "missing_count": 3
                 },
                 {
                     "id": "pplx-decider-v1-27b",
@@ -46108,7 +46127,7 @@
                         "text"
                     ],
                     "api_available": true,
-                    "missing_count": 2
+                    "missing_count": 3
                 },
                 {
                     "id": "advanced_ai_models_pro",
@@ -46127,7 +46146,7 @@
                         "code"
                     ],
                     "api_available": false,
-                    "missing_count": 2
+                    "missing_count": 3
                 },
                 {
                     "id": "full_suite_advanced_ai_models_max",
@@ -46147,19 +46166,270 @@
                         "video"
                     ],
                     "api_available": false,
-                    "missing_count": 2
+                    "missing_count": 3
                 },
                 {
                     "id": "decider-flash-v1.2",
                     "name": "Decider Flash V1.2",
                     "aliases": [],
-                    "status": "available",
+                    "status": "discontinued",
                     "effective_date": "null",
                     "last_updated": "null",
                     "description": "A 4B-parameter decision model from Perplexity.",
                     "modalities": [],
                     "api_available": true,
-                    "missing_count": 1
+                    "missing_count": 2
+                },
+                {
+                    "id": "perplexity_computer",
+                    "name": "Perplexity Computer",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": null,
+                    "last_updated": null,
+                    "description": "Orchestrates 19 AI models for tasks like creating personalized apps, tools, and documents. Available on Max plan and via API.",
+                    "modalities": [
+                        "text"
+                    ],
+                    "api_available": true,
+                    "missing_count": 0
+                },
+                {
+                    "id": "sonar_large",
+                    "name": "Sonar Large",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": null,
+                    "last_updated": null,
+                    "description": "Perplexity's own search-tuned model, designed for fast, real-time information retrieval. Available on Pro plan.",
+                    "modalities": [
+                        "text"
+                    ],
+                    "api_available": true,
+                    "missing_count": 0
+                },
+                {
+                    "id": "pplx-decider-v1.3",
+                    "name": "pplx-decider-v1.3",
+                    "aliases": [
+                        "pplx-decider-latest",
+                        "perplexity/pplx-decider-latest"
+                    ],
+                    "status": "available",
+                    "effective_date": null,
+                    "last_updated": null,
+                    "description": "Decision API model for typed answers with probabilities.",
+                    "modalities": [
+                        "text",
+                        "image"
+                    ],
+                    "api_available": true,
+                    "missing_count": 0
+                },
+                {
+                    "id": "pplx-decider-flash-v1.3",
+                    "name": "pplx-decider-flash-v1.3",
+                    "aliases": [
+                        "pplx-decider-flash-latest",
+                        "perplexity/pplx-decider-flash-latest"
+                    ],
+                    "status": "available",
+                    "effective_date": null,
+                    "last_updated": null,
+                    "description": "Flash version of the Decision API model.",
+                    "modalities": [
+                        "text",
+                        "image"
+                    ],
+                    "api_available": true,
+                    "missing_count": 0
+                },
+                {
+                    "id": "glm_5_3_flash",
+                    "name": "GLM-5.3 Flash (Tier 0)",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "2026-11-17",
+                    "last_updated": null,
+                    "description": "Available via Orchestrator API.",
+                    "modalities": [
+                        "text"
+                    ],
+                    "api_available": true,
+                    "missing_count": 0
+                },
+                {
+                    "id": "gpt_4o",
+                    "name": "GPT-4o",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": null,
+                    "last_updated": null,
+                    "description": "Access to top AI models for Pro subscribers.",
+                    "modalities": [
+                        "text",
+                        "image"
+                    ],
+                    "api_available": true,
+                    "missing_count": 0
+                },
+                {
+                    "id": "gemini_pro",
+                    "name": "Gemini Pro",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": null,
+                    "last_updated": null,
+                    "description": "Access to top AI models for Pro subscribers.",
+                    "modalities": [
+                        "text"
+                    ],
+                    "api_available": true,
+                    "missing_count": 0
+                },
+                {
+                    "id": "claude_opus_4_6",
+                    "name": "Claude Opus 4.6",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": null,
+                    "last_updated": null,
+                    "description": "Available on Max plan.",
+                    "modalities": [
+                        "text"
+                    ],
+                    "api_available": true,
+                    "missing_count": 0
+                },
+                {
+                    "id": "gpt_5_2",
+                    "name": "GPT-5.2",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": null,
+                    "last_updated": null,
+                    "description": "Available on Max plan.",
+                    "modalities": [
+                        "text"
+                    ],
+                    "api_available": true,
+                    "missing_count": 0
+                },
+                {
+                    "id": "gemini_3_pro",
+                    "name": "Gemini 3 Pro",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": null,
+                    "last_updated": null,
+                    "description": "Available on Max plan.",
+                    "modalities": [
+                        "text"
+                    ],
+                    "api_available": true,
+                    "missing_count": 0
+                },
+                {
+                    "id": "claude_opus_5",
+                    "name": "Claude Opus 5",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": null,
+                    "last_updated": null,
+                    "description": "Available on Max plan. Requires Tier 2 or higher via Orchestrator API.",
+                    "modalities": [
+                        "text"
+                    ],
+                    "api_available": true,
+                    "missing_count": 0
+                },
+                {
+                    "id": "gpt_5_6_sol",
+                    "name": "GPT-5.6 Sol",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": null,
+                    "last_updated": null,
+                    "description": "Available on Max plan.",
+                    "modalities": [
+                        "text"
+                    ],
+                    "api_available": true,
+                    "missing_count": 0
+                },
+                {
+                    "id": "gemini_4_hydrogen",
+                    "name": "Gemini 4 Hydrogen",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": null,
+                    "last_updated": null,
+                    "description": "Available via LiteLLM as of Nov 17, 2026.",
+                    "modalities": [
+                        "text"
+                    ],
+                    "api_available": true,
+                    "missing_count": 0
+                },
+                {
+                    "id": "gemini_4_carbon",
+                    "name": "Gemini 4 Carbon",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": null,
+                    "last_updated": null,
+                    "description": "Available via LiteLLM as of Nov 17, 2026.",
+                    "modalities": [
+                        "text"
+                    ],
+                    "api_available": true,
+                    "missing_count": 0
+                },
+                {
+                    "id": "claude_fable_5_2",
+                    "name": "Claude Fable 5.2",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": null,
+                    "last_updated": null,
+                    "description": "Available via LiteLLM as of Nov 17, 2026.",
+                    "modalities": [
+                        "text"
+                    ],
+                    "api_available": true,
+                    "missing_count": 0
+                },
+                {
+                    "id": "claude_fable_5_5",
+                    "name": "Claude Fable 5.5",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": null,
+                    "last_updated": null,
+                    "description": "Requires Tier 2 or higher via Orchestrator API.",
+                    "modalities": [
+                        "text"
+                    ],
+                    "api_available": true,
+                    "missing_count": 0
+                },
+                {
+                    "id": "other_frontier_models",
+                    "name": "Other Frontier AI Models",
+                    "aliases": [
+                        "OpenAI models",
+                        "Anthropic models",
+                        "Google models"
+                    ],
+                    "status": "available",
+                    "effective_date": null,
+                    "last_updated": null,
+                    "description": "Perplexity offers access to top frontier models and select open-source models from various providers.",
+                    "modalities": [
+                        "text"
+                    ],
+                    "api_available": true,
+                    "missing_count": 0
                 }
             ],
             "plans": [
@@ -46175,7 +46445,7 @@
                     "billing": "N/A",
                     "description": "Perplexity is available to web users without charge or registration, operating on a freemium model. It provides an AI-powered conversational search engine with precise, well-sourced answers and real-time citations.",
                     "pricing": [],
-                    "missing_count": 4
+                    "missing_count": 5
                 },
                 {
                     "id": "perplexity_pro",
@@ -46189,56 +46459,53 @@
                     "billing": "monthly or annual (implied)",
                     "description": "A paid Pro subscription offers access to more advanced language models (e.g., Deepseek R1, OpenAI o3-mini, Claude 3.7 Sonnet, Sonar) and additional features like searching files from Spaces.",
                     "pricing": [],
-                    "missing_count": 4
+                    "missing_count": 5
                 },
                 {
                     "id": "free",
                     "name": "Free",
                     "aliases": [
-                        "Standard tier"
+                        "Standard (Free)"
                     ],
-                    "status": "discontinued",
-                    "effective_date": "null",
-                    "last_updated": "2026-09-30T00:00:00Z",
-                    "billing": "Free",
-                    "description": "Permanent free access with unlimited basic searches and source citations.",
+                    "status": "available",
+                    "effective_date": null,
+                    "last_updated": null,
+                    "billing": "no subscription needed",
+                    "description": "For light users, exploring, or occasional cited answers. Includes practically unlimited basic searches with citations, access to basic AI models, and limited Pro Searches and Research.",
                     "pricing": [
                         {
-                            "name": "Price",
+                            "name": "monthly",
                             "unit": "month",
                             "price": "0",
                             "currency": "USD"
                         }
                     ],
-                    "missing_count": 2
+                    "missing_count": 0
                 },
                 {
                     "id": "pro",
                     "name": "Pro",
-                    "aliases": [
-                        "Perplexity Pro",
-                        "Premium"
-                    ],
-                    "status": "discontinued",
-                    "effective_date": "2026-09-27T00:00:00Z",
-                    "last_updated": "2026-09-27T00:00:00Z",
-                    "billing": "monthly / annually",
-                    "description": "Removes search caps and opens access to premium AI models and advanced features for individuals.",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": null,
+                    "last_updated": "2026-10-14",
+                    "billing": "monthly or annually",
+                    "description": "Expanded computer access, 4,000 bonus credits, deep research, access to top AI models, model selection, polished documents & apps, more usage limits and memory.",
                     "pricing": [
                         {
-                            "name": "Monthly",
+                            "name": "monthly",
                             "unit": "month",
                             "price": "20",
                             "currency": "USD"
                         },
                         {
-                            "name": "Annually",
-                            "unit": "year",
-                            "price": "200",
+                            "name": "annually (billed yearly)",
+                            "unit": "month",
+                            "price": "16.67",
                             "currency": "USD"
                         }
                     ],
-                    "missing_count": 3
+                    "missing_count": 0
                 },
                 {
                     "id": "education-pro",
@@ -46257,32 +46524,32 @@
                             "currency": "USD"
                         }
                     ],
-                    "missing_count": 3
+                    "missing_count": 4
                 },
                 {
                     "id": "max",
                     "name": "Max",
                     "aliases": [],
-                    "status": "discontinued",
-                    "effective_date": "2026-09-04T00:00:00Z",
-                    "last_updated": "2026-09-04T00:00:00Z",
-                    "billing": "monthly / annually",
-                    "description": "For individual power users, includes advanced Computer features and highest-tier models.",
+                    "status": "available",
+                    "effective_date": null,
+                    "last_updated": "2026-09-14",
+                    "billing": "monthly or annually",
+                    "description": "Maximum Computer usage, 35,000 bonus credits, 10,000 monthly credits, expert level research, frontier AI models, highest usage limits and memory, priority access to new features. Includes Claude Opus 5 and GPT-5.6 Sol.",
                     "pricing": [
                         {
-                            "name": "Monthly",
+                            "name": "monthly",
                             "unit": "month",
                             "price": "200",
                             "currency": "USD"
                         },
                         {
-                            "name": "Annually",
-                            "unit": "year",
-                            "price": "2000",
+                            "name": "annually (billed yearly)",
+                            "unit": "month",
+                            "price": "166.67",
                             "currency": "USD"
                         }
                     ],
-                    "missing_count": 3
+                    "missing_count": 0
                 },
                 {
                     "id": "enterprise-pro",
@@ -46307,7 +46574,7 @@
                             "currency": "USD"
                         }
                     ],
-                    "missing_count": 3
+                    "missing_count": 4
                 },
                 {
                     "id": "enterprise-max",
@@ -46319,7 +46586,7 @@
                     "billing": "custom",
                     "description": "Custom pricing for large enterprise teams.",
                     "pricing": [],
-                    "missing_count": 3
+                    "missing_count": 4
                 },
                 {
                     "id": "perplexity_pro_individual",
@@ -46346,7 +46613,7 @@
                             "currency": "USD"
                         }
                     ],
-                    "missing_count": 2
+                    "missing_count": 3
                 },
                 {
                     "id": "perplexity_max_individual",
@@ -46373,70 +46640,76 @@
                             "currency": "USD"
                         }
                     ],
-                    "missing_count": 2
+                    "missing_count": 3
                 },
                 {
                     "id": "education_pro",
                     "name": "Education Pro",
                     "aliases": [],
-                    "status": "discontinued",
-                    "effective_date": "null",
-                    "last_updated": "2026-10-02T00:00:00Z",
-                    "billing": "Monthly",
-                    "description": "Offered at a discount to verified students and educators. Includes all Pro features plus education-specific tips and nudges, access to Perplexity Computer, and Learn Mode.",
+                    "status": "available",
+                    "effective_date": null,
+                    "last_updated": null,
+                    "billing": "monthly",
+                    "description": "Same limits as Pro, for verified students and faculty.",
                     "pricing": [
                         {
-                            "name": "Monthly",
+                            "name": "monthly",
                             "unit": "month",
                             "price": "10",
                             "currency": "USD"
                         }
                     ],
-                    "missing_count": 2
+                    "missing_count": 0
                 },
                 {
                     "id": "enterprise_pro",
                     "name": "Enterprise Pro",
                     "aliases": [],
-                    "status": "discontinued",
-                    "effective_date": "null",
-                    "last_updated": "2026-10-02T00:00:00Z",
-                    "billing": "Per-seat, Monthly or Annually",
-                    "description": "Designed for organizations with advanced security, compliance, and scalable AI needs. Includes all Pro features, Trust Center access, strict data privacy, advanced seat management, internal knowledge search, and dedicated support.",
+                    "status": "available",
+                    "effective_date": null,
+                    "last_updated": null,
+                    "billing": "monthly or annually (per seat)",
+                    "description": "Includes all Pro models, SSO, 400 Pro Searches per week, 50 Research per month.",
                     "pricing": [
                         {
-                            "name": "Per Seat Monthly",
-                            "unit": "seat/month",
+                            "name": "monthly per seat",
+                            "unit": "month",
                             "price": "40",
                             "currency": "USD"
                         },
                         {
-                            "name": "Per Seat Annually",
-                            "unit": "seat/year",
-                            "price": "400",
+                            "name": "annually per seat (billed yearly)",
+                            "unit": "month",
+                            "price": "33.33",
                             "currency": "USD"
                         }
                     ],
-                    "missing_count": 2
+                    "missing_count": 0
                 },
                 {
                     "id": "enterprise_max",
                     "name": "Enterprise Max",
                     "aliases": [],
-                    "status": "discontinued",
-                    "effective_date": "null",
-                    "last_updated": "2026-10-02T00:00:00Z",
-                    "billing": "Per-seat, Monthly",
-                    "description": "Includes all Enterprise Pro features, plus extended rate-limits for creating files and apps, more Research queries, and enhanced video generation.",
+                    "status": "available",
+                    "effective_date": null,
+                    "last_updated": null,
+                    "billing": "monthly or annually (per seat)",
+                    "description": "Includes all models plus advanced (GPT-5 Thinking, Opus 4.6), 4,000 Pro Searches per week, 500 Research per month, 800 Comet Assistant per month, video generation (15 per month), SCIM, and Audit Logs.",
                     "pricing": [
                         {
-                            "name": "Per Seat Monthly",
-                            "unit": "seat/month",
+                            "name": "monthly per seat",
+                            "unit": "month",
                             "price": "325",
+                            "currency": "USD"
+                        },
+                        {
+                            "name": "annually per seat (billed yearly)",
+                            "unit": "month",
+                            "price": "270.83",
                             "currency": "USD"
                         }
                     ],
-                    "missing_count": 2
+                    "missing_count": 0
                 },
                 {
                     "id": "api_platform",
@@ -46553,7 +46826,317 @@
                             "currency": "USD"
                         }
                     ],
-                    "missing_count": 2
+                    "missing_count": 3
+                },
+                {
+                    "id": "enterprise_education_npo",
+                    "name": "Enterprise Education/Non-profit",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": null,
+                    "last_updated": null,
+                    "billing": "monthly or annually (per seat)",
+                    "description": "For verified non-profit and education organizations.",
+                    "pricing": [
+                        {
+                            "name": "monthly per seat",
+                            "unit": "month",
+                            "price": "30",
+                            "currency": "USD"
+                        }
+                    ],
+                    "missing_count": 0
+                },
+                {
+                    "id": "enterprise_custom",
+                    "name": "Enterprise Custom",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": null,
+                    "last_updated": null,
+                    "billing": "quote-only",
+                    "description": "Custom tier for specific enterprise needs.",
+                    "pricing": [],
+                    "missing_count": 0
+                },
+                {
+                    "id": "perplexity_api_agent",
+                    "name": "Perplexity API (Agent API)",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": null,
+                    "last_updated": null,
+                    "billing": "usage-based",
+                    "description": "Access to proprietary and open-weight models with web search, URL fetching, and code execution. Bills models at provider's token rates plus tool fees.",
+                    "pricing": [
+                        {
+                            "name": "standard web search (tool fee)",
+                            "unit": "request",
+                            "price": "0.0025",
+                            "currency": "USD"
+                        },
+                        {
+                            "name": "fast search (tool fee)",
+                            "unit": "request",
+                            "price": "0.001",
+                            "currency": "USD"
+                        },
+                        {
+                            "name": "URL fetch (successful)",
+                            "unit": "fetch",
+                            "price": "0.001",
+                            "currency": "USD"
+                        },
+                        {
+                            "name": "sandbox session",
+                            "unit": "20-minute container session",
+                            "price": "variable",
+                            "currency": "USD"
+                        },
+                        {
+                            "name": "SDK search queries (inside sandbox)",
+                            "unit": "request",
+                            "price": "0.0025",
+                            "currency": "USD"
+                        }
+                    ],
+                    "missing_count": 0
+                },
+                {
+                    "id": "perplexity_api_search",
+                    "name": "Perplexity API (Search API)",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": null,
+                    "last_updated": null,
+                    "billing": "usage-based",
+                    "description": "Provides ranked web results as JSON with extracted page text. No generated answer, billed per request.",
+                    "pricing": [
+                        {
+                            "name": "standard search",
+                            "unit": "1000 requests",
+                            "price": "5",
+                            "currency": "USD"
+                        },
+                        {
+                            "name": "fast search",
+                            "unit": "request",
+                            "price": "1",
+                            "currency": "USD"
+                        }
+                    ],
+                    "missing_count": 0
+                },
+                {
+                    "id": "perplexity_api_sonar_chat_completions",
+                    "name": "Perplexity API (Sonar Chat Completions)",
+                    "aliases": [
+                        "Agent API"
+                    ],
+                    "status": "discontinued",
+                    "effective_date": null,
+                    "last_updated": "2026-09-27",
+                    "billing": "usage-based",
+                    "description": "Old API billing rates for Sonar Chat Completions, now transitioned to Agent API.",
+                    "pricing": [],
+                    "missing_count": 0
+                },
+                {
+                    "id": "perplexity_api_sonar",
+                    "name": "Perplexity API (Sonar)",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": null,
+                    "last_updated": null,
+                    "billing": "usage-based",
+                    "description": "Base Sonar model API access with token and search fees.",
+                    "pricing": [
+                        {
+                            "name": "input tokens",
+                            "unit": "1 million tokens",
+                            "price": "1",
+                            "currency": "USD"
+                        },
+                        {
+                            "name": "output tokens",
+                            "unit": "1 million tokens",
+                            "price": "1",
+                            "currency": "USD"
+                        },
+                        {
+                            "name": "per-request search fee (low context)",
+                            "unit": "1000 requests",
+                            "price": "5",
+                            "currency": "USD"
+                        },
+                        {
+                            "name": "per-request search fee (medium context)",
+                            "unit": "1000 requests",
+                            "price": "9",
+                            "currency": "USD"
+                        },
+                        {
+                            "name": "per-request search fee (high context)",
+                            "unit": "1000 requests",
+                            "price": "12",
+                            "currency": "USD"
+                        }
+                    ],
+                    "missing_count": 0
+                },
+                {
+                    "id": "perplexity_api_sonar_pro",
+                    "name": "Perplexity API (Sonar Pro)",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": null,
+                    "last_updated": null,
+                    "billing": "usage-based",
+                    "description": "Sonar Pro API with token and search fees. Output rate is 15x base Sonar.",
+                    "pricing": [
+                        {
+                            "name": "input tokens",
+                            "unit": "1 million tokens",
+                            "price": "1",
+                            "currency": "USD"
+                        },
+                        {
+                            "name": "output tokens",
+                            "unit": "1 million tokens",
+                            "price": "15",
+                            "currency": "USD"
+                        },
+                        {
+                            "name": "per-request search fee (low context)",
+                            "unit": "1000 requests",
+                            "price": "6",
+                            "currency": "USD"
+                        },
+                        {
+                            "name": "per-request search fee (medium context)",
+                            "unit": "1000 requests",
+                            "price": "10",
+                            "currency": "USD"
+                        },
+                        {
+                            "name": "per-request search fee (high context)",
+                            "unit": "1000 requests",
+                            "price": "14",
+                            "currency": "USD"
+                        }
+                    ],
+                    "missing_count": 0
+                },
+                {
+                    "id": "perplexity_api_sonar_reasoning_pro",
+                    "name": "Perplexity API (Sonar Reasoning Pro)",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": null,
+                    "last_updated": null,
+                    "billing": "usage-based",
+                    "description": "Sonar Reasoning Pro API with token and search fees.",
+                    "pricing": [
+                        {
+                            "name": "input tokens",
+                            "unit": "1 million tokens",
+                            "price": "1",
+                            "currency": "USD"
+                        },
+                        {
+                            "name": "output tokens",
+                            "unit": "1 million tokens",
+                            "price": "1",
+                            "currency": "USD"
+                        },
+                        {
+                            "name": "per-request search fee (low context)",
+                            "unit": "1000 requests",
+                            "price": "6",
+                            "currency": "USD"
+                        },
+                        {
+                            "name": "per-request search fee (medium context)",
+                            "unit": "1000 requests",
+                            "price": "10",
+                            "currency": "USD"
+                        },
+                        {
+                            "name": "per-request search fee (high context)",
+                            "unit": "1000 requests",
+                            "price": "14",
+                            "currency": "USD"
+                        }
+                    ],
+                    "missing_count": 0
+                },
+                {
+                    "id": "perplexity_api_sonar_deep_research",
+                    "name": "Perplexity API (Sonar Deep Research)",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": null,
+                    "last_updated": null,
+                    "billing": "usage-based",
+                    "description": "Sonar Deep Research API with separate billing for citation, reasoning tokens, and search queries.",
+                    "pricing": [
+                        {
+                            "name": "citation tokens",
+                            "unit": "1 million tokens",
+                            "price": "2",
+                            "currency": "USD"
+                        },
+                        {
+                            "name": "reasoning tokens",
+                            "unit": "1 million tokens",
+                            "price": "3",
+                            "currency": "USD"
+                        },
+                        {
+                            "name": "search queries",
+                            "unit": "1000 queries",
+                            "price": "5",
+                            "currency": "USD"
+                        }
+                    ],
+                    "missing_count": 0
+                },
+                {
+                    "id": "perplexity_api_orchestrator",
+                    "name": "Perplexity API (Orchestrator API)",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "2026-11-17",
+                    "last_updated": "2026-11-17",
+                    "billing": "usage-based",
+                    "description": "API for accessing proprietary and open-weight models with consolidated billing, same-model provider failover, and optional automatic model-routing. Billing follows the model's published per-token rate.",
+                    "pricing": [
+                        {
+                            "name": "GLM-5.3 Flash (Tier 0) input tokens",
+                            "unit": "1 million tokens",
+                            "price": "0.15",
+                            "currency": "USD"
+                        },
+                        {
+                            "name": "GLM-5.3 Flash (Tier 0) output tokens",
+                            "unit": "1 million tokens",
+                            "price": "0.50",
+                            "currency": "USD"
+                        },
+                        {
+                            "name": "GLM-5.3 Flash (Tier 0) cache reads",
+                            "unit": "1 million tokens",
+                            "price": "0.03",
+                            "currency": "USD"
+                        },
+                        {
+                            "name": "Reasoning tokens",
+                            "unit": "1 million tokens",
+                            "price": "output rate",
+                            "currency": "USD"
+                        }
+                    ],
+                    "missing_count": 0
                 }
             ],
             "features": [
@@ -46568,7 +47151,7 @@
                     "last_updated": null,
                     "description": "Provides precise, well-sourced answers to user queries, distinguishing itself from traditional search engines.",
                     "category": "Core Functionality",
-                    "missing_count": 4
+                    "missing_count": 5
                 },
                 {
                     "id": "real_time_citations",
@@ -46581,7 +47164,7 @@
                     "last_updated": null,
                     "description": "Delivers comprehensive responses backed by verifiable sources with real-time citations.",
                     "category": "Core Functionality",
-                    "missing_count": 4
+                    "missing_count": 5
                 },
                 {
                     "id": "natural_language_processing",
@@ -46594,7 +47177,7 @@
                     "last_updated": null,
                     "description": "Analyzes questions using NLP to detect intent, context, and key details.",
                     "category": "Technology",
-                    "missing_count": 4
+                    "missing_count": 5
                 },
                 {
                     "id": "web_search_capability",
@@ -46607,7 +47190,7 @@
                     "last_updated": null,
                     "description": "Retrieves relevant information from sources including articles, websites, journals, research papers, news sites, and live data feeds.",
                     "category": "Core Functionality",
-                    "missing_count": 4
+                    "missing_count": 5
                 },
                 {
                     "id": "information_processing",
@@ -46620,7 +47203,7 @@
                     "last_updated": null,
                     "description": "The AI extracts insights, filters out redundant or misleading data, and generates a clear, concise response.",
                     "category": "Core Functionality",
-                    "missing_count": 4
+                    "missing_count": 5
                 },
                 {
                     "id": "organized_research_spaces",
@@ -46633,7 +47216,7 @@
                     "last_updated": null,
                     "description": "Feature available with Perplexity Pro for organizing research.",
                     "category": "Productivity",
-                    "missing_count": 4
+                    "missing_count": 5
                 },
                 {
                     "id": "instant_page_summaries",
@@ -46646,7 +47229,7 @@
                     "last_updated": null,
                     "description": "Summarizes any article or webpage at a glance (available via Chrome extension).",
                     "category": "Utility",
-                    "missing_count": 4
+                    "missing_count": 5
                 },
                 {
                     "id": "quick_queries",
@@ -46659,7 +47242,7 @@
                     "last_updated": null,
                     "description": "Allows asking any question directly from the browser toolbar (available via Chrome extension).",
                     "category": "Utility",
-                    "missing_count": 4
+                    "missing_count": 5
                 },
                 {
                     "id": "contextual_understanding",
@@ -46672,7 +47255,7 @@
                     "last_updated": null,
                     "description": "Provides answers relevant to the current page or specific to the current domain (available via Chrome extension).",
                     "category": "Utility",
-                    "missing_count": 4
+                    "missing_count": 5
                 },
                 {
                     "id": "shareable_insights",
@@ -46685,7 +47268,7 @@
                     "last_updated": null,
                     "description": "Easily share discoveries with a clickable link (available via Chrome extension).",
                     "category": "Collaboration",
-                    "missing_count": 4
+                    "missing_count": 5
                 },
                 {
                     "id": "dynamic_conversations",
@@ -46698,7 +47281,7 @@
                     "last_updated": null,
                     "description": "Click to ask follow-up questions for deeper understanding (available via Chrome extension).",
                     "category": "Interaction",
-                    "missing_count": 4
+                    "missing_count": 5
                 },
                 {
                     "id": "unlimited-quick-searches",
@@ -46709,7 +47292,7 @@
                     "last_updated": "2026-09-27T00:00:00Z",
                     "description": "Basic search option with quick responses, citations, and follow-up queries.",
                     "category": "Search",
-                    "missing_count": 3
+                    "missing_count": 4
                 },
                 {
                     "id": "pro-searches",
@@ -46722,7 +47305,7 @@
                     "last_updated": "2026-09-27T00:00:00Z",
                     "description": "Enhanced search option offering detailed chain-of-thought reasoning and more thorough research. Limited to 3 per day on Free plan, unlimited on Pro/Max.",
                     "category": "Search",
-                    "missing_count": 3
+                    "missing_count": 4
                 },
                 {
                     "id": "deep-research",
@@ -46735,7 +47318,7 @@
                     "last_updated": "2026-09-27T00:00:00Z",
                     "description": "Autonomous research model that conducts multiple web searches, evaluates sources, and generates comprehensive reports. Limited to 5 queries per day on Free plan, higher allowance on Pro (approx. 20 ru",
                     "category": "Research",
-                    "missing_count": 3
+                    "missing_count": 4
                 },
                 {
                     "id": "model-selection",
@@ -46746,7 +47329,7 @@
                     "last_updated": "2026-09-09T00:00:00Z",
                     "description": "Ability to manually choose from a list of advanced AI models (e.g., GPT, Claude, Gemini) when submitting queries. Available to Pro and Max subscribers.",
                     "category": "Customization",
-                    "missing_count": 3
+                    "missing_count": 4
                 },
                 {
                     "id": "file-uploads",
@@ -46759,7 +47342,7 @@
                     "last_updated": "2026-09-27T00:00:00Z",
                     "description": "Upload files for document analysis using retrieval-augmented generation (RAG). Limited to 3 files/day (40 MB/file) on Free plan, unlimited on Pro/Max.",
                     "category": "Productivity",
-                    "missing_count": 3
+                    "missing_count": 4
                 },
                 {
                     "id": "ai-image-generation",
@@ -46770,7 +47353,7 @@
                     "last_updated": "2026-09-04T00:00:00Z",
                     "description": "Generate images using AI. Restricted to paid tiers.",
                     "category": "Content Creation",
-                    "missing_count": 3
+                    "missing_count": 4
                 },
                 {
                     "id": "perplexity-computer",
@@ -46783,7 +47366,7 @@
                     "last_updated": "2026-09-27T00:00:00Z",
                     "description": "An agent that plans and finishes multi-step work across more than 20 AI models. Available on Pro (with initial credits) and Max (10,000 credits/month).",
                     "category": "Agentic AI",
-                    "missing_count": 3
+                    "missing_count": 4
                 },
                 {
                     "id": "portable-computer",
@@ -46794,7 +47377,7 @@
                     "last_updated": "2026-09-25T00:00:00Z",
                     "description": "On-device version of Perplexity Computer, runs local AI tasks and recurring workflows on own hardware (NVIDIA, AMD Ryzen AI Max, Windows, Mac), keeping sensitive files local.",
                     "category": "Agentic AI",
-                    "missing_count": 3
+                    "missing_count": 4
                 },
                 {
                     "id": "model-council",
@@ -46805,7 +47388,7 @@
                     "last_updated": "2026-09-27T00:00:00Z",
                     "description": "Runs one query across several models and merges the answers. Available for Max and Enterprise Max plans; also a Computer skill on all paid plans.",
                     "category": "Advanced Reasoning",
-                    "missing_count": 3
+                    "missing_count": 4
                 },
                 {
                     "id": "comet-browser",
@@ -46816,7 +47399,7 @@
                     "last_updated": "2025-10-01T00:00:00Z",
                     "description": "A Chromium browser with an AI assistant on every page. Free for all users on Mac, Windows, iOS, and Android.",
                     "category": "Browser Integration",
-                    "missing_count": 3
+                    "missing_count": 4
                 },
                 {
                     "id": "labs-report-builder",
@@ -46827,7 +47410,7 @@
                     "last_updated": "2026-09-04T00:00:00Z",
                     "description": "Feature for building reports.",
                     "category": "Research",
-                    "missing_count": 3
+                    "missing_count": 4
                 },
                 {
                     "id": "premium-data-sources",
@@ -46838,7 +47421,7 @@
                     "last_updated": "2026-09-04T00:00:00Z",
                     "description": "Access to specialized data sources like financial and academic databases.",
                     "category": "Data Access",
-                    "missing_count": 3
+                    "missing_count": 4
                 },
                 {
                     "id": "sso-scim-provisioning",
@@ -46849,7 +47432,7 @@
                     "last_updated": "2026-09-04T00:00:00Z",
                     "description": "Single Sign-On and SCIM provisioning for enterprise users.",
                     "category": "Enterprise Management",
-                    "missing_count": 3
+                    "missing_count": 4
                 },
                 {
                     "id": "role-based-admin-controls",
@@ -46860,7 +47443,7 @@
                     "last_updated": "2026-09-04T00:00:00Z",
                     "description": "Administrative controls based on user roles for enterprise plans.",
                     "category": "Enterprise Management",
-                    "missing_count": 3
+                    "missing_count": 4
                 },
                 {
                     "id": "soc-2-type-ii-compliance",
@@ -46871,7 +47454,7 @@
                     "last_updated": "2026-09-04T00:00:00Z",
                     "description": "Compliance with SOC 2 Type II standards for enterprise plans.",
                     "category": "Security",
-                    "missing_count": 3
+                    "missing_count": 4
                 },
                 {
                     "id": "internal-knowledge-search",
@@ -46882,7 +47465,7 @@
                     "last_updated": "2026-09-04T00:00:00Z",
                     "description": "Allows teams to query an uploaded shared file repository for internal knowledge.",
                     "category": "Enterprise Collaboration",
-                    "missing_count": 3
+                    "missing_count": 4
                 },
                 {
                     "id": "hybrid-compute",
@@ -46893,7 +47476,7 @@
                     "last_updated": "2026-09-01T00:00:00Z",
                     "description": "Perplexity Computer uses cloud AI and local models on Mac, keeping sensitive files and information on the device.",
                     "category": "Agentic AI",
-                    "missing_count": 3
+                    "missing_count": 4
                 },
                 {
                     "id": "computer-in-email",
@@ -46904,7 +47487,7 @@
                     "last_updated": "2026-08-18T00:00:00Z",
                     "description": "Run a full Computer task by sending, forwarding, or CC'ing computer@perplexity.com to receive deliverables in the same thread.",
                     "category": "Integration",
-                    "missing_count": 3
+                    "missing_count": 4
                 },
                 {
                     "id": "computer-for-builders",
@@ -46915,7 +47498,7 @@
                     "last_updated": "2026-08-06T00:00:00Z",
                     "description": "Automates coding, deploying, monitoring, and growth reporting for solo founders and small engineering teams.",
                     "category": "Development Tools",
-                    "missing_count": 3
+                    "missing_count": 4
                 },
                 {
                     "id": "computer-finance-data",
@@ -46926,7 +47509,7 @@
                     "last_updated": "2026-08-25T00:00:00Z",
                     "description": "Perplexity Computer connects to licensed finance data sources, including D&B, Guidepoint, IBISWorld, and others.",
                     "category": "Data Access",
-                    "missing_count": 3
+                    "missing_count": 4
                 },
                 {
                     "id": "conversational-dialogue",
@@ -46937,7 +47520,7 @@
                     "last_updated": "2026-09-02T00:00:00Z",
                     "description": "Perplexity responds in a conversational manner, similar to chatting with an expert.",
                     "category": "User Experience",
-                    "missing_count": 3
+                    "missing_count": 4
                 },
                 {
                     "id": "source-transparency",
@@ -46948,7 +47531,7 @@
                     "last_updated": "2026-09-02T00:00:00Z",
                     "description": "Every answer includes citations linking to the original sources for verification and further exploration.",
                     "category": "Transparency",
-                    "missing_count": 3
+                    "missing_count": 4
                 },
                 {
                     "id": "contextual-memory",
@@ -46961,7 +47544,7 @@
                     "last_updated": "2026-09-02T00:00:00Z",
                     "description": "Ability to ask follow-up questions within the conversational dialogue.",
                     "category": "User Experience",
-                    "missing_count": 3
+                    "missing_count": 4
                 },
                 {
                     "id": "basic_search",
@@ -46974,18 +47557,21 @@
                     "last_updated": "2025-08-30T00:00:00Z",
                     "description": "Unlimited basic searches with source citations.",
                     "category": "Core Functionality",
-                    "missing_count": 2
+                    "missing_count": 3
                 },
                 {
                     "id": "pro_search",
                     "name": "Pro Search",
-                    "aliases": [],
-                    "status": "discontinued",
-                    "effective_date": "null",
-                    "last_updated": "2026-09-30T00:00:00Z",
-                    "description": "Guided AI search for deeper exploration, pulling three times more sources and using multi-step reasoning. Unlimited for Pro plans, ~5 daily for Free plan.",
-                    "category": "Search",
-                    "missing_count": 2
+                    "aliases": [
+                        "Advanced Search",
+                        "Multi-step reasoning mode"
+                    ],
+                    "status": "available",
+                    "effective_date": null,
+                    "last_updated": null,
+                    "description": "Goes beyond regular search, conducting in-depth research to provide accurate responses. Limited on Free plan, higher limits on paid plans.",
+                    "category": "search_and_research",
+                    "missing_count": 0
                 },
                 {
                     "id": "deep_research",
@@ -46993,12 +47579,12 @@
                     "aliases": [
                         "Advanced Deep Research"
                     ],
-                    "status": "discontinued",
-                    "effective_date": "null",
-                    "last_updated": "2026-03-01T00:00:00Z",
-                    "description": "Automated, cited analysis from live sources. AI spends 2 to 4 minutes reading dozens of articles to build a structured report. 20 queries/day for Pro, 3 daily for Free, unlimited for Max.",
-                    "category": "Research",
-                    "missing_count": 2
+                    "status": "available",
+                    "effective_date": null,
+                    "last_updated": "2026-11-06",
+                    "description": "Advanced research feature that conducts in-depth research and analysis, saving hours of time. Limited on Free plan, monthly allowances on paid plans.",
+                    "category": "search_and_research",
+                    "missing_count": 0
                 },
                 {
                     "id": "file_uploads",
@@ -47012,7 +47598,7 @@
                     "last_updated": "2025-10-17T00:00:00Z",
                     "description": "Upload files (PDFs, DOCXs, and more) for instant summarization, analysis, or comparison. Up to 50 files per project for Pro users, 3 daily for Free plan.",
                     "category": "Productivity",
-                    "missing_count": 2
+                    "missing_count": 3
                 },
                 {
                     "id": "image_video_generation",
@@ -47023,7 +47609,7 @@
                     "last_updated": "2026-10-02T00:00:00Z",
                     "description": "Generate images and videos. Enhanced video generation (15 videos/month, 8 seconds, with audio, landscape) for Enterprise Max.",
                     "category": "Content Creation",
-                    "missing_count": 2
+                    "missing_count": 3
                 },
                 {
                     "id": "spaces",
@@ -47034,7 +47620,7 @@
                     "last_updated": "2026-06-12T00:00:00Z",
                     "description": "Organize topics and share knowledge. Specialized assistants for managing larger research projects.",
                     "category": "Organization & Collaboration",
-                    "missing_count": 2
+                    "missing_count": 3
                 },
                 {
                     "id": "labs",
@@ -47047,29 +47633,31 @@
                     "last_updated": "2025-07-07T00:00:00Z",
                     "description": "Automation chains and tools for creating spreadsheets, presentations, and web applications. Limited usage for Pro, unlimited for Max, none for Free.",
                     "category": "Productivity",
-                    "missing_count": 2
+                    "missing_count": 3
                 },
                 {
                     "id": "perplexity_computer",
                     "name": "Perplexity Computer",
-                    "aliases": [],
-                    "status": "discontinued",
-                    "effective_date": "null",
-                    "last_updated": "2026-09-30T00:00:00Z",
-                    "description": "Provides 10,000 monthly credits for Max users. Also accessible to Education Pro users.",
-                    "category": "Productivity",
-                    "missing_count": 2
+                    "aliases": [
+                        "Computer usage"
+                    ],
+                    "status": "available",
+                    "effective_date": null,
+                    "last_updated": null,
+                    "description": "Orchestrates 19 models to create personalized apps, tools, documents, and more. Available on Pro (weekly usage) and Max (10,000 credits/month).",
+                    "category": "productivity",
+                    "missing_count": 0
                 },
                 {
                     "id": "comet_browser",
                     "name": "Comet Browser",
                     "aliases": [],
-                    "status": "discontinued",
-                    "effective_date": "2025-10-02T00:00:00Z",
-                    "last_updated": "2026-09-30T00:00:00Z",
-                    "description": "Integrated web browser. Free on Windows, Mac, Android, iOS.",
-                    "category": "Browsing",
-                    "missing_count": 2
+                    "status": "available",
+                    "effective_date": "2025-10-02",
+                    "last_updated": null,
+                    "description": "Free for everyone on Windows, Mac, Android, and iOS.",
+                    "category": "tools",
+                    "missing_count": 0
                 },
                 {
                     "id": "comet_plus",
@@ -47080,7 +47668,7 @@
                     "last_updated": "2026-09-30T00:00:00Z",
                     "description": "Includes premium publisher content. $5/month standalone or included free with any Perplexity Pro or Max subscription.",
                     "category": "Content Access",
-                    "missing_count": 2
+                    "missing_count": 3
                 },
                 {
                     "id": "thread_follow_ups",
@@ -47091,7 +47679,7 @@
                     "last_updated": "2026-09-30T00:00:00Z",
                     "description": "Maintain conversation context for deeper understanding.",
                     "category": "Interaction",
-                    "missing_count": 2
+                    "missing_count": 3
                 },
                 {
                     "id": "assistant",
@@ -47102,7 +47690,7 @@
                     "last_updated": "2026-09-30T00:00:00Z",
                     "description": "Draft emails, schedule appointments, book reservations, and more.",
                     "category": "Productivity",
-                    "missing_count": 2
+                    "missing_count": 3
                 },
                 {
                     "id": "voice_input",
@@ -47115,7 +47703,7 @@
                     "last_updated": "2026-09-30T00:00:00Z",
                     "description": "Instant, up-to-date answers whether you type or say it.",
                     "category": "Interaction",
-                    "missing_count": 2
+                    "missing_count": 3
                 },
                 {
                     "id": "cited_sources",
@@ -47128,7 +47716,7 @@
                     "last_updated": "2026-09-30T00:00:00Z",
                     "description": "Every answer is backed by sources and citations.",
                     "category": "Core Functionality",
-                    "missing_count": 2
+                    "missing_count": 3
                 },
                 {
                     "id": "discover_community",
@@ -47139,7 +47727,7 @@
                     "last_updated": "2026-09-30T00:00:00Z",
                     "description": "Learn new things from the community.",
                     "category": "Community",
-                    "missing_count": 2
+                    "missing_count": 3
                 },
                 {
                     "id": "your_library",
@@ -47150,7 +47738,7 @@
                     "last_updated": "2026-09-30T00:00:00Z",
                     "description": "More than search history, it's a curation of your discoveries.",
                     "category": "Organization",
-                    "missing_count": 2
+                    "missing_count": 3
                 },
                 {
                     "id": "exclusive_support_channels",
@@ -47161,7 +47749,7 @@
                     "last_updated": "2026-10-02T00:00:00Z",
                     "description": "Pro channel on Discord and direct contact via Help menu with prioritized inquiries.",
                     "category": "Support",
-                    "missing_count": 2
+                    "missing_count": 3
                 },
                 {
                     "id": "trust_center_access",
@@ -47172,7 +47760,7 @@
                     "last_updated": "2026-10-02T00:00:00Z",
                     "description": "Access to trust center and strict data privacy (data never used for training).",
                     "category": "Security & Compliance",
-                    "missing_count": 2
+                    "missing_count": 3
                 },
                 {
                     "id": "advanced_seat_management",
@@ -47183,18 +47771,18 @@
                     "last_updated": "2026-10-02T00:00:00Z",
                     "description": "Advanced tools for managing user seats within an organization.",
                     "category": "Administration",
-                    "missing_count": 2
+                    "missing_count": 3
                 },
                 {
                     "id": "internal_knowledge_search",
                     "name": "Internal Knowledge Search",
                     "aliases": [],
-                    "status": "discontinued",
-                    "effective_date": "null",
-                    "last_updated": "2026-10-02T00:00:00Z",
-                    "description": "Through shared Projects and centrally governed File Connectors.",
-                    "category": "Collaboration",
-                    "missing_count": 2
+                    "status": "available",
+                    "effective_date": null,
+                    "last_updated": null,
+                    "description": "Enables Pro and Enterprise Pro users to browse web content and their internal documents simultaneously.",
+                    "category": "enterprise",
+                    "missing_count": 0
                 },
                 {
                     "id": "increased_daily_file_uploads",
@@ -47205,7 +47793,204 @@
                     "last_updated": "2026-10-02T00:00:00Z",
                     "description": "Increased limits for file uploads with organization-level controls.",
                     "category": "Productivity",
-                    "missing_count": 2
+                    "missing_count": 3
+                },
+                {
+                    "id": "real_time_web_search",
+                    "name": "Real-time Web Search with Citations",
+                    "aliases": [
+                        "Web-grounded answers",
+                        "Live retrieval"
+                    ],
+                    "status": "available",
+                    "effective_date": null,
+                    "last_updated": null,
+                    "description": "Searches the web in real time, reads relevant sources, and produces a concise answer with numbered citations.",
+                    "category": "core_functionality",
+                    "missing_count": 0
+                },
+                {
+                    "id": "model_selection",
+                    "name": "Model Selection",
+                    "aliases": [
+                        "AI model picker",
+                        "Access to top AI models"
+                    ],
+                    "status": "available",
+                    "effective_date": null,
+                    "last_updated": null,
+                    "description": "Ability to select a preferred AI model per query from a range of top AI models. Available on paid plans.",
+                    "category": "customization",
+                    "missing_count": 0
+                },
+                {
+                    "id": "file_uploads_analysis",
+                    "name": "File Uploads and Analysis",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": null,
+                    "last_updated": null,
+                    "description": "Ability to upload and analyze files. Limited on Free, higher limits on paid plans (e.g., up to 50 files per project on Pro).",
+                    "category": "productivity",
+                    "missing_count": 0
+                },
+                {
+                    "id": "image_generation",
+                    "name": "Image Generation",
+                    "aliases": [
+                        "Perplexify Me"
+                    ],
+                    "status": "available",
+                    "effective_date": null,
+                    "last_updated": null,
+                    "description": "Explore image generation, including custom Perplexity style self-portraits. Available on paid plans.",
+                    "category": "content_creation",
+                    "missing_count": 0
+                },
+                {
+                    "id": "video_creation",
+                    "name": "Video Creation",
+                    "aliases": [
+                        "Sora 2 Pro video generation"
+                    ],
+                    "status": "available",
+                    "effective_date": null,
+                    "last_updated": null,
+                    "description": "Video generation capabilities, including Sora 2 Pro on Max. Enterprise Max includes 15 eight-second videos per month.",
+                    "category": "content_creation",
+                    "missing_count": 0
+                },
+                {
+                    "id": "perplexity_pages",
+                    "name": "Perplexity Pages",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": null,
+                    "last_updated": null,
+                    "description": "Tools for creating shareable reports and project-style outputs.",
+                    "category": "content_creation",
+                    "missing_count": 0
+                },
+                {
+                    "id": "projects",
+                    "name": "Projects",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": null,
+                    "last_updated": null,
+                    "description": "Dedicated workspaces for individual users and teams to organize, collaborate, and manage research and tasks.",
+                    "category": "collaboration",
+                    "missing_count": 0
+                },
+                {
+                    "id": "sessions",
+                    "name": "Sessions",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": null,
+                    "last_updated": null,
+                    "description": "Gateway to knowledge, technical capabilities for research and interaction.",
+                    "category": "user_interface",
+                    "missing_count": 0
+                },
+                {
+                    "id": "memory",
+                    "name": "Memory",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": null,
+                    "last_updated": null,
+                    "description": "Personalizes the user experience.",
+                    "category": "customization",
+                    "missing_count": 0
+                },
+                {
+                    "id": "reasoning_search",
+                    "name": "Reasoning Search",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": null,
+                    "last_updated": null,
+                    "description": "Ideal for advanced queries requiring multiple searches or breaking down complex questions.",
+                    "category": "search_and_research",
+                    "missing_count": 0
+                },
+                {
+                    "id": "learn_mode",
+                    "name": "Learn Mode",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": null,
+                    "last_updated": null,
+                    "description": "Newest offering for student learning, available to everyone.",
+                    "category": "education",
+                    "missing_count": 0
+                },
+                {
+                    "id": "teammates",
+                    "name": "Teammates",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "2026-11-04",
+                    "last_updated": null,
+                    "description": "Always-on agents for Max subscribers.",
+                    "category": "collaboration",
+                    "missing_count": 0
+                },
+                {
+                    "id": "financial_features",
+                    "name": "Financial Features",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "2024-10-01",
+                    "last_updated": null,
+                    "description": "Includes software that tracks stock prices and company earnings data, and basic financial analysis tools.",
+                    "category": "finance",
+                    "missing_count": 0
+                },
+                {
+                    "id": "api_access",
+                    "name": "API Access",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": null,
+                    "last_updated": null,
+                    "description": "Allows developers to harness real-time web search combined with conversational AI.",
+                    "category": "developer_tools",
+                    "missing_count": 0
+                },
+                {
+                    "id": "orchestrator_api",
+                    "name": "Orchestrator API",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": "2026-11-17",
+                    "last_updated": "2026-11-17",
+                    "description": "API for accessing proprietary models and open-weight models with consolidated billing, same-model provider failover, and optional automatic model-routing.",
+                    "category": "developer_tools",
+                    "missing_count": 0
+                },
+                {
+                    "id": "agent_api",
+                    "name": "Agent API",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": null,
+                    "last_updated": null,
+                    "description": "Supports models, web search, URL fetching, and code execution in one agent, providing structured, source-cited responses.",
+                    "category": "developer_tools",
+                    "missing_count": 0
+                },
+                {
+                    "id": "embedding_generation",
+                    "name": "Embedding Generation",
+                    "aliases": [],
+                    "status": "available",
+                    "effective_date": null,
+                    "last_updated": null,
+                    "description": "Generate high-quality embeddings for semantic search and RAG pipelines.",
+                    "category": "developer_tools",
+                    "missing_count": 0
                 }
             ],
             "limitations": [
@@ -47216,7 +48001,7 @@
                     "last_updated": "2026-09-27T00:00:00Z",
                     "description": "Free tier users are limited to 3 Pro Searches per day.",
                     "category": "Usage Limit",
-                    "missing_count": 3
+                    "missing_count": 4
                 },
                 {
                     "id": "free-tier-deep-research-limit",
@@ -47225,7 +48010,7 @@
                     "last_updated": "2026-09-27T00:00:00Z",
                     "description": "Free tier users are limited to 5 Deep Research queries per day.",
                     "category": "Usage Limit",
-                    "missing_count": 3
+                    "missing_count": 4
                 },
                 {
                     "id": "free-tier-file-upload-limit",
@@ -47234,7 +48019,7 @@
                     "last_updated": "2026-09-27T00:00:00Z",
                     "description": "Free tier users are limited to approximately 3 file uploads per day, with each file capped at 40 MB and 30-day retention.",
                     "category": "Usage Limit",
-                    "missing_count": 3
+                    "missing_count": 4
                 },
                 {
                     "id": "free-tier-input-length-limit",
@@ -47243,7 +48028,7 @@
                     "last_updated": "2025-09-18T00:00:00Z",
                     "description": "The maximum pasted input length on the free plan is approximately 8,000 tokens (roughly 20,000 characters).",
                     "category": "Usage Limit",
-                    "missing_count": 3
+                    "missing_count": 4
                 },
                 {
                     "id": "no-ai-image-generation-free",
@@ -47252,7 +48037,7 @@
                     "last_updated": "2025-09-18T00:00:00Z",
                     "description": "AI image generation is not available on the free tier, restricted to paid tiers.",
                     "category": "Feature Restriction",
-                    "missing_count": 3
+                    "missing_count": 4
                 },
                 {
                     "id": "no-custom-model-selection-free",
@@ -47261,7 +48046,7 @@
                     "last_updated": "2025-09-18T00:00:00Z",
                     "description": "Custom model selection is not available on the free tier, as free users are limited to the 'Best' (auto-selected) or Sonar model.",
                     "category": "Feature Restriction",
-                    "missing_count": 3
+                    "missing_count": 4
                 },
                 {
                     "id": "no-advanced-citation-filters-free",
@@ -47270,7 +48055,7 @@
                     "last_updated": "2025-09-18T00:00:00Z",
                     "description": "Advanced citation filters (e.g., switching between academic and general results) are not included in the free tier.",
                     "category": "Feature Restriction",
-                    "missing_count": 3
+                    "missing_count": 4
                 },
                 {
                     "id": "accuracy-verification-needed",
@@ -47279,7 +48064,7 @@
                     "last_updated": "2025-04-28T00:00:00Z",
                     "description": "As with any AI tool, checking all sources is critical to verify accuracy, especially for evolving or specialized topics. It is not infallible.",
                     "category": "Accuracy",
-                    "missing_count": 3
+                    "missing_count": 4
                 },
                 {
                     "id": "repetitive-responses",
@@ -47288,7 +48073,7 @@
                     "last_updated": "2025-04-28T00:00:00Z",
                     "description": "Some responses generated by Perplexity AI can be repetitive.",
                     "category": "Output Quality",
-                    "missing_count": 3
+                    "missing_count": 4
                 },
                 {
                     "id": "proneness-to-hallucinations",
@@ -47297,7 +48082,7 @@
                     "last_updated": "2025-04-28T00:00:00Z",
                     "description": "Perplexity is vulnerable to issues affecting the third-party LLMs it accesses, such as proneness to hallucinations.",
                     "category": "Output Quality",
-                    "missing_count": 3
+                    "missing_count": 4
                 },
                 {
                     "id": "struggle-with-multi-step-prompts",
@@ -47306,7 +48091,7 @@
                     "last_updated": "2026-09-27T00:00:00Z",
                     "description": "The base model can struggle with multi-step prompts.",
                     "category": "Performance",
-                    "missing_count": 3
+                    "missing_count": 4
                 },
                 {
                     "id": "weaker-creative-output",
@@ -47315,7 +48100,7 @@
                     "last_updated": "2026-02-10T00:00:00Z",
                     "description": "Creative output is weaker than ChatGPT-style tools, less suited for creative writing, storytelling, or long-form content.",
                     "category": "Output Quality",
-                    "missing_count": 3
+                    "missing_count": 4
                 },
                 {
                     "id": "limited-conversational-depth",
@@ -47324,7 +48109,7 @@
                     "last_updated": "2026-02-10T00:00:00Z",
                     "description": "Perplexity AI has limited conversational depth compared to traditional chatbots.",
                     "category": "User Experience",
-                    "missing_count": 3
+                    "missing_count": 4
                 },
                 {
                     "id": "mobile-experience-friction",
@@ -47333,7 +48118,7 @@
                     "last_updated": "2026-02-10T00:00:00Z",
                     "description": "There can be some friction around the mobile experience.",
                     "category": "User Experience",
-                    "missing_count": 3
+                    "missing_count": 4
                 },
                 {
                     "id": "eu-access-restrictions",
@@ -47342,7 +48127,7 @@
                     "last_updated": "2025-04-28T00:00:00Z",
                     "description": "The platform is currently limited in the EU due to regulatory restrictions and data protection laws.",
                     "category": "Geographical",
-                    "missing_count": 3
+                    "missing_count": 4
                 },
                 {
                     "id": "api-rate-limits",
@@ -47351,7 +48136,7 @@
                     "last_updated": "2026-05-04T00:00:00Z",
                     "description": "API usage is subject to Requests Per Minute (RPM) and Tokens Per Day (TPD) rate limits, which vary by usage tier. Exceeding them results in throttled requests, not overage charges.",
                     "category": "API Usage",
-                    "missing_count": 3
+                    "missing_count": 4
                 },
                 {
                     "id": "free_plan_pro_search_limit",
@@ -47360,7 +48145,7 @@
                     "last_updated": "2025-08-30T00:00:00Z",
                     "description": "Limited to ~5 Pro Search queries per day.",
                     "category": "Usage",
-                    "missing_count": 2
+                    "missing_count": 3
                 },
                 {
                     "id": "free_plan_advanced_feature_access",
@@ -47369,7 +48154,7 @@
                     "last_updated": "2025-10-17T00:00:00Z",
                     "description": "No access to Deep Research, Labs, or premium models on the Free plan.",
                     "category": "Feature Access",
-                    "missing_count": 2
+                    "missing_count": 3
                 },
                 {
                     "id": "pro_plan_deep_research_limit",
@@ -47378,7 +48163,7 @@
                     "last_updated": "2026-09-30T00:00:00Z",
                     "description": "Limited to 20 Deep Research queries per day for Perplexity Pro users.",
                     "category": "Usage",
-                    "missing_count": 2
+                    "missing_count": 3
                 },
                 {
                     "id": "pro_plan_labs_queries_limit",
@@ -47387,7 +48172,7 @@
                     "last_updated": "2025-07-07T00:00:00Z",
                     "description": "Limited to 50 Labs queries per month for Perplexity Pro users.",
                     "category": "Usage",
-                    "missing_count": 2
+                    "missing_count": 3
                 },
                 {
                     "id": "pro_plan_file_uploads_limit",
@@ -47396,7 +48181,7 @@
                     "last_updated": "2026-06-12T00:00:00Z",
                     "description": "Up to 50 file uploads per project for Pro users, 3 daily for Free plan.",
                     "category": "Usage",
-                    "missing_count": 2
+                    "missing_count": 3
                 },
                 {
                     "id": "api_rate_limits",
@@ -47405,7 +48190,7 @@
                     "last_updated": "2026-05-04T00:00:00Z",
                     "description": "Enforced on Requests Per Minute (RPM) and Tokens Per Day (TPD), with limits varying by usage tier. Exceeding them results in throttled requests, not overage charges.",
                     "category": "API Usage",
-                    "missing_count": 2
+                    "missing_count": 3
                 },
                 {
                     "id": "api_free_tier",
@@ -47414,7 +48199,7 @@
                     "last_updated": "2026-05-04T00:00:00Z",
                     "description": "There is no permanent free tier for the Perplexity AI API.",
                     "category": "API Pricing",
-                    "missing_count": 2
+                    "missing_count": 3
                 },
                 {
                     "id": "sonar_model_support_end",
@@ -47423,7 +48208,7 @@
                     "last_updated": "2026-09-27T00:00:00Z",
                     "description": "Sonar model support ends September 27, 2026, as Perplexity moves users to its Agent API.",
                     "category": "Model Availability",
-                    "missing_count": 2
+                    "missing_count": 3
                 },
                 {
                     "id": "enterprise_max_video_generation_limit",
@@ -47432,7 +48217,79 @@
                     "last_updated": "2026-10-02T00:00:00Z",
                     "description": "Enterprise Max users can generate 15 videos per month. Each video is 8 seconds long, includes audio, and is in landscape (16:9) format.",
                     "category": "Usage",
-                    "missing_count": 2
+                    "missing_count": 3
+                },
+                {
+                    "id": "free_plan_limits",
+                    "name": "Free Plan Usage Limits",
+                    "status": "available",
+                    "last_updated": "2026-11-07",
+                    "description": "3 Pro Searches per day, 1 Research query per month, no manual model choice, no image generation, no Comet Assistant, no file and app creation, no Teammates, limited Computer credits. File uploads are ",
+                    "category": "usage_limits",
+                    "missing_count": 0
+                },
+                {
+                    "id": "paid_plan_unspecified_limits",
+                    "name": "Paid Plan Unspecified Usage Limits",
+                    "status": "available",
+                    "last_updated": "2026-11-09",
+                    "description": "Pro, Education Pro, and Max plans have weekly and monthly limits described as 'average use' for Pro and 'advanced use' for Max, without specific numerical values.",
+                    "category": "usage_limits",
+                    "missing_count": 0
+                },
+                {
+                    "id": "accuracy_reliability",
+                    "name": "Accuracy and Reliability",
+                    "status": "available",
+                    "last_updated": "2026-10-04",
+                    "description": "Citations are not proof of accuracy; important claims need verification. Can struggle with ambiguous queries, leading to irrelevant or incorrect responses. Potential for 'hallucinations' (confident bu",
+                    "category": "quality",
+                    "missing_count": 0
+                },
+                {
+                    "id": "scaling_issues",
+                    "name": "Scaling Issues",
+                    "status": "available",
+                    "last_updated": "2024-08-26",
+                    "description": "May face scalability challenges with increasing query volume, especially in handling concurrent requests efficiently without degrading performance.",
+                    "category": "technical",
+                    "missing_count": 0
+                },
+                {
+                    "id": "data_privacy_concerns",
+                    "name": "Data Privacy Concerns",
+                    "status": "available",
+                    "last_updated": "2024-08-26",
+                    "description": "Ensuring data privacy is a significant concern, especially with sensitive information. Requires robust encryption, access controls, and compliance with regulations like GDPR or HIPAA.",
+                    "category": "security_and_privacy",
+                    "missing_count": 0
+                },
+                {
+                    "id": "api_cost_escalation",
+                    "name": "API Cost Escalation",
+                    "status": "available",
+                    "last_updated": "2026-08-11",
+                    "description": "API costs can escalate quickly with usage, especially due to per-request search fees that can outweigh token costs on short queries.",
+                    "category": "cost",
+                    "missing_count": 0
+                },
+                {
+                    "id": "not_for_long_form_content",
+                    "name": "Not Ideal for Long-Form Content Generation",
+                    "status": "available",
+                    "last_updated": "2026-07-28",
+                    "description": "Primarily a search and research tool, not optimized for writing long-form content or complex coding projects.",
+                    "category": "functional",
+                    "missing_count": 0
+                },
+                {
+                    "id": "organization_file_repository_discontinued",
+                    "name": "Organization File Repository",
+                    "status": "discontinued",
+                    "last_updated": "2026-10-01",
+                    "description": "Retired on October 1, 2026, and not available as a new Enterprise entitlement.",
+                    "category": "feature_availability",
+                    "missing_count": 0
                 }
             ],
             "notes": [
@@ -47443,7 +48300,7 @@
                     "status": "discontinued",
                     "description": "Perplexity AI has faced legal scrutiny over allegations of copyright infringement, unauthorized use of content, and trademark issues from major media organizations. Analyses suggest Perplexity uses un",
                     "last_updated": null,
-                    "missing_count": 4
+                    "missing_count": 5
                 },
                 {
                     "id": "comet-browser-free",
@@ -47452,7 +48309,7 @@
                     "status": "discontinued",
                     "description": "The Comet browser became free for all users worldwide as of 2025-10-01.",
                     "last_updated": "2025-10-01T00:00:00Z",
-                    "missing_count": 3
+                    "missing_count": 4
                 },
                 {
                     "id": "computer-on-max-with-orchestrated-models",
@@ -47461,7 +48318,7 @@
                     "status": "discontinued",
                     "description": "Perplexity Computer arrived on Max tier with 19 orchestrated models.",
                     "last_updated": "2026-09-27T00:00:00Z",
-                    "missing_count": 3
+                    "missing_count": 4
                 },
                 {
                     "id": "plan-trim-july-2026",
@@ -47470,7 +48327,7 @@
                     "status": "discontinued",
                     "description": "Trackers logged a plan trim in early July 2026.",
                     "last_updated": "2026-07-01T00:00:00Z",
-                    "missing_count": 3
+                    "missing_count": 4
                 },
                 {
                     "id": "old-sonar-api-deprecated",
@@ -47479,7 +48336,7 @@
                     "status": "discontinued",
                     "description": "The old Sonar chat API is supported only until September 27, 2026. Developers should move to the Agent API.",
                     "last_updated": "2026-09-27T00:00:00Z",
-                    "missing_count": 3
+                    "missing_count": 4
                 },
                 {
                     "id": "samsung-galaxy-s26-integration",
@@ -47488,7 +48345,7 @@
                     "status": "discontinued",
                     "description": "In February 2026, Samsung gave Perplexity OS-level access on the Galaxy S26, making it the first company other than Google to get it. Bixby now uses Perplexity for web search.",
                     "last_updated": "2026-02-01T00:00:00Z",
-                    "missing_count": 3
+                    "missing_count": 4
                 },
                 {
                     "id": "computer-effort-controls",
@@ -47497,7 +48354,7 @@
                     "status": "discontinued",
                     "description": "Perplexity Computer's effort controls match model selection and reasoning to each task, with settings from Light to Ultra.",
                     "last_updated": "2026-09-17T00:00:00Z",
-                    "missing_count": 3
+                    "missing_count": 4
                 },
                 {
                     "id": "hp-windows-app-preload",
@@ -47506,7 +48363,7 @@
                     "status": "discontinued",
                     "description": "HP pre-loads the Perplexity Windows app onto Windows PCs for sourced answers, local work, and connected apps.",
                     "last_updated": "2026-09-15T00:00:00Z",
-                    "missing_count": 3
+                    "missing_count": 4
                 },
                 {
                     "id": "ads-winding-down",
@@ -47515,7 +48372,7 @@
                     "status": "discontinued",
                     "description": "Perplexity is winding down its ads by the end of 2026.",
                     "last_updated": "2026-09-11T00:00:00Z",
-                    "missing_count": 3
+                    "missing_count": 4
                 },
                 {
                     "id": "pro_api_credits",
@@ -47524,7 +48381,7 @@
                     "status": "discontinued",
                     "description": "Perplexity Pro subscribers receive $5/month of API credits included.",
                     "last_updated": "2026-09-30T00:00:00Z",
-                    "missing_count": 2
+                    "missing_count": 3
                 },
                 {
                     "id": "comet_browser_availability",
@@ -47533,7 +48390,7 @@
                     "status": "discontinued",
                     "description": "The Comet browser has been free since October 2, 2025, on Windows and Mac, with free Android and iOS apps added in November 2025 and March 2026.",
                     "last_updated": "2026-09-30T00:00:00Z",
-                    "missing_count": 2
+                    "missing_count": 3
                 },
                 {
                     "id": "api_vs_subscription_cost",
@@ -47542,7 +48399,7 @@
                     "status": "discontinued",
                     "description": "Perplexity Pro pricing covers unlimited use of the web chat interface, while the API is a separate product for developers, billed per token and per request. A Pro subscription does not provide meaning",
                     "last_updated": "2026-05-04T00:00:00Z",
-                    "missing_count": 2
+                    "missing_count": 3
                 },
                 {
                     "id": "data_training_policy",
@@ -47551,7 +48408,7 @@
                     "status": "discontinued",
                     "description": "Perplexity AI's training policy varies by product and tier.",
                     "last_updated": "2026-10-06T21:04:00Z",
-                    "missing_count": 2
+                    "missing_count": 3
                 },
                 {
                     "id": "api_model_access",
@@ -47560,7 +48417,52 @@
                     "status": "discontinued",
                     "description": "The Perplexity Agent API serves models from OpenAI, Anthropic, Google, and xAI at direct provider rates with no markup.",
                     "last_updated": "2026-06-19T00:00:00Z",
-                    "missing_count": 2
+                    "missing_count": 3
+                },
+                {
+                    "id": "computer_credits_expiration",
+                    "title": "Computer Credits Expiration",
+                    "category": "billing",
+                    "status": "available",
+                    "description": "Pro's 4,000 bonus credits expire after about 30 days. Max's 10,000 monthly credits do not roll over.",
+                    "last_updated": "2026-11-07",
+                    "missing_count": 0
+                },
+                {
+                    "id": "file_upload_allowance_reset",
+                    "title": "File Upload Allowance Reset",
+                    "category": "usage_limits",
+                    "status": "available",
+                    "description": "File upload allowance refills on a rolling weekly basis; each upload stops counting about one week after attachment.",
+                    "last_updated": "2026-11-07",
+                    "missing_count": 0
+                },
+                {
+                    "id": "model_selector_final_authority",
+                    "title": "Model Selector as Final Authority",
+                    "category": "models",
+                    "status": "available",
+                    "description": "The model selector in the account is the final authority, and the list of available models can change.",
+                    "last_updated": "2026-11-07",
+                    "missing_count": 0
+                },
+                {
+                    "id": "api_vs_app_products",
+                    "title": "API and App Products are Separate",
+                    "category": "general",
+                    "status": "available",
+                    "description": "Perplexity Pro and the developer API are separate products. Subscription seats do not include API usage or credits.",
+                    "last_updated": "2026-11-16",
+                    "missing_count": 0
+                },
+                {
+                    "id": "orchestrator_api_routing",
+                    "title": "Orchestrator API Routing and Failover",
+                    "category": "developer_tools",
+                    "status": "available",
+                    "description": "Orchestrator API distributes traffic among deployments based on observed error rates, capacity, and latency. Provider errors, rate limits, and timeouts can trigger a retry on another deployment of the",
+                    "last_updated": "2026-11-17",
+                    "missing_count": 0
                 }
             ],
             "status": "available",
