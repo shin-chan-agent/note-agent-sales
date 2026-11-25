@@ -1,0 +1,38 @@
+[2026-11-25 09:53:56] [INFO] 対象サービス: ['chatgpt', 'copilot', 'claude']
+[2026-11-25 09:53:58] [INFO] DB更新対象: ['copilot']
+[2026-11-25 09:53:58] [INFO] バックグラウンド更新対象: capcut
+[2026-11-25 09:53:58] [INFO] copilot の最新情報を取得します
+[2026-11-25 09:56:09] [INFO] 取得サービス: copilot
+[2026-11-25 09:56:09] [INFO] copilot のAI知識DBへの反映が完了しました
+[2026-11-25 09:56:09] [INFO] 対象サービスのAI知識DB更新が完了しました。
+[2026-11-25 09:56:09] [INFO] AI知識DBは安全利用期限内のため、記事生成を続行します。
+[2026-11-25 09:56:09] [INFO] capcut の最新情報を取得します
+[2026-11-25 09:57:08] [WARNING] Gemini APIリトライ (1/3) : 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+[2026-11-25 09:57:08] [WARNING] 30秒待機します...
+[2026-11-25 09:57:54] [WARNING] Gemini APIリトライ (2/3) : 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+[2026-11-25 09:57:54] [WARNING] 30秒待機します...
+[2026-11-25 09:58:41] [WARNING] Gemini APIリトライ (3/3) : 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+[2026-11-25 09:58:41] [WARNING] バックグラウンドAI知識DB更新エラー: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+[2026-11-25 09:58:42] [INFO] エラー通知をLINEへ送信しました。
+[2026-11-25 10:00:02] [WARNING] Gemini APIリトライ (1/3) : 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+[2026-11-25 10:00:02] [WARNING] 30秒待機します...
+[2026-11-25 10:00:37] [WARNING] Gemini APIリトライ (2/3) : 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+[2026-11-25 10:00:37] [WARNING] 30秒待機します...
+[2026-11-25 10:01:10] [WARNING] Gemini APIリトライ (3/3) : 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+[2026-11-25 10:01:10] [ERROR] Geminiエラー（1回目）：503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+[2026-11-25 10:01:10] [WARNING] 30秒後に再試行します...
+[2026-11-25 10:01:43] [WARNING] Gemini APIリトライ (1/3) : 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+[2026-11-25 10:01:43] [WARNING] 30秒待機します...
+[2026-11-25 10:02:25] [WARNING] Gemini APIリトライ (2/3) : 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+[2026-11-25 10:02:25] [WARNING] 30秒待機します...
+[2026-11-25 10:03:18] [WARNING] Gemini APIリトライ (3/3) : 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+[2026-11-25 10:03:18] [ERROR] Geminiエラー（2回目）：503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+[2026-11-25 10:03:18] [WARNING] 30秒後に再試行します...
+[2026-11-25 10:03:57] [WARNING] Gemini APIリトライ (1/3) : 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+[2026-11-25 10:03:57] [WARNING] 30秒待機します...
+[2026-11-25 10:04:35] [WARNING] Gemini APIリトライ (2/3) : 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+[2026-11-25 10:04:35] [WARNING] 30秒待機します...
+[2026-11-25 10:05:12] [WARNING] Gemini APIリトライ (3/3) : 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+[2026-11-25 10:05:12] [ERROR] Geminiエラー（3回目）：503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+[2026-11-25 10:05:12] [ERROR] 記事生成エラー: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+[2026-11-25 10:05:13] [INFO] エラー通知をLINEへ送信しました。
